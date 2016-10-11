@@ -1,0 +1,26 @@
+Package: tilegramsR
+Type: Package
+Title: R spatial data for Tilegrams
+Version: 0.1.0
+Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
+    role = c("aut", "cre"))
+Description: R spatial objects for Tilegrams.
+    See https://github.com/PitchInteractiveInc/tilegrams.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.1.0),
+    sp
+Suggests:
+    rgdal,
+    maptools,
+    rgeos,
+    rmapshaper,
+    knitr,
+    rmarkdown,
+    leaflet  (>= 1.0.2.9003)
+VignetteBuilder: knitr
+URL: https://github.com/bhaskarvk/tilegramsR
+BugReports: https://github.com/bhaskarvk/tilegramsR/issues
+RoxygenNote: 5.0.1
