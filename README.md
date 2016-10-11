@@ -19,3 +19,7 @@ You get the following data with this package
 - **NPR1to1.centers**: A `SpatialPointsDataFrame` of centroids of each state
 
 As and when newer Tilegrams are made available they will be added to this package.
+
+## Example Code
+
+Check out [Rpubs: tilegramsR](http://rpubs.com/bhaskarvk/tilegramsR)
