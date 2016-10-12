@@ -3,13 +3,23 @@
 \docType{data}
 \name{FiveThirtyEightElectoralCollege}
 \alias{FiveThirtyEightElectoralCollege}
+\alias{FiveThirtyEightElectoralCollege.centers}
+\alias{FiveThirtyEightElectoralCollege.states}
 \title{FiveThirtyEightElectoralCollege}
 \format{A SpatialPolygonsDataFrame}
 \usage{
 FiveThirtyEightElectoralCollege
+
+FiveThirtyEightElectoralCollege.states
+
+FiveThirtyEightElectoralCollege.centers
 }
 \description{
 A `SpatialPolygonsDataFrame` where each polygon = 500K people
+
+A `SpatialPolygonsDataFrame` where each polygon = 1 state
+
+A `SpatialPointsDataFrame`  of centroids of each state
 }
 \keyword{datasets}
 

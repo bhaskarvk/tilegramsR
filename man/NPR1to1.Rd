@@ -3,13 +3,18 @@
 \docType{data}
 \name{NPR1to1}
 \alias{NPR1to1}
+\alias{NPR1to1.centers}
 \title{NPR1to1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
 NPR1to1
+
+NPR1to1.centers
 }
 \description{
 A `SpatialPolygonsDataFrame` where each polygon = 500K people
+
+A `SpatialPointsDataFrame`  of centroids of each state
 }
 \keyword{datasets}
 

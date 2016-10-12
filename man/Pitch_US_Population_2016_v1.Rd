@@ -3,13 +3,23 @@
 \docType{data}
 \name{Pitch_US_Population_2016_v1}
 \alias{Pitch_US_Population_2016_v1}
+\alias{Pitch_US_Population_2016_v1.centers}
+\alias{Pitch_US_Population_2016_v1.states}
 \title{Pitch_US_Population_2016_v1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
 Pitch_US_Population_2016_v1
+
+Pitch_US_Population_2016_v1.states
+
+Pitch_US_Population_2016_v1.centers
 }
 \description{
 A `SpatialPolygonsDataFrame` where each polygon = 500K people
+
+A `SpatialPolygonsDataFrame` where each polygon = 1 state
+
+A `SpatialPointsDataFrame`  of centroids of each state
 }
 \keyword{datasets}
 

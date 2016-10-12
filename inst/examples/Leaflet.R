@@ -15,13 +15,21 @@ factpal <- colorFactor(colormap::colormap(nshades = length(states)), states)
 
 #+ fig.width= 8, fig.height=6
 leaflet(NPR1to1,
-        options=leafletOptions(crs = leafletCRS("L.CRS.Simple"), minZoom = -1.5)) %>%
+        options=leafletOptions(
+          crs = leafletCRS("L.CRS.Simple"),
+          minZoom = -1.5, maxZoom = -1.5,
+          dragging = FALSE, zoomControl = FALSE,
+          attributionControl = FALSE)) %>%
   addPolygons(weight=1,color='#000000',
-              fillOpacity = 0.6,  fillColor= ~factpal(state)) %>%
+              fillOpacity = 0.6,
+              popup = ~as.character(state),
+              fillColor= ~factpal(state)) %>%
   addLabelOnlyMarkers(data=NPR1to1.centers,
               label = ~as.character(state),
               labelOptions = labelOptions(
-                noHide = 'T', textOnly = T, offset=c(-4,-10), textsize = '12px'))
+                noHide = 'T', textOnly = T,
+                offset=c(-4,-10), textsize = '12px')) %>%
+  htmlwidgets::onRender("function(el, t) { this._container.style['background'] = '#ffffff';}")
 
 #' ## Population
 
@@ -29,7 +37,11 @@ states <- Pitch_US_Population_2016_v1.states@data$state
 factpal <- colorFactor(colormap::colormap(nshades = length(states)), states)
 
 #+ fig.width= 9, fig.height=8
-leaflet(options=leafletOptions(crs = leafletCRS("L.CRS.Simple"), minZoom = -1.5)) %>%
+leaflet(options=leafletOptions(
+  crs = leafletCRS("L.CRS.Simple"),
+  minZoom = -1.5, maxZoom = -1.5,
+  dragging = FALSE, zoomControl = FALSE,
+  attributionControl = FALSE)) %>%
   addPolygons(data=Pitch_US_Population_2016_v1, group = 'pop',
               weight=1,color='#000000', fillOpacity = 0.5, opacity=0.2,
               fillColor= ~factpal(state)) %>%
@@ -43,6 +55,7 @@ leaflet(options=leafletOptions(crs = leafletCRS("L.CRS.Simple"), minZoom = -1.5)
                 direction="auto")) %>%
   htmlwidgets::onRender(
     " function(el, t) {
+        this._container.style['background'] = '#ffffff';
         var defaultStyle = {
           color: '#000000',
           opacity:0.9,
@@ -80,7 +93,11 @@ states <- FiveThirtyEightElectoralCollege.states@data$state
 factpal <- colorFactor(colormap::colormap(nshades = length(states)), states)
 
 #+ fig.width= 9, fig.height=8
-leaflet(options=leafletOptions(crs = leafletCRS("L.CRS.Simple"), minZoom = -1.5)) %>%
+leaflet(options=leafletOptions(
+  crs = leafletCRS("L.CRS.Simple"),
+  minZoom = -1.5, maxZoom = -1.5,
+  dragging = FALSE, zoomControl = FALSE,
+  attributionControl = FALSE)) %>%
   addPolygons(data=FiveThirtyEightElectoralCollege, group = 'college',
               weight=1,color='#000000', fillOpacity = 0.5, opacity=0.2,
               fillColor= ~factpal(state)) %>%
@@ -90,10 +107,11 @@ leaflet(options=leafletOptions(crs = leafletCRS("L.CRS.Simple"), minZoom = -1.5)
   addLabelOnlyMarkers(data=FiveThirtyEightElectoralCollege.centers,
               label = ~as.character(state),
               labelOptions = labelOptions(
-                noHide = 'T', textOnly = T, offset=c(-4,-10), textsize = '15px',
+                noHide = 'T', textOnly = T, offset=c(-20,-10), textsize = '15px',
                 direction="auto")) %>%
   htmlwidgets::onRender(
     " function(el, t) {
+        this._container.style['background'] = '#ffffff';
         var defaultStyle = {
           color: '#000000',
           opacity:0.9,

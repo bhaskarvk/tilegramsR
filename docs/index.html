@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Home. tilegramsR 0.1.1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="">
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/highlight.css" rel="stylesheet">
+<link href="css/staticdocs.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  </head>
+
+  <body>
+    <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html">tilegramsR 0.1.1</a>
+      <div class="nav">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="reference.html">Reference</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container">
+      <header>
+        
+      </header>
+      
+      <div class="row">
+  <div class="span8">
+    <h1>tilegramsR</h1>
+
+<p><a href="https://travis-ci.org/bhaskarvk/tilegramsR"><img src="https://travis-ci.org/bhaskarvk/tilegramsR.svg?branch=master" alt="Travis-CI Build Status"/></a></p>
+
+<p>The goal of tilegramsR is to provide R spatial objects representing Tilegrams.
+To know more about Tilegrams see <a href="https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md">this post</a> and a <a href="https://pitchinteractiveinc.github.io/tilegrams/">this web app</a>.</p>
+
+<h2>Data</h2>
+
+<p>You get the following data with this package</p>
+
+<ul>
+<li><strong>Pitch_US_Population_2016_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 500K people</li>
+<li><strong>Pitch_US_Population_2016_v1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state </li>
+<li><p><strong>Pitch_US_Population_2016_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+<li><p><strong>FiveThirtyEightElectoralCollege</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</p></li>
+<li><p><strong>FiveThirtyEightElectoralCollege.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state </p></li>
+<li><p><strong>FiveThirtyEightElectoralCollege.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+<li><p><strong>NPR1to1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</p></li>
+<li><p><strong>NPR1to1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+</ul>
+
+<p>As and when newer Tilegrams are made available they will be added to this package.</p>
+
+<h2>Example Code</h2>
+
+<p>Check out <a href="http://rpubs.com/bhaskarvk/tilegramsR">Rpubs: tilegramsR</a></p>
+
+  </div>
+
+  <div class="span3 offset1 sidebar">
+    <h2>Vignettes</h2>
+    <ul>
+      <li><a href="vignettes/UsingTilegramsInR.html">Using Tilegrams in R</a></li>
+    </ul>
+        <h2>Authors</h2>
+    <ul>
+      <li><a href='mailto:bhaskarvk@gmail.com'>Bhaskar Karambelkar</a> [aut, cre]</li>
+    </ul>
+  </div>
+</div>
+      
+      <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+<p>Built by <a href="https://github.com/hadley/staticdocs">staticdocs</a>. Styled with <a href="https://getbootstrap.com/2.0.4/">bootstrap</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
