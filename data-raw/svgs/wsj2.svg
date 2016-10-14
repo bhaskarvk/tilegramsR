@@ -1,0 +1,767 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 16.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="860px" viewBox="0 0 860 696.572" enable-background="new 0 0 860 696.572" xml:space="preserve">
+  <g id="PA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="593.385" y="217.866" fill="#0485A8" width="21.789" height="21.789" data-org="593.385" data-y="217.866" class="dem"></rect>
+    <rect x="615.174" y="217.866" fill="#0485A8" width="21.793" height="21.79" data-org="615.174" data-y="217.866" class="dem"></rect>
+    <rect x="658.755" y="217.866" fill="#0485A8" width="21.79" height="21.79" data-org="658.755" data-y="217.866" class="dem"></rect>
+    <rect x="636.968" y="217.866" fill="#0485A8" width="21.787" height="21.79" data-org="636.968" data-y="217.866" class="dem"></rect>
+    <rect x="680.545" y="217.866" fill="#0485A8" width="21.79" height="21.79" data-org="680.545" data-y="217.866" class="dem"></rect>
+    <rect x="702.334" y="217.866" fill="#0485A8" width="21.788" height="21.79" data-org="702.334" data-y="217.866" class="dem"></rect>
+    <rect x="593.385" y="239.653" fill="#0485A8" width="21.789" height="21.791" data-org="593.385" data-y="239.653" class="dem"></rect>
+    <rect x="615.174" y="239.654" fill="#0485A8" width="21.793" height="21.79" data-org="615.174" data-y="239.654" class="dem"></rect>
+    <rect x="658.755" y="239.654" fill="#0485A8" width="21.79" height="21.79" data-org="658.755" data-y="239.654" class="dem"></rect>
+    <rect x="636.968" y="239.654" fill="#0485A8" width="21.787" height="21.79" data-org="636.968" data-y="239.654" class="dem"></rect>
+    <rect x="680.545" y="239.654" fill="#0485A8" width="21.79" height="21.79" data-org="680.545" data-y="239.654" class="dem"></rect>
+    <rect x="702.334" y="239.654" fill="#0485A8" width="21.788" height="21.79" data-org="702.334" data-y="239.654" class="dem"></rect>
+    <rect x="593.385" y="261.444" fill="#0485A8" width="21.789" height="21.79" data-org="593.385" data-y="261.444" class="dem"></rect>
+    <rect x="571.604" y="217.851" fill="#0485A8" width="21.788" height="21.792" data-org="571.604" data-y="217.851" class="dem"></rect>
+    <rect x="571.604" y="239.643" fill="#0485A8" width="21.788" height="21.792" data-org="571.604" data-y="239.643" class="dem"></rect>
+    <rect x="615.174" y="261.446" fill="#0485A8" width="21.793" height="21.788" data-org="615.174" data-y="261.446" class="dem"></rect>
+    <rect x="658.755" y="261.446" fill="#0485A8" width="21.79" height="21.788" data-org="658.755" data-y="261.446" class="dem"></rect>
+    <rect x="636.968" y="261.446" fill="#0485A8" width="21.787" height="21.788" data-org="636.968" data-y="261.446" class="dem"></rect>
+    <rect x="680.545" y="261.446" fill="#0485A8" width="21.79" height="21.788" data-org="680.545" data-y="261.446" class="dem"></rect>
+    <rect x="702.334" y="261.446" fill="#0485A8" width="21.788" height="21.788" data-org="702.334" data-y="261.446" class="dem"></rect>
+    </g>
+  <g id="ME" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="789.546" y="21.79" fill="#0485A8" width="21.79" height="21.79" data-org="789.546" data-y="21.79" class="dem"></rect>
+    <rect x="789.546" fill="#0485A8" width="21.79" height="21.79" data-org="789.546" class="dem"></rect>
+    <rect x="811.307" y="21.79" fill="#0485A8" width="21.789" height="21.79" data-org="811.307" data-y="21.79" class="dem"></rect>
+    <rect x="811.307" fill="#0485A8" width="21.789" height="21.79" data-org="811.307" class="dem"></rect>
+    </g>
+  <g id="NH" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="789.504" y="65.359" fill="#0485A8" width="21.792" height="21.789" data-org="789.504" data-y="65.359" class="dem"></rect>
+    <rect x="789.504" y="43.569" fill="#0485A8" width="21.792" height="21.791" data-org="789.504" data-y="43.569" class="dem"></rect>
+    <rect x="811.304" y="65.35" fill="#0485A8" width="21.789" height="21.789" data-org="811.304" data-y="65.35" class="dem"></rect>
+    <rect x="811.304" y="43.56" fill="#0485A8" width="21.789" height="21.79" data-org="811.304" data-y="43.56" class="dem"></rect>
+    </g>
+  <g id="VT" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="767.745" y="65.33" fill="#0485A8" width="21.789" height="21.793" data-org="767.745" data-y="65.33" class="dem"></rect>
+    <rect x="745.949" y="65.33" fill="#0485A8" width="21.788" height="21.793" data-org="745.949" data-y="65.33" class="dem"></rect>
+    <rect x="724.173" y="65.33" fill="#0485A8" width="21.79" height="21.793" data-org="724.173" data-y="65.33" class="dem"></rect>
+    </g>
+  <g id="MA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="745.926" y="87.128" fill="#0485A8" width="21.796" height="21.79" data-org="745.926" data-y="87.128" class="dem"></rect>
+    <rect x="745.926" y="108.919" fill="#0485A8" width="21.796" height="21.788" data-org="745.926" data-y="108.919" class="dem"></rect>
+    <rect x="724.075" y="87.128" fill="#0485A8" width="21.793" height="21.79" data-org="724.075" data-y="87.128" class="dem"></rect>
+    <rect x="724.075" y="108.919" fill="#0485A8" width="21.793" height="21.788" data-org="724.075" data-y="108.919" class="dem"></rect>
+    <rect x="767.719" y="87.128" fill="#0485A8" width="21.792" height="21.79" data-org="767.719" data-y="87.128" class="dem"></rect>
+    <rect x="767.719" y="108.919" fill="#0485A8" width="21.792" height="21.788" data-org="767.719" data-y="108.919" class="dem"></rect>
+    <rect x="789.51" y="87.128" fill="#0485A8" width="21.786" height="21.79" data-org="789.51" data-y="87.128" class="dem"></rect>
+    <rect x="789.51" y="108.919" fill="#0485A8" width="21.786" height="21.788" data-org="789.51" data-y="108.919" class="dem"></rect>
+    <rect x="811.296" y="87.128" fill="#0485A8" width="21.793" height="21.79" data-org="811.296" data-y="87.128" class="dem"></rect>
+    <rect x="811.296" y="108.919" fill="#0485A8" width="21.793" height="21.788" data-org="811.296" data-y="108.919" class="dem"></rect>
+    <rect x="833.089" y="108.919" fill="#0485A8" width="21.787" height="21.788" data-org="833.089" data-y="108.919" class="dem"></rect>
+    </g>
+  <g id="RI" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="789.521" y="130.711" fill="#0485A8" width="21.785" height="21.79" data-org="789.521" data-y="130.711" class="dem"></rect>
+    <rect x="789.518" y="152.509" fill="#0485A8" width="21.786" height="21.788" data-org="789.518" data-y="152.509" class="dem"></rect>
+    <rect x="811.278" y="130.711" fill="#0485A8" width="21.786" height="21.79" data-org="811.278" data-y="130.711" class="dem"></rect>
+    <rect x="811.278" y="152.501" fill="#0485A8" width="21.786" height="21.787" data-org="811.278" data-y="152.501" class="dem"></rect>
+    </g>
+  <g id="CT" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="745.936" y="130.771" fill="#0485A8" width="21.792" height="21.789" data-org="745.936" data-y="130.771" class="dem"></rect>
+    <rect x="724.145" y="152.561" fill="#0485A8" width="21.791" height="21.789" data-org="724.145" data-y="152.561" class="dem"></rect>
+    <rect x="745.936" y="152.561" fill="#0485A8" width="21.792" height="21.789" data-org="745.936" data-y="152.561" class="dem"></rect>
+    <rect x="767.694" y="130.771" fill="#0485A8" width="21.793" height="21.789" data-org="767.694" data-y="130.771" class="dem"></rect>
+    <rect x="767.694" y="152.561" fill="#0485A8" width="21.793" height="21.789" data-org="767.694" data-y="152.561" class="dem"></rect>
+    <rect x="724.145" y="130.771" fill="#0485A8" width="21.791" height="21.789" data-org="724.145" data-y="130.771" class="dem"></rect>
+    <rect x="724.145" y="174.349" fill="#0485A8" width="21.791" height="21.79" data-org="724.145" data-y="174.349" class="dem"></rect>
+    </g>
+  <g id="NY" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="724.119" y="217.878" fill="#0485A8" width="21.793" height="21.792" data-org="724.119" data-y="217.878" class="dem"></rect>
+    <rect x="658.756" y="196.09" fill="#0485A8" width="21.789" height="21.789" data-org="658.756" data-y="196.09" class="dem"></rect>
+    <rect x="593.385" y="196.09" fill="#0485A8" width="21.789" height="21.789" data-org="593.385" data-y="196.09" class="dem"></rect>
+    <rect x="615.174" y="196.09" fill="#0485A8" width="21.793" height="21.789" data-org="615.174" data-y="196.09" class="dem"></rect>
+    <rect x="636.963" y="196.09" fill="#0485A8" width="21.793" height="21.789" data-org="636.963" data-y="196.09" class="dem"></rect>
+    <rect x="658.756" y="174.299" fill="#0485A8" width="21.789" height="21.79" data-org="658.756" data-y="174.299" class="dem"></rect>
+    <rect x="680.545" y="174.299" fill="#0485A8" width="21.79" height="21.79" data-org="680.545" data-y="174.299" class="dem"></rect>
+    <rect x="702.331" y="174.299" fill="#0485A8" width="21.789" height="21.79" data-org="702.331" data-y="174.299" class="dem"></rect>
+    <rect x="702.331" y="152.51" fill="#0485A8" width="21.789" height="21.79" data-org="702.331" data-y="152.51" class="dem"></rect>
+    <rect x="702.331" y="130.721" fill="#0485A8" width="21.789" height="21.789" data-org="702.331" data-y="130.721" class="dem"></rect>
+    <rect x="702.331" y="108.931" fill="#0485A8" width="21.789" height="21.79" data-org="702.331" data-y="108.931" class="dem"></rect>
+    <rect x="702.331" y="87.145" fill="#0485A8" width="21.789" height="21.788" data-org="702.331" data-y="87.145" class="dem"></rect>
+    <rect x="680.545" y="196.09" fill="#0485A8" width="21.79" height="21.789" data-org="680.545" data-y="196.09" class="dem"></rect>
+    <rect x="571.6" y="196.09" fill="#0485A8" width="21.786" height="21.789" data-org="571.6" data-y="196.09" class="dem"></rect>
+    <rect x="680.545" y="87.145" fill="#0485A8" width="21.79" height="21.788" data-org="680.545" data-y="87.145" class="dem"></rect>
+    <rect x="658.756" y="108.931" fill="#0485A8" width="21.789" height="21.79" data-org="658.756" data-y="108.931" class="dem"></rect>
+    <rect x="615.174" y="152.51" fill="#0485A8" width="21.793" height="21.79" data-org="615.174" data-y="152.51" class="dem"></rect>
+    <rect x="593.385" y="174.299" fill="#0485A8" width="21.789" height="21.79" data-org="593.385" data-y="174.299" class="dem"></rect>
+    <rect x="615.174" y="174.299" fill="#0485A8" width="21.793" height="21.79" data-org="615.174" data-y="174.299" class="dem"></rect>
+    <rect x="636.963" y="174.299" fill="#0485A8" width="21.793" height="21.79" data-org="636.963" data-y="174.299" class="dem"></rect>
+    <rect x="636.963" y="152.51" fill="#0485A8" width="21.793" height="21.79" data-org="636.963" data-y="152.51" class="dem"></rect>
+    <rect x="745.922" y="217.875" fill="#0485A8" width="21.79" height="21.79" data-org="745.922" data-y="217.875" class="dem"></rect>
+    <rect x="636.963" y="130.746" fill="#0485A8" width="21.793" height="21.79" data-org="636.963" data-y="130.746" class="dem"></rect>
+    <rect x="658.756" y="152.51" fill="#0485A8" width="21.789" height="21.79" data-org="658.756" data-y="152.51" class="dem"></rect>
+    <rect x="680.545" y="152.51" fill="#0485A8" width="21.79" height="21.79" data-org="680.545" data-y="152.51" class="dem"></rect>
+    <rect x="680.545" y="130.721" fill="#0485A8" width="21.79" height="21.789" data-org="680.545" data-y="130.721" class="dem"></rect>
+    <rect x="658.756" y="130.721" fill="#0485A8" width="21.789" height="21.789" data-org="658.756" data-y="130.721" class="dem"></rect>
+    <rect x="680.545" y="108.931" fill="#0485A8" width="21.79" height="21.79" data-org="680.545" data-y="108.931" class="dem"></rect>
+    <rect x="702.331" y="196.09" fill="#0485A8" width="21.789" height="21.789" data-org="702.331" data-y="196.09" class="dem"></rect>
+    </g>
+  <g id="NJ" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="745.907" y="261.471" fill="#0485A8" width="21.787" height="21.791" data-org="745.907" data-y="261.471" class="dem"></rect>
+    <rect x="767.694" y="261.471" fill="#0485A8" width="21.793" height="21.791" data-org="767.694" data-y="261.471" class="dem"></rect>
+    <rect x="789.487" y="283.263" fill="#0485A8" width="21.786" height="21.79" data-org="789.487" data-y="283.263" class="dem"></rect>
+    <rect x="745.901" y="239.68" fill="#0485A8" width="21.789" height="21.791" data-org="745.901" data-y="239.68" class="dem"></rect>
+    <rect x="767.69" y="239.68" fill="#0485A8" width="21.787" height="21.791" data-org="767.69" data-y="239.68" class="dem"></rect>
+    <rect x="745.907" y="283.263" fill="#0485A8" width="21.787" height="21.79" data-org="745.907" data-y="283.263" class="dem"></rect>
+    <rect x="745.907" y="305.05" fill="#0485A8" width="21.787" height="21.787" data-org="745.907" data-y="305.05" class="dem"></rect>
+    <rect x="767.694" y="326.837" fill="#0485A8" width="21.793" height="21.791" data-org="767.694" data-y="326.837" class="dem"></rect>
+    <rect x="767.694" y="305.05" fill="#0485A8" width="21.793" height="21.787" data-org="767.694" data-y="305.05" class="dem"></rect>
+    <rect x="767.694" y="283.263" fill="#0485A8" width="21.793" height="21.79" data-org="767.694" data-y="283.263" class="dem"></rect>
+    <rect x="789.487" y="326.837" fill="#0485A8" width="21.786" height="21.791" data-org="789.487" data-y="326.837" class="dem"></rect>
+    <rect x="745.907" y="326.837" fill="#0485A8" width="21.787" height="21.791" data-org="745.907" data-y="326.837" class="dem"></rect>
+    <rect x="789.487" y="305.05" fill="#0485A8" width="21.786" height="21.787" data-org="789.487" data-y="305.05" class="dem"></rect>
+    <rect x="724.11" y="239.68" fill="#0485A8" width="21.789" height="21.791" data-org="724.11" data-y="239.68" class="dem"></rect>
+    </g>
+  <g id="DE" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="724.094" y="305.098" fill="#0485A8" width="21.789" height="21.79" data-org="724.094" data-y="305.098" class="dem"></rect>
+    <rect x="724.094" y="283.254" fill="#0485A8" width="21.789" height="21.79" data-org="724.094" data-y="283.254" class="dem"></rect>
+    <rect x="724.094" y="261.421" fill="#0485A8" width="21.789" height="21.79" data-org="724.094" data-y="261.421" class="dem"></rect>
+    </g>
+  <g id="MD" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="658.728" y="283.201" fill="#0485A8" width="21.794" height="21.79" data-org="658.728" data-y="283.201" class="dem"></rect>
+    <rect x="680.521" y="283.201" fill="#0485A8" width="21.79" height="21.79" data-org="680.521" data-y="283.201" class="dem"></rect>
+    <rect x="615.151" y="283.201" fill="#0485A8" width="21.789" height="21.79" data-org="615.151" data-y="283.201" class="dem"></rect>
+    <rect x="636.94" y="283.201" fill="#0485A8" width="21.793" height="21.79" data-org="636.94" data-y="283.201" class="dem"></rect>
+    <rect x="724.097" y="348.568" fill="#0485A8" width="21.792" height="21.79" data-org="724.097" data-y="348.568" class="dem"></rect>
+    <rect x="680.521" y="304.99" fill="#0485A8" width="21.79" height="21.791" data-org="680.521" data-y="304.99" class="dem"></rect>
+    <rect x="702.312" y="304.99" fill="#0485A8" width="21.788" height="21.791" data-org="702.312" data-y="304.99" class="dem"></rect>
+    <rect x="702.312" y="326.78" fill="#0485A8" width="21.788" height="21.788" data-org="702.312" data-y="326.78" class="dem"></rect>
+    <rect x="724.097" y="326.78" fill="#0485A8" width="21.792" height="21.788" data-org="724.097" data-y="326.78" class="dem"></rect>
+    <rect x="702.304" y="283.244" fill="#0485A8" width="21.79" height="21.791" data-org="702.304" data-y="283.244" class="dem"></rect>
+    </g>
+  <g id="WV" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="571.579" y="261.43" fill="#C81305" width="21.789" height="21.791" data-org="571.579" data-y="261.43" class="gop"></rect>
+    <rect x="571.579" y="304.959" fill="#C81305" width="21.789" height="21.79" data-org="571.579" data-y="304.959" class="gop"></rect>
+    <rect x="571.579" y="283.171" fill="#C81305" width="21.789" height="21.789" data-org="571.579" data-y="283.171" class="gop"></rect>
+    <rect x="593.382" y="304.959" fill="#C81305" width="21.787" height="21.79" data-org="593.382" data-y="304.959" class="gop"></rect>
+    <rect x="593.382" y="283.171" fill="#C81305" width="21.787" height="21.789" data-org="593.382" data-y="283.171" class="gop"></rect>
+    </g>
+  <g id="OH" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="484.467" y="217.851" fill="#0485A8" width="21.79" height="21.791" data-org="484.467" data-y="217.851" class="dem"></rect>
+    <rect x="506.257" y="261.43" fill="#0485A8" width="21.79" height="21.789" data-org="506.257" data-y="261.43" class="dem"></rect>
+    <rect x="506.257" y="283.217" fill="#0485A8" width="21.79" height="21.79" data-org="506.257" data-y="283.217" class="dem"></rect>
+    <rect x="549.834" y="283.217" fill="#0485A8" width="21.788" height="21.79" data-org="549.834" data-y="283.217" class="dem"></rect>
+    <rect x="528.046" y="283.217" fill="#0485A8" width="21.788" height="21.79" data-org="528.046" data-y="283.217" class="dem"></rect>
+    <rect x="528.046" y="261.43" fill="#0485A8" width="21.788" height="21.789" data-org="528.046" data-y="261.43" class="dem"></rect>
+    <rect x="528.046" y="239.64" fill="#0485A8" width="21.788" height="21.79" data-org="528.046" data-y="239.64" class="dem"></rect>
+    <rect x="549.834" y="239.64" fill="#0485A8" width="21.788" height="21.79" data-org="549.834" data-y="239.64" class="dem"></rect>
+    <rect x="484.456" y="305.007" fill="#0485A8" width="21.79" height="21.79" data-org="484.456" data-y="305.007" class="dem"></rect>
+    <rect x="506.246" y="305.007" fill="#0485A8" width="21.788" height="21.79" data-org="506.246" data-y="305.007" class="dem"></rect>
+    <rect x="528.046" y="305.007" fill="#0485A8" width="21.79" height="21.79" data-org="528.046" data-y="305.007" class="dem"></rect>
+    <rect x="549.836" y="305.007" fill="#0485A8" width="21.786" height="21.79" data-org="549.836" data-y="305.007" class="dem"></rect>
+    <rect x="549.834" y="261.43" fill="#0485A8" width="21.788" height="21.789" data-org="549.834" data-y="261.43" class="dem"></rect>
+    <rect x="549.834" y="217.851" fill="#0485A8" width="21.788" height="21.791" data-org="549.834" data-y="217.851" class="dem"></rect>
+    <rect x="484.467" y="239.64" fill="#0485A8" width="21.79" height="21.79" data-org="484.467" data-y="239.64" class="dem"></rect>
+    <rect x="484.467" y="261.43" fill="#0485A8" width="21.79" height="21.789" data-org="484.467" data-y="261.43" class="dem"></rect>
+    <rect x="484.467" y="283.217" fill="#0485A8" width="21.79" height="21.79" data-org="484.467" data-y="283.217" class="dem"></rect>
+    <rect x="506.257" y="239.64" fill="#0485A8" width="21.79" height="21.79" data-org="506.257" data-y="239.64" class="dem"></rect>
+    </g>
+  <g id="MI" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="440.905" y="152.454" fill="#0485A8" width="21.789" height="21.79" data-org="440.905" data-y="152.454" class="dem"></rect>
+    <rect x="462.694" y="152.454" fill="#0485A8" width="21.788" height="21.79" data-org="462.694" data-y="152.454" class="dem"></rect>
+    <rect x="484.482" y="152.454" fill="#0485A8" width="21.792" height="21.79" data-org="484.482" data-y="152.454" class="dem"></rect>
+    <rect x="440.905" y="130.663" fill="#0485A8" width="21.789" height="21.79" data-org="440.905" data-y="130.663" class="dem"></rect>
+    <rect x="419.114" y="108.874" fill="#0485A8" width="21.791" height="21.789" data-org="419.114" data-y="108.874" class="dem"></rect>
+    <rect x="440.905" y="174.243" fill="#0485A8" width="21.789" height="21.788" data-org="440.905" data-y="174.243" class="dem"></rect>
+    <rect x="462.694" y="174.243" fill="#0485A8" width="21.788" height="21.788" data-org="462.694" data-y="174.243" class="dem"></rect>
+    <rect x="506.271" y="196.031" fill="#0485A8" width="21.789" height="21.79" data-org="506.271" data-y="196.031" class="dem"></rect>
+    <rect x="506.271" y="174.243" fill="#0485A8" width="21.789" height="21.79" data-org="506.271" data-y="174.243" class="dem"></rect>
+    <rect x="506.271" y="152.454" fill="#0485A8" width="21.789" height="21.79" data-org="506.271" data-y="152.454" class="dem"></rect>
+    <rect x="484.482" y="174.243" fill="#0485A8" width="21.792" height="21.788" data-org="484.482" data-y="174.243" class="dem"></rect>
+    <rect x="440.905" y="196.031" fill="#0485A8" width="21.789" height="21.79" data-org="440.905" data-y="196.031" class="dem"></rect>
+    <rect x="462.694" y="196.031" fill="#0485A8" width="21.788" height="21.79" data-org="462.694" data-y="196.031" class="dem"></rect>
+    <rect x="484.482" y="196.031" fill="#0485A8" width="21.792" height="21.79" data-org="484.482" data-y="196.031" class="dem"></rect>
+    <rect x="462.694" y="130.663" fill="#0485A8" width="21.788" height="21.79" data-org="462.694" data-y="130.663" class="dem"></rect>
+    <rect x="397.326" y="108.874" fill="#0485A8" width="21.788" height="21.789" data-org="397.326" data-y="108.874" class="dem"></rect>
+    </g>
+  <g id="WI" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="353.733" y="130.666" fill="#0485A8" width="21.789" height="21.788" data-org="353.733" data-y="130.666" class="dem"></rect>
+    <rect x="353.733" y="152.454" fill="#0485A8" width="21.789" height="21.792" data-org="353.733" data-y="152.454" class="dem"></rect>
+    <rect x="375.521" y="130.666" fill="#0485A8" width="21.792" height="21.788" data-org="375.521" data-y="130.666" class="dem"></rect>
+    <rect x="353.733" y="108.879" fill="#0485A8" width="21.789" height="21.79" data-org="353.733" data-y="108.879" class="dem"></rect>
+    <rect x="375.521" y="108.879" fill="#0485A8" width="21.792" height="21.79" data-org="375.521" data-y="108.879" class="dem"></rect>
+    <rect x="397.313" y="152.454" fill="#0485A8" width="21.788" height="21.792" data-org="397.313" data-y="152.454" class="dem"></rect>
+    <rect x="375.521" y="152.454" fill="#0485A8" width="21.792" height="21.792" data-org="375.521" data-y="152.454" class="dem"></rect>
+    <rect x="375.521" y="174.243" fill="#0485A8" width="21.792" height="21.79" data-org="375.521" data-y="174.243" class="dem"></rect>
+    <rect x="397.313" y="174.243" fill="#0485A8" width="21.788" height="21.79" data-org="397.313" data-y="174.243" class="dem"></rect>
+    <rect x="353.733" y="174.243" fill="#0485A8" width="21.789" height="21.79" data-org="353.733" data-y="174.243" class="dem"></rect>
+    </g>
+  <g id="MN" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="288.358" y="174.236" fill="#0485A8" width="21.789" height="21.789" data-org="288.358" data-y="174.236" class="dem"></rect>
+    <rect x="310.147" y="174.236" fill="#0485A8" width="21.791" height="21.789" data-org="310.147" data-y="174.236" class="dem"></rect>
+    <rect x="288.358" y="152.446" fill="#0485A8" width="21.789" height="21.791" data-org="288.358" data-y="152.446" class="dem"></rect>
+    <rect x="331.943" y="108.867" fill="#0485A8" width="21.79" height="21.79" data-org="331.943" data-y="108.867" class="dem"></rect>
+    <rect x="331.935" y="130.643" fill="#0485A8" width="21.789" height="21.79" data-org="331.935" data-y="130.643" class="dem"></rect>
+    <rect x="310.147" y="152.446" fill="#0485A8" width="21.791" height="21.791" data-org="310.147" data-y="152.446" class="dem"></rect>
+    <rect x="310.147" y="130.657" fill="#0485A8" width="21.791" height="21.789" data-org="310.147" data-y="130.657" class="dem"></rect>
+    <rect x="331.935" y="174.221" fill="#0485A8" width="21.79" height="21.79" data-org="331.935" data-y="174.221" class="dem"></rect>
+    <rect x="331.935" y="152.434" fill="#0485A8" width="21.79" height="21.789" data-org="331.935" data-y="152.434" class="dem"></rect>
+    <rect x="288.358" y="130.657" fill="#0485A8" width="21.789" height="21.789" data-org="288.358" data-y="130.657" class="dem"></rect>
+    </g>
+  <g id="IA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="288.369" y="195.99" fill="#0485A8" width="21.79" height="21.79" data-org="288.369" data-y="195.99" class="dem"></rect>
+    <rect x="310.158" y="195.99" fill="#0485A8" width="21.788" height="21.79" data-org="310.158" data-y="195.99" class="dem"></rect>
+    <rect x="331.946" y="195.99" fill="#0485A8" width="21.792" height="21.79" data-org="331.946" data-y="195.99" class="dem"></rect>
+    <rect x="288.369" y="217.778" fill="#0485A8" width="21.79" height="21.79" data-org="288.369" data-y="217.778" class="dem"></rect>
+    <rect x="331.946" y="217.778" fill="#0485A8" width="21.792" height="21.79" data-org="331.946" data-y="217.778" class="dem"></rect>
+    <rect x="310.158" y="217.78" fill="#0485A8" width="21.788" height="21.788" data-org="310.158" data-y="217.78" class="dem"></rect>
+    </g>
+  <g id="ND" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="223.029" y="174.216" fill="#C81305" width="21.788" height="21.79" data-org="223.029" data-y="174.216" class="gop"></rect>
+    <rect x="244.807" y="174.216" fill="#C81305" width="21.788" height="21.79" data-org="244.807" data-y="174.216" class="gop"></rect>
+    <rect x="266.599" y="174.216" fill="#C81305" width="21.787" height="21.79" data-org="266.599" data-y="174.216" class="gop"></rect>
+    </g>
+  <g id="SD" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="223.029" y="196.005" fill="#C81305" width="21.788" height="21.788" data-org="223.029" data-y="196.005" class="gop"></rect>
+    <rect x="244.807" y="196.005" fill="#C81305" width="21.788" height="21.788" data-org="244.807" data-y="196.005" class="gop"></rect>
+    <rect x="266.599" y="196.005" fill="#C81305" width="21.787" height="21.788" data-org="266.599" data-y="196.005" class="gop"></rect>
+    </g>
+  <g id="NE" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="223.014" y="217.809" fill="#C81305" width="21.788" height="21.79" data-org="223.014" data-y="217.809" class="gop"></rect>
+    <rect x="244.806" y="239.587" fill="#C81305" width="21.792" height="21.789" data-org="244.806" data-y="239.587" class="gop"></rect>
+    <rect x="266.594" y="239.587" fill="#C81305" width="21.789" height="21.789" data-org="266.594" data-y="239.587" class="gop"></rect>
+    <rect x="266.594" y="217.8" fill="#C81305" width="21.789" height="21.791" data-org="266.594" data-y="217.8" class="gop"></rect>
+    <rect x="244.804" y="217.8" fill="#C81305" width="21.788" height="21.791" data-org="244.804" data-y="217.8" class="gop"></rect>
+    </g>
+  <g id="IN" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="440.891" y="217.834" fill="#C81305" width="21.788" height="21.79" data-org="440.891" data-y="217.834" class="gop"></rect>
+    <rect x="462.679" y="217.834" fill="#C81305" width="21.792" height="21.79" data-org="462.679" data-y="217.834" class="gop"></rect>
+    <rect x="462.679" y="239.623" fill="#C81305" width="21.792" height="21.789" data-org="462.679" data-y="239.623" class="gop"></rect>
+    <rect x="440.891" y="239.623" fill="#C81305" width="21.788" height="21.789" data-org="440.891" data-y="239.623" class="gop"></rect>
+    <rect x="440.891" y="261.412" fill="#C81305" width="21.788" height="21.791" data-org="440.891" data-y="261.412" class="gop"></rect>
+    <rect x="462.679" y="261.412" fill="#C81305" width="21.792" height="21.791" data-org="462.679" data-y="261.412" class="gop"></rect>
+    <rect x="419.112" y="304.97" fill="#C81305" width="21.79" height="21.789" data-org="419.112" data-y="304.97" class="gop"></rect>
+    <rect x="440.891" y="283.201" fill="#C81305" width="21.788" height="21.79" data-org="440.891" data-y="283.201" class="gop"></rect>
+    <rect x="462.679" y="283.201" fill="#C81305" width="21.792" height="21.79" data-org="462.679" data-y="283.201" class="gop"></rect>
+    <rect x="440.891" y="304.979" fill="#C81305" width="21.788" height="21.79" data-org="440.891" data-y="304.979" class="gop"></rect>
+    <rect x="462.679" y="304.979" fill="#C81305" width="21.792" height="21.79" data-org="462.679" data-y="304.979" class="gop"></rect>
+    </g>
+  <g id="IL" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="419.107" y="261.327" fill="#0485A8" width="21.787" height="21.79" data-org="419.107" data-y="261.327" class="dem"></rect>
+    <rect x="419.107" y="239.518" fill="#0485A8" width="21.787" height="21.788" data-org="419.107" data-y="239.518" class="dem"></rect>
+    <rect x="353.718" y="261.292" fill="#0485A8" width="21.788" height="21.789" data-org="353.718" data-y="261.292" class="dem"></rect>
+    <rect x="353.732" y="195.934" fill="#0485A8" width="21.788" height="21.792" data-org="353.732" data-y="195.934" class="dem"></rect>
+    <rect x="375.52" y="195.934" fill="#0485A8" width="21.792" height="21.792" data-org="375.52" data-y="195.934" class="dem"></rect>
+    <rect x="397.312" y="195.934" fill="#0485A8" width="21.792" height="21.792" data-org="397.312" data-y="195.934" class="dem"></rect>
+    <rect x="353.732" y="217.726" fill="#0485A8" width="21.788" height="21.79" data-org="353.732" data-y="217.726" class="dem"></rect>
+    <rect x="375.52" y="217.726" fill="#0485A8" width="21.792" height="21.79" data-org="375.52" data-y="217.726" class="dem"></rect>
+    <rect x="397.312" y="217.726" fill="#0485A8" width="21.79" height="21.79" data-org="397.312" data-y="217.726" class="dem"></rect>
+    <rect x="375.516" y="239.492" fill="#0485A8" width="21.79" height="21.791" data-org="375.516" data-y="239.492" class="dem"></rect>
+    <rect x="397.304" y="239.492" fill="#0485A8" width="21.79" height="21.791" data-org="397.304" data-y="239.492" class="dem"></rect>
+    <rect x="419.091" y="283.067" fill="#0485A8" width="21.787" height="21.792" data-org="419.091" data-y="283.067" class="dem"></rect>
+    <rect x="375.511" y="261.292" fill="#0485A8" width="21.788" height="21.789" data-org="375.511" data-y="261.292" class="dem"></rect>
+    <rect x="397.304" y="261.292" fill="#0485A8" width="21.79" height="21.789" data-org="397.304" data-y="261.292" class="dem"></rect>
+    <rect x="375.511" y="283.09" fill="#0485A8" width="21.788" height="21.791" data-org="375.511" data-y="283.09" class="dem"></rect>
+    <rect x="397.288" y="283.09" fill="#0485A8" width="21.792" height="21.791" data-org="397.288" data-y="283.09" class="dem"></rect>
+    <rect x="353.732" y="239.492" fill="#0485A8" width="21.792" height="21.789" data-org="353.732" data-y="239.492" class="dem"></rect>
+    <rect x="375.501" y="304.881" fill="#0485A8" width="21.792" height="21.792" data-org="375.501" data-y="304.881" class="dem"></rect>
+    <rect x="331.945" y="239.492" fill="#0485A8" width="21.792" height="21.791" data-org="331.945" data-y="239.492" class="dem"></rect>
+    <rect x="397.292" y="304.881" fill="#0485A8" width="21.788" height="21.792" data-org="397.292" data-y="304.881" class="dem"></rect>
+    </g>
+  <g id="MO" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="310.153" y="261.304" fill="#C81305" width="21.792" height="21.788" data-org="310.153" data-y="261.304" class="gop"></rect>
+    <rect x="331.938" y="261.304" fill="#C81305" width="21.792" height="21.788" data-org="331.938" data-y="261.304" class="gop"></rect>
+    <rect x="310.155" y="239.498" fill="#C81305" width="21.791" height="21.791" data-org="310.155" data-y="239.498" class="gop"></rect>
+    <rect x="353.738" y="283.088" fill="#C81305" width="21.789" height="21.792" data-org="353.738" data-y="283.088" class="gop"></rect>
+    <rect x="310.153" y="283.092" fill="#C81305" width="21.788" height="21.791" data-org="310.153" data-y="283.092" class="gop"></rect>
+    <rect x="331.931" y="283.092" fill="#C81305" width="21.792" height="21.791" data-org="331.931" data-y="283.092" class="gop"></rect>
+    <rect x="353.738" y="304.883" fill="#C81305" width="21.789" height="21.79" data-org="353.738" data-y="304.883" class="gop"></rect>
+    <rect x="288.372" y="239.498" fill="#C81305" width="21.789" height="21.791" data-org="288.372" data-y="239.498" class="gop"></rect>
+    <rect x="310.153" y="304.883" fill="#C81305" width="21.788" height="21.79" data-org="310.153" data-y="304.883" class="gop"></rect>
+    <rect x="331.937" y="304.883" fill="#C81305" width="21.788" height="21.79" data-org="331.937" data-y="304.883" class="gop"></rect>
+    </g>
+  <g id="KS" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="244.806" y="261.297" fill="#C81305" width="21.79" height="21.79" data-org="244.806" data-y="261.297" class="gop"></rect>
+    <rect x="266.592" y="261.297" fill="#C81305" width="21.792" height="21.79" data-org="266.592" data-y="261.297" class="gop"></rect>
+    <rect x="288.385" y="261.297" fill="#C81305" width="21.787" height="21.79" data-org="288.385" data-y="261.297" class="gop"></rect>
+    <rect x="266.585" y="283.088" fill="#C81305" width="21.79" height="21.792" data-org="266.585" data-y="283.088" class="gop"></rect>
+    <rect x="288.374" y="283.088" fill="#C81305" width="21.79" height="21.792" data-org="288.374" data-y="283.088" class="gop"></rect>
+    <rect x="244.806" y="283.088" fill="#C81305" width="21.788" height="21.792" data-org="244.806" data-y="283.088" class="gop"></rect>
+    </g>
+  <g id="WY" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="135.764" y="217.758" fill="#C81305" width="21.792" height="21.789" data-org="135.764" data-y="217.758" class="gop"></rect>
+    <rect x="157.554" y="217.758" fill="#C81305" width="21.79" height="21.789" data-org="157.554" data-y="217.758" class="gop"></rect>
+    <rect x="179.327" y="217.758" fill="#C81305" width="21.789" height="21.789" data-org="179.327" data-y="217.758" class="gop"></rect>
+    </g>
+  <g id="MT" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="114.004" y="195.964" fill="#C81305" width="21.789" height="21.791" data-org="114.004" data-y="195.964" class="gop"></rect>
+    <rect x="135.779" y="195.964" fill="#C81305" width="21.787" height="21.791" data-org="135.779" data-y="195.964" class="gop"></rect>
+    <rect x="157.578" y="195.964" fill="#C81305" width="21.79" height="21.791" data-org="157.578" data-y="195.964" class="gop"></rect>
+    </g>
+  <g id="CO" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="179.367" y="261.314" fill="#0485A8" width="21.787" height="21.788" data-org="179.367" data-y="261.314" class="dem"></rect>
+    <rect x="201.152" y="261.314" fill="#0485A8" width="21.79" height="21.787" data-org="201.152" data-y="261.314" class="dem"></rect>
+    <rect x="222.944" y="261.314" fill="#0485A8" width="21.79" height="21.787" data-org="222.944" data-y="261.314" class="dem"></rect>
+    <rect x="179.367" y="239.527" fill="#0485A8" width="21.787" height="21.79" data-org="179.367" data-y="239.527" class="dem"></rect>
+    <rect x="222.944" y="239.527" fill="#0485A8" width="21.79" height="21.789" data-org="222.944" data-y="239.527" class="dem"></rect>
+    <rect x="222.944" y="283.102" fill="#0485A8" width="21.79" height="21.791" data-org="222.944" data-y="283.102" class="dem"></rect>
+    <rect x="179.367" y="283.102" fill="#0485A8" width="21.787" height="21.791" data-org="179.367" data-y="283.102" class="dem"></rect>
+    <rect x="201.152" y="283.102" fill="#0485A8" width="21.79" height="21.791" data-org="201.152" data-y="283.102" class="dem"></rect>
+    <rect x="201.152" y="239.527" fill="#0485A8" width="21.79" height="21.79" data-org="201.152" data-y="239.527" class="dem"></rect>
+    </g>
+  <g id="UT" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="135.766" y="283.088" fill="#C81305" width="21.788" height="21.789" data-org="135.766" data-y="283.088" class="gop"></rect>
+    <rect x="157.535" y="239.532" fill="#C81305" width="21.788" height="21.79" data-org="157.535" data-y="239.532" class="gop"></rect>
+    <rect x="157.554" y="283.088" fill="#C81305" width="21.79" height="21.789" data-org="157.554" data-y="283.088" class="gop"></rect>
+    <rect x="135.757" y="239.532" fill="#C81305" width="21.788" height="21.79" data-org="135.757" data-y="239.532" class="gop"></rect>
+    <rect x="135.757" y="261.304" fill="#C81305" width="21.791" height="21.788" data-org="135.757" data-y="261.304" class="gop"></rect>
+    <rect x="157.534" y="261.304" fill="#C81305" width="21.789" height="21.79" data-org="157.534" data-y="261.304" class="gop"></rect>
+    </g>
+  <g id="NV" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="113.999" y="261.343" fill="#0485A8" width="21.789" height="21.79" data-org="113.999" data-y="261.343" class="dem"></rect>
+    <rect x="92.197" y="283.157" fill="#0485A8" width="21.788" height="21.792" data-org="92.197" data-y="283.157" class="dem"></rect>
+    <rect x="113.998" y="283.157" fill="#0485A8" width="21.792" height="21.792" data-org="113.998" data-y="283.157" class="dem"></rect>
+    <rect x="92.197" y="261.343" fill="#0485A8" width="21.792" height="21.788" data-org="92.197" data-y="261.343" class="dem"></rect>
+    <rect x="113.998" y="239.53" fill="#0485A8" width="21.792" height="21.79" data-org="113.998" data-y="239.53" class="dem"></rect>
+    <rect x="92.197" y="239.53" fill="#0485A8" width="21.788" height="21.79" data-org="92.197" data-y="239.53" class="dem"></rect>
+    </g>
+  <g id="ID" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="92.181" y="174.194" fill="#C81305" width="21.791" height="21.789" data-org="92.181" data-y="174.194" class="gop"></rect>
+    <rect x="92.181" y="195.983" fill="#C81305" width="21.791" height="21.791" data-org="92.181" data-y="195.983" class="gop"></rect>
+    <rect x="92.181" y="217.769" fill="#C81305" width="21.791" height="21.79" data-org="92.181" data-y="217.769" class="gop"></rect>
+    <rect x="113.969" y="217.769" fill="#C81305" width="21.792" height="21.79" data-org="113.969" data-y="217.769" class="gop"></rect>
+    </g>
+  <g id="WA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="5.026" y="130.596" fill="#0485A8" width="21.789" height="21.789" data-org="5.026" data-y="130.596" class="dem"></rect>
+    <rect x="26.815" y="130.596" fill="#0485A8" width="21.79" height="21.789" data-org="26.815" data-y="130.596" class="dem"></rect>
+    <rect x="26.815" y="152.384" fill="#0485A8" width="21.79" height="21.788" data-org="26.815" data-y="152.384" class="dem"></rect>
+    <rect x="5.012" y="86.998" fill="#0485A8" width="21.79" height="21.789" data-org="5.012" data-y="86.998" class="dem"></rect>
+    <rect x="48.604" y="86.998" fill="#0485A8" width="21.789" height="21.789" data-org="48.604" data-y="86.998" class="dem"></rect>
+    <rect x="70.393" y="86.998" fill="#0485A8" width="21.791" height="21.789" data-org="70.393" data-y="86.998" class="dem"></rect>
+    <rect x="70.393" y="130.596" fill="#0485A8" width="21.791" height="21.789" data-org="70.393" data-y="130.596" class="dem"></rect>
+    <rect x="48.604" y="130.596" fill="#0485A8" width="21.789" height="21.789" data-org="48.604" data-y="130.596" class="dem"></rect>
+    <rect x="70.393" y="108.806" fill="#0485A8" width="21.791" height="21.79" data-org="70.393" data-y="108.806" class="dem"></rect>
+    <rect x="48.604" y="108.806" fill="#0485A8" width="21.789" height="21.79" data-org="48.604" data-y="108.806" class="dem"></rect>
+    <rect x="26.815" y="108.806" fill="#0485A8" width="21.79" height="21.79" data-org="26.815" data-y="108.806" class="dem"></rect>
+    <rect x="5.012" y="108.806" fill="#0485A8" width="21.79" height="21.79" data-org="5.012" data-y="108.806" class="dem"></rect>
+    </g>
+  <g id="OR" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="5.026" y="174.175" fill="#0485A8" width="21.789" height="21.79" data-org="5.026" data-y="174.175" class="dem"></rect>
+    <rect x="26.815" y="174.175" fill="#0485A8" width="21.79" height="21.79" data-org="26.815" data-y="174.175" class="dem"></rect>
+    <rect x="48.604" y="174.175" fill="#0485A8" width="21.789" height="21.79" data-org="48.604" data-y="174.175" class="dem"></rect>
+    <rect x="48.604" y="152.384" fill="#0485A8" width="21.789" height="21.79" data-org="48.604" data-y="152.384" class="dem"></rect>
+    <rect x="70.393" y="174.175" fill="#0485A8" width="21.791" height="21.79" data-org="70.393" data-y="174.175" class="dem"></rect>
+    <rect x="70.393" y="152.384" fill="#0485A8" width="21.791" height="21.79" data-org="70.393" data-y="152.384" class="dem"></rect>
+    <rect x="5.026" y="152.386" fill="#0485A8" width="21.789" height="21.789" data-org="5.026" data-y="152.386" class="dem"></rect>
+    </g>
+  <g id="CA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="5" y="195.904" fill="#0485A8" width="21.79" height="21.788" data-org="5" data-y="195.904" class="dem"></rect>
+    <rect x="26.812" y="195.904" fill="#0485A8" width="21.79" height="21.788" data-org="26.812" data-y="195.904" class="dem"></rect>
+    <rect x="48.576" y="195.904" fill="#0485A8" width="21.79" height="21.788" data-org="48.576" data-y="195.904" class="dem"></rect>
+    <rect x="70.393" y="195.904" fill="#0485A8" width="21.791" height="21.788" data-org="70.393" data-y="195.904" class="dem"></rect>
+    <rect x="5" y="217.695" fill="#0485A8" width="21.79" height="21.789" data-org="5" data-y="217.695" class="dem"></rect>
+    <rect x="26.812" y="217.695" fill="#0485A8" width="21.79" height="21.789" data-org="26.812" data-y="217.695" class="dem"></rect>
+    <rect x="48.576" y="217.695" fill="#0485A8" width="21.79" height="21.789" data-org="48.576" data-y="217.695" class="dem"></rect>
+    <rect x="70.393" y="217.695" fill="#0485A8" width="21.791" height="21.789" data-org="70.393" data-y="217.695" class="dem"></rect>
+    <rect x="5" y="239.588" fill="#0485A8" width="21.79" height="21.788" data-org="5" data-y="239.588" class="dem"></rect>
+    <rect x="26.812" y="239.588" fill="#0485A8" width="21.79" height="21.788" data-org="26.812" data-y="239.588" class="dem"></rect>
+    <rect x="48.576" y="239.588" fill="#0485A8" width="21.79" height="21.788" data-org="48.576" data-y="239.588" class="dem"></rect>
+    <rect x="70.393" y="239.588" fill="#0485A8" width="21.791" height="21.788" data-org="70.393" data-y="239.588" class="dem"></rect>
+    <rect x="5" y="261.273" fill="#0485A8" width="21.79" height="21.788" data-org="5" data-y="261.273" class="dem"></rect>
+    <rect x="26.812" y="261.273" fill="#0485A8" width="21.79" height="21.788" data-org="26.812" data-y="261.273" class="dem"></rect>
+    <rect x="48.576" y="261.273" fill="#0485A8" width="21.79" height="21.788" data-org="48.576" data-y="261.273" class="dem"></rect>
+    <rect x="70.393" y="261.273" fill="#0485A8" width="21.791" height="21.788" data-org="70.393" data-y="261.273" class="dem"></rect>
+    <rect x="5" y="283.062" fill="#0485A8" width="21.79" height="21.789" data-org="5" data-y="283.062" class="dem"></rect>
+    <rect x="26.812" y="283.062" fill="#0485A8" width="21.79" height="21.789" data-org="26.812" data-y="283.062" class="dem"></rect>
+    <rect x="48.576" y="283.062" fill="#0485A8" width="21.79" height="21.789" data-org="48.576" data-y="283.062" class="dem"></rect>
+    <rect x="70.393" y="283.062" fill="#0485A8" width="21.791" height="21.789" data-org="70.393" data-y="283.062" class="dem"></rect>
+    <rect x="26.812" y="414.03" fill="#0485A8" width="21.79" height="21.792" data-org="26.812" data-y="414.03" class="dem"></rect>
+    <rect x="48.625" y="414.03" fill="#0485A8" width="21.79" height="21.792" data-org="48.625" data-y="414.03" class="dem"></rect>
+    <rect x="70.388" y="414.03" fill="#0485A8" width="21.791" height="21.792" data-org="70.388" data-y="414.03" class="dem"></rect>
+    <rect x="92.204" y="414.03" fill="#0485A8" width="21.789" height="21.792" data-org="92.204" data-y="414.03" class="dem"></rect>
+    <rect x="26.812" y="435.82" fill="#0485A8" width="21.79" height="21.792" data-org="26.812" data-y="435.82" class="dem"></rect>
+    <rect x="48.625" y="435.82" fill="#0485A8" width="21.79" height="21.792" data-org="48.625" data-y="435.82" class="dem"></rect>
+    <rect x="70.388" y="435.82" fill="#0485A8" width="21.791" height="21.792" data-org="70.388" data-y="435.82" class="dem"></rect>
+    <rect x="92.204" y="435.82" fill="#0485A8" width="21.789" height="21.792" data-org="92.204" data-y="435.82" class="dem"></rect>
+    <rect x="5" y="304.91" fill="#0485A8" width="21.79" height="21.789" data-org="5" data-y="304.91" class="dem"></rect>
+    <rect x="26.812" y="304.91" fill="#0485A8" width="21.79" height="21.789" data-org="26.812" data-y="304.91" class="dem"></rect>
+    <rect x="48.576" y="304.91" fill="#0485A8" width="21.79" height="21.789" data-org="48.576" data-y="304.91" class="dem"></rect>
+    <rect x="70.393" y="304.91" fill="#0485A8" width="21.791" height="21.789" data-org="70.393" data-y="304.91" class="dem"></rect>
+    <rect x="92.153" y="304.91" fill="#0485A8" width="21.791" height="21.789" data-org="92.153" data-y="304.91" class="dem"></rect>
+    <rect x="5" y="326.808" fill="#0485A8" width="21.79" height="21.788" data-org="5" data-y="326.808" class="dem"></rect>
+    <rect x="26.812" y="326.808" fill="#0485A8" width="21.79" height="21.788" data-org="26.812" data-y="326.808" class="dem"></rect>
+    <rect x="48.576" y="326.808" fill="#0485A8" width="21.79" height="21.788" data-org="48.576" data-y="326.808" class="dem"></rect>
+    <rect x="70.393" y="326.808" fill="#0485A8" width="21.791" height="21.788" data-org="70.393" data-y="326.808" class="dem"></rect>
+    <rect x="92.153" y="326.808" fill="#0485A8" width="21.791" height="21.788" data-org="92.153" data-y="326.808" class="dem"></rect>
+    <rect x="5" y="348.558" fill="#0485A8" width="21.79" height="21.788" data-org="5" data-y="348.558" class="dem"></rect>
+    <rect x="26.812" y="348.558" fill="#0485A8" width="21.79" height="21.788" data-org="26.812" data-y="348.558" class="dem"></rect>
+    <rect x="48.576" y="348.558" fill="#0485A8" width="21.79" height="21.788" data-org="48.576" data-y="348.558" class="dem"></rect>
+    <rect x="70.393" y="348.558" fill="#0485A8" width="21.791" height="21.788" data-org="70.393" data-y="348.558" class="dem"></rect>
+    <rect x="92.153" y="348.558" fill="#0485A8" width="21.791" height="21.788" data-org="92.153" data-y="348.558" class="dem"></rect>
+    <rect x="5" y="370.454" fill="#0485A8" width="21.79" height="21.787" data-org="5" data-y="370.454" class="dem"></rect>
+    <rect x="26.812" y="370.454" fill="#0485A8" width="21.79" height="21.787" data-org="26.812" data-y="370.454" class="dem"></rect>
+    <rect x="48.576" y="370.454" fill="#0485A8" width="21.79" height="21.787" data-org="48.576" data-y="370.454" class="dem"></rect>
+    <rect x="70.393" y="370.454" fill="#0485A8" width="21.791" height="21.787" data-org="70.393" data-y="370.454" class="dem"></rect>
+    <rect x="92.153" y="370.454" fill="#0485A8" width="21.791" height="21.787" data-org="92.153" data-y="370.454" class="dem"></rect>
+    <rect x="114.004" y="370.454" fill="#0485A8" width="21.79" height="21.787" data-org="114.004" data-y="370.454" class="dem"></rect>
+    <rect x="5" y="392.244" fill="#0485A8" width="21.79" height="21.786" data-org="5" data-y="392.244" class="dem"></rect>
+    <rect x="26.812" y="392.244" fill="#0485A8" width="21.79" height="21.786" data-org="26.812" data-y="392.244" class="dem"></rect>
+    <rect x="48.576" y="392.244" fill="#0485A8" width="21.79" height="21.786" data-org="48.576" data-y="392.244" class="dem"></rect>
+    <rect x="70.393" y="392.244" fill="#0485A8" width="21.791" height="21.786" data-org="70.393" data-y="392.244" class="dem"></rect>
+    <rect x="92.153" y="392.244" fill="#0485A8" width="21.791" height="21.786" data-org="92.153" data-y="392.244" class="dem"></rect>
+    <rect x="114.004" y="392.244" fill="#0485A8" width="21.79" height="21.786" data-org="114.004" data-y="392.244" class="dem"></rect>
+    </g>
+  <g id="AZ" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="114.004" y="326.669" fill="#C81305" width="21.789" height="21.79" data-org="114.004" data-y="326.669" class="gop"></rect>
+    <rect x="135.793" y="326.669" fill="#C81305" width="21.789" height="21.79" data-org="135.793" data-y="326.669" class="gop"></rect>
+    <rect x="157.583" y="326.669" fill="#C81305" width="21.791" height="21.79" data-org="157.583" data-y="326.669" class="gop"></rect>
+    <rect x="157.583" y="348.456" fill="#C81305" width="21.791" height="21.79" data-org="157.583" data-y="348.456" class="gop"></rect>
+    <rect x="135.793" y="348.456" fill="#C81305" width="21.789" height="21.79" data-org="135.793" data-y="348.456" class="gop"></rect>
+    <rect x="157.583" y="370.315" fill="#C81305" width="21.791" height="21.789" data-org="157.583" data-y="370.315" class="gop"></rect>
+    <rect x="135.793" y="370.315" fill="#C81305" width="21.789" height="21.789" data-org="135.793" data-y="370.315" class="gop"></rect>
+    <rect x="114.004" y="348.456" fill="#C81305" width="21.789" height="21.79" data-org="114.004" data-y="348.456" class="gop"></rect>
+    <rect x="135.793" y="304.88" fill="#C81305" width="21.789" height="21.789" data-org="135.793" data-y="304.88" class="gop"></rect>
+    <rect x="157.583" y="304.88" fill="#C81305" width="21.791" height="21.789" data-org="157.583" data-y="304.88" class="gop"></rect>
+    <rect x="114.004" y="304.88" fill="#C81305" width="21.789" height="21.789" data-org="114.004" data-y="304.88" class="gop"></rect>
+    </g>
+  <g id="NM" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="179.352" y="348.487" fill="#0485A8" width="21.789" height="21.791" data-org="179.352" data-y="348.487" class="dem"></rect>
+    <rect x="201.141" y="326.698" fill="#0485A8" width="21.79" height="21.789" data-org="201.141" data-y="326.698" class="dem"></rect>
+    <rect x="179.352" y="326.698" fill="#0485A8" width="21.789" height="21.789" data-org="179.352" data-y="326.698" class="dem"></rect>
+    <rect x="201.141" y="304.909" fill="#0485A8" width="21.79" height="21.791" data-org="201.141" data-y="304.909" class="dem"></rect>
+    <rect x="179.352" y="304.909" fill="#0485A8" width="21.789" height="21.791" data-org="179.352" data-y="304.909" class="dem"></rect>
+    </g>
+  <g id="OK" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="222.912" y="304.79" fill="#C81305" width="21.787" height="21.791" data-org="222.912" data-y="304.79" class="gop"></rect>
+    <rect x="244.701" y="304.79" fill="#C81305" width="21.791" height="21.791" data-org="244.701" data-y="304.79" class="gop"></rect>
+    <rect x="266.49" y="304.79" fill="#C81305" width="21.789" height="21.791" data-org="266.49" data-y="304.79" class="gop"></rect>
+    <rect x="266.49" y="326.58" fill="#C81305" width="21.789" height="21.789" data-org="266.49" data-y="326.58" class="gop"></rect>
+    <rect x="288.268" y="304.79" fill="#C81305" width="21.79" height="21.791" data-org="288.268" data-y="304.79" class="gop"></rect>
+    <rect x="288.268" y="326.58" fill="#C81305" width="21.79" height="21.789" data-org="288.268" data-y="326.58" class="gop"></rect>
+    <rect x="244.701" y="326.58" fill="#C81305" width="21.791" height="21.789" data-org="244.701" data-y="326.58" class="gop"></rect>
+    </g>
+  <g id="AR" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="310.11" y="326.662" fill="#C81305" width="21.79" height="21.787" data-org="310.11" data-y="326.662" class="gop"></rect>
+    <rect x="331.899" y="326.662" fill="#C81305" width="21.788" height="21.787" data-org="331.899" data-y="326.662" class="gop"></rect>
+    <rect x="331.899" y="348.449" fill="#C81305" width="21.788" height="21.791" data-org="331.899" data-y="348.449" class="gop"></rect>
+    <rect x="353.702" y="326.662" fill="#C81305" width="21.788" height="21.787" data-org="353.702" data-y="326.662" class="gop"></rect>
+    <rect x="375.475" y="326.68" fill="#C81305" width="21.789" height="21.788" data-org="375.475" data-y="326.68" class="gop"></rect>
+    <rect x="310.11" y="348.449" fill="#C81305" width="21.79" height="21.791" data-org="310.11" data-y="348.449" class="gop"></rect>
+    </g>
+  <g id="TN" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="419.078" y="348.556" fill="#C81305" width="21.791" height="21.794" data-org="419.078" data-y="348.556" class="gop"></rect>
+    <rect x="462.654" y="348.556" fill="#C81305" width="21.792" height="21.794" data-org="462.654" data-y="348.556" class="gop"></rect>
+    <rect x="484.445" y="348.556" fill="#C81305" width="21.786" height="21.794" data-org="484.445" data-y="348.556" class="gop"></rect>
+    <rect x="506.231" y="348.556" fill="#C81305" width="21.794" height="21.794" data-org="506.231" data-y="348.556" class="gop"></rect>
+    <rect x="462.635" y="326.761" fill="#C81305" width="21.792" height="21.79" data-org="462.635" data-y="326.761" class="gop"></rect>
+    <rect x="397.267" y="326.761" fill="#C81305" width="21.789" height="21.79" data-org="397.267" data-y="326.761" class="gop"></rect>
+    <rect x="440.846" y="326.761" fill="#C81305" width="21.789" height="21.79" data-org="440.846" data-y="326.761" class="gop"></rect>
+    <rect x="419.054" y="326.761" fill="#C81305" width="21.792" height="21.79" data-org="419.054" data-y="326.761" class="gop"></rect>
+    <rect x="440.868" y="348.556" fill="#C81305" width="21.789" height="21.794" data-org="440.868" data-y="348.556" class="gop"></rect>
+    <rect x="375.486" y="348.556" fill="#C81305" width="21.792" height="21.794" data-org="375.486" data-y="348.556" class="gop"></rect>
+    <rect x="397.276" y="348.556" fill="#C81305" width="21.786" height="21.794" data-org="397.276" data-y="348.556" class="gop"></rect>
+    </g>
+  <g id="KY" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="528.014" y="348.676" fill="#C81305" width="21.79" height="21.788" data-org="528.014" data-y="348.676" class="gop"></rect>
+    <rect x="528.029" y="326.886" fill="#C81305" width="21.792" height="21.79" data-org="528.029" data-y="326.886" class="gop"></rect>
+    <rect x="549.804" y="348.676" fill="#C81305" width="21.793" height="21.788" data-org="549.804" data-y="348.676" class="gop"></rect>
+    <rect x="571.597" y="348.676" fill="#C81305" width="21.789" height="21.788" data-org="571.597" data-y="348.676" class="gop"></rect>
+    <rect x="593.385" y="348.676" fill="#C81305" width="21.789" height="21.788" data-org="593.385" data-y="348.676" class="gop"></rect>
+    <rect x="549.821" y="326.886" fill="#C81305" width="21.789" height="21.79" data-org="549.821" data-y="326.886" class="gop"></rect>
+    <rect x="484.445" y="326.886" fill="#C81305" width="21.793" height="21.79" data-org="484.445" data-y="326.886" class="gop"></rect>
+    <rect x="506.238" y="326.886" fill="#C81305" width="21.791" height="21.79" data-org="506.238" data-y="326.886" class="gop"></rect>
+    </g>
+  <g id="VA" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="571.582" y="326.819" fill="#0485A8" width="21.789" height="21.791" data-org="571.582" data-y="326.819" class="dem"></rect>
+    <rect x="593.371" y="326.819" fill="#0485A8" width="21.791" height="21.791" data-org="593.371" data-y="326.819" class="dem"></rect>
+    <rect x="615.162" y="348.59" fill="#0485A8" width="21.789" height="21.79" data-org="615.162" data-y="348.59" class="dem"></rect>
+    <rect x="636.95" y="348.59" fill="#0485A8" width="21.791" height="21.79" data-org="636.95" data-y="348.59" class="dem"></rect>
+    <rect x="636.95" y="305.039" fill="#0485A8" width="21.791" height="21.791" data-org="636.95" data-y="305.039" class="dem"></rect>
+    <rect x="636.95" y="326.819" fill="#0485A8" width="21.791" height="21.791" data-org="636.95" data-y="326.819" class="dem"></rect>
+    <rect x="615.137" y="305.039" fill="#0485A8" width="21.794" height="21.791" data-org="615.137" data-y="305.039" class="dem"></rect>
+    <rect x="615.137" y="326.819" fill="#0485A8" width="21.794" height="21.791" data-org="615.137" data-y="326.819" class="dem"></rect>
+    <rect x="658.738" y="305.039" fill="#0485A8" width="21.79" height="21.791" data-org="658.738" data-y="305.039" class="dem"></rect>
+    <rect x="658.738" y="326.819" fill="#0485A8" width="21.79" height="21.791" data-org="658.738" data-y="326.819" class="dem"></rect>
+    <rect x="680.528" y="348.59" fill="#0485A8" width="21.789" height="21.793" data-org="680.528" data-y="348.59" class="dem"></rect>
+    <rect x="658.738" y="348.59" fill="#0485A8" width="21.79" height="21.79" data-org="658.738" data-y="348.59" class="dem"></rect>
+    <rect x="680.528" y="326.819" fill="#0485A8" width="21.789" height="21.791" data-org="680.528" data-y="326.819" class="dem"></rect>
+    </g>
+  <g id="NC" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="593.286" y="392.15" fill="#C81305" width="21.788" height="21.793" data-org="593.286" data-y="392.15" class="gop"></rect>
+    <rect x="615.108" y="392.15" fill="#C81305" width="21.792" height="21.793" data-org="615.108" data-y="392.15" class="gop"></rect>
+    <rect x="571.516" y="370.367" fill="#C81305" width="21.79" height="21.793" data-org="571.516" data-y="370.367" class="gop"></rect>
+    <rect x="636.916" y="392.15" fill="#C81305" width="21.79" height="21.793" data-org="636.916" data-y="392.15" class="gop"></rect>
+    <rect x="658.726" y="392.15" fill="#C81305" width="21.79" height="21.793" data-org="658.726" data-y="392.15" class="gop"></rect>
+    <rect x="593.305" y="370.367" fill="#C81305" width="21.786" height="21.793" data-org="593.305" data-y="370.367" class="gop"></rect>
+    <rect x="615.131" y="370.367" fill="#C81305" width="21.79" height="21.793" data-org="615.131" data-y="370.367" class="gop"></rect>
+    <rect x="680.532" y="392.15" fill="#C81305" width="21.789" height="21.793" data-org="680.532" data-y="392.15" class="gop"></rect>
+    <rect x="658.741" y="370.369" fill="#C81305" width="21.793" height="21.791" data-org="658.741" data-y="370.369" class="gop"></rect>
+    <rect x="658.726" y="413.921" fill="#C81305" width="21.794" height="21.791" data-org="658.726" data-y="413.921" class="gop"></rect>
+    <rect x="680.534" y="370.369" fill="#C81305" width="21.787" height="21.791" data-org="680.534" data-y="370.369" class="gop"></rect>
+    <rect x="615.108" y="413.921" fill="#C81305" width="21.792" height="21.791" data-org="615.108" data-y="413.921" class="gop"></rect>
+    <rect x="636.916" y="413.921" fill="#C81305" width="21.786" height="21.791" data-org="636.916" data-y="413.921" class="gop"></rect>
+    <rect x="549.672" y="370.367" fill="#C81305" width="21.795" height="21.793" data-org="549.672" data-y="370.367" class="gop"></rect>
+    <rect x="636.943" y="370.367" fill="#C81305" width="21.785" height="21.793" data-org="636.943" data-y="370.367" class="gop"></rect>
+    </g>
+  <g id="DC" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="774.818" y="413.995" fill="#0485A8" width="21.792" height="21.791" data-org="774.818" data-y="413.995" class="dem"></rect>
+    <rect x="774.818" y="392.15" fill="#0485A8" width="21.792" height="21.793" data-org="774.818" data-y="392.15" class="dem"></rect>
+    <rect x="752.904" y="392.207" fill="#0485A8" width="21.788" height="21.792" data-org="752.904" data-y="392.207" class="dem"></rect>
+    </g>
+  <g id="AK" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="41.265" y="519.035" fill="#C81305" width="21.789" height="21.789" data-org="41.265" data-y="519.035" class="gop"></rect>
+    <rect x="41.265" y="540.703" fill="#C81305" width="21.789" height="21.789" data-org="41.265" data-y="540.703" class="gop"></rect>
+    <rect x="63.083" y="562.493" fill="#C81305" width="21.79" height="21.791" data-org="63.083" data-y="562.493" class="gop"></rect>
+    </g>
+  <g id="HI" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="141.415" y="507.53" fill="#0485A8" width="21.792" height="21.79" data-org="141.415" data-y="507.53" class="dem"></rect>
+    <rect x="163.206" y="529.317" fill="#0485A8" width="21.792" height="21.791" data-org="163.206" data-y="529.317" class="dem"></rect>
+    <rect x="185.153" y="551.473" fill="#0485A8" width="21.792" height="21.792" data-org="185.153" data-y="551.473" class="dem"></rect>
+    <rect x="206.944" y="573.389" fill="#0485A8" width="21.792" height="21.791" data-org="206.944" data-y="573.389" class="dem"></rect>
+    </g>
+  <g id="FL" class="dem state" maptype="carto" style="opacity: 1;">
+    <rect x="571.543" y="479.308" fill="#0485A8" width="21.793" height="21.788" data-org="571.543" data-y="479.308" class="dem"></rect>
+    <rect x="593.336" y="479.308" fill="#0485A8" width="21.785" height="21.788" data-org="593.336" data-y="479.308" class="dem"></rect>
+    <rect x="615.121" y="501.088" fill="#0485A8" width="21.793" height="21.791" data-org="615.121" data-y="501.088" class="dem"></rect>
+    <rect x="636.909" y="501.088" fill="#0485A8" width="21.79" height="21.791" data-org="636.909" data-y="501.088" class="dem"></rect>
+    <rect x="658.699" y="653.615" fill="#0485A8" width="21.793" height="21.791" data-org="658.699" data-y="653.615" class="dem"></rect>
+    <rect x="549.753" y="479.308" fill="#0485A8" width="21.793" height="21.788" data-org="549.753" data-y="479.308" class="dem"></rect>
+    <rect x="658.699" y="588.247" fill="#0485A8" width="21.793" height="21.79" data-org="658.699" data-y="588.247" class="dem"></rect>
+    <rect x="593.336" y="501.088" fill="#0485A8" width="21.785" height="21.79" data-org="593.336" data-y="501.088" class="dem"></rect>
+    <rect x="636.909" y="522.879" fill="#0485A8" width="21.79" height="21.789" data-org="636.909" data-y="522.879" class="dem"></rect>
+    <rect x="527.964" y="479.308" fill="#0485A8" width="21.789" height="21.788" data-org="527.964" data-y="479.308" class="dem"></rect>
+    <rect x="506.178" y="479.308" fill="#0485A8" width="21.786" height="21.788" data-org="506.178" data-y="479.308" class="dem"></rect>
+    <rect x="658.699" y="544.664" fill="#0485A8" width="21.793" height="21.794" data-org="658.699" data-y="544.664" class="dem"></rect>
+    <rect x="658.699" y="631.824" fill="#0485A8" width="21.793" height="21.791" data-org="658.699" data-y="631.824" class="dem"></rect>
+    <rect x="615.121" y="522.879" fill="#0485A8" width="21.793" height="21.789" data-org="615.121" data-y="522.879" class="dem"></rect>
+    <rect x="636.909" y="653.615" fill="#0485A8" width="21.79" height="21.791" data-org="636.909" data-y="653.615" class="dem"></rect>
+    <rect x="658.699" y="610.035" fill="#0485A8" width="21.793" height="21.789" data-org="658.699" data-y="610.035" class="dem"></rect>
+    <rect x="636.909" y="631.824" fill="#0485A8" width="21.79" height="21.791" data-org="636.909" data-y="631.824" class="dem"></rect>
+    <rect x="636.909" y="610.035" fill="#0485A8" width="21.79" height="21.789" data-org="636.909" data-y="610.035" class="dem"></rect>
+    <rect x="636.909" y="588.247" fill="#0485A8" width="21.79" height="21.79" data-org="636.909" data-y="588.247" class="dem"></rect>
+    <rect x="636.909" y="566.457" fill="#0485A8" width="21.79" height="21.79" data-org="636.909" data-y="566.457" class="dem"></rect>
+    <rect x="615.121" y="544.664" fill="#0485A8" width="21.793" height="21.794" data-org="615.121" data-y="544.664" class="dem"></rect>
+    <rect x="615.121" y="566.457" fill="#0485A8" width="21.793" height="21.79" data-org="615.121" data-y="566.457" class="dem"></rect>
+    <rect x="615.121" y="588.247" fill="#0485A8" width="21.793" height="21.79" data-org="615.121" data-y="588.247" class="dem"></rect>
+    <rect x="615.121" y="610.035" fill="#0485A8" width="21.793" height="21.789" data-org="615.121" data-y="610.035" class="dem"></rect>
+    <rect x="658.699" y="566.457" fill="#0485A8" width="21.793" height="21.79" data-org="658.699" data-y="566.457" class="dem"></rect>
+    <rect x="658.699" y="501.088" fill="#0485A8" width="21.793" height="21.791" data-org="658.699" data-y="501.088" class="dem"></rect>
+    <rect x="658.699" y="522.879" fill="#0485A8" width="21.793" height="21.794" data-org="658.699" data-y="522.879" class="dem"></rect>
+    <rect x="636.909" y="544.664" fill="#0485A8" width="21.79" height="21.794" data-org="636.909" data-y="544.664" class="dem"></rect>
+    <rect x="571.543" y="501.088" fill="#0485A8" width="21.793" height="21.79" data-org="571.543" data-y="501.088" class="dem"></rect>
+    </g>
+  <g id="SC" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="636.896" y="479.269" fill="#C81305" width="21.787" height="21.79" data-org="636.896" data-y="479.269" class="gop"></rect>
+    <rect x="658.684" y="457.479" fill="#C81305" width="21.796" height="21.79" data-org="658.684" data-y="457.479" class="gop"></rect>
+    <rect x="658.684" y="435.691" fill="#C81305" width="21.796" height="21.79" data-org="658.684" data-y="435.691" class="gop"></rect>
+    <rect x="615.106" y="457.479" fill="#C81305" width="21.79" height="21.79" data-org="615.106" data-y="457.479" class="gop"></rect>
+    <rect x="615.106" y="479.269" fill="#C81305" width="21.79" height="21.79" data-org="615.106" data-y="479.269" class="gop"></rect>
+    <rect x="658.684" y="479.269" fill="#C81305" width="21.796" height="21.79" data-org="658.684" data-y="479.269" class="gop"></rect>
+    <rect x="636.896" y="457.479" fill="#C81305" width="21.787" height="21.79" data-org="636.896" data-y="457.479" class="gop"></rect>
+    <rect x="615.106" y="435.691" fill="#C81305" width="21.79" height="21.79" data-org="615.106" data-y="435.691" class="gop"></rect>
+    <rect x="636.896" y="435.691" fill="#C81305" width="21.787" height="21.79" data-org="636.896" data-y="435.691" class="gop"></rect>
+    </g>
+  <g id="GA" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="527.979" y="392.187" fill="#C81305" width="21.788" height="21.79" data-org="527.979" data-y="392.187" class="gop"></rect>
+    <rect x="549.767" y="392.187" fill="#C81305" width="21.793" height="21.788" data-org="549.767" data-y="392.187" class="gop"></rect>
+    <rect x="571.558" y="392.187" fill="#C81305" width="21.788" height="21.788" data-org="571.558" data-y="392.187" class="gop"></rect>
+    <rect x="527.941" y="370.396" fill="#C81305" width="21.789" height="21.79" data-org="527.941" data-y="370.396" class="gop"></rect>
+    <rect x="527.979" y="413.975" fill="#C81305" width="21.788" height="21.786" data-org="527.979" data-y="413.975" class="gop"></rect>
+    <rect x="549.767" y="413.972" fill="#C81305" width="21.793" height="21.789" data-org="549.767" data-y="413.972" class="gop"></rect>
+    <rect x="571.558" y="413.972" fill="#C81305" width="21.788" height="21.789" data-org="571.558" data-y="413.972" class="gop"></rect>
+    <rect x="571.558" y="457.552" fill="#C81305" width="21.788" height="21.791" data-org="571.558" data-y="457.552" class="gop"></rect>
+    <rect x="593.345" y="457.552" fill="#C81305" width="21.789" height="21.791" data-org="593.345" data-y="457.552" class="gop"></rect>
+    <rect x="593.336" y="435.764" fill="#C81305" width="21.789" height="21.792" data-org="593.336" data-y="435.764" class="gop"></rect>
+    <rect x="593.345" y="413.972" fill="#C81305" width="21.789" height="21.789" data-org="593.345" data-y="413.972" class="gop"></rect>
+    <rect x="527.979" y="457.552" fill="#C81305" width="21.788" height="21.791" data-org="527.979" data-y="457.552" class="gop"></rect>
+    <rect x="549.767" y="457.552" fill="#C81305" width="21.793" height="21.791" data-org="549.767" data-y="457.552" class="gop"></rect>
+    <rect x="571.558" y="435.764" fill="#C81305" width="21.788" height="21.792" data-org="571.558" data-y="435.764" class="gop"></rect>
+    <rect x="527.979" y="435.764" fill="#C81305" width="21.788" height="21.792" data-org="527.979" data-y="435.764" class="gop"></rect>
+    <rect x="549.767" y="435.764" fill="#C81305" width="21.793" height="21.792" data-org="549.767" data-y="435.764" class="gop"></rect>
+    </g>
+  <g id="AL" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="462.667" y="392.212" fill="#C81305" width="21.789" height="21.787" data-org="462.667" data-y="392.212" class="gop"></rect>
+    <rect x="484.456" y="392.212" fill="#C81305" width="21.79" height="21.787" data-org="484.456" data-y="392.212" class="gop"></rect>
+    <rect x="462.667" y="370.406" fill="#C81305" width="21.789" height="21.791" data-org="462.667" data-y="370.406" class="gop"></rect>
+    <rect x="484.456" y="370.406" fill="#C81305" width="21.79" height="21.791" data-org="484.456" data-y="370.406" class="gop"></rect>
+    <rect x="484.456" y="414.037" fill="#C81305" width="21.79" height="21.789" data-org="484.456" data-y="414.037" class="gop"></rect>
+    <rect x="462.667" y="414.037" fill="#C81305" width="21.789" height="21.789" data-org="462.667" data-y="414.037" class="gop"></rect>
+    <rect x="506.227" y="392.212" fill="#C81305" width="21.787" height="21.789" data-org="506.227" data-y="392.212" class="gop"></rect>
+    <rect x="506.227" y="370.408" fill="#C81305" width="21.79" height="21.789" data-org="506.227" data-y="370.408" class="gop"></rect>
+    <rect x="506.223" y="414.037" fill="#C81305" width="21.791" height="21.791" data-org="506.223" data-y="414.037" class="gop"></rect>
+    </g>
+  <g id="MS" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="397.31" y="370.454" fill="#C81305" width="21.792" height="21.787" data-org="397.31" data-y="370.454" class="gop"></rect>
+    <rect x="419.1" y="370.454" fill="#C81305" width="21.788" height="21.787" data-org="419.1" data-y="370.454" class="gop"></rect>
+    <rect x="440.885" y="370.452" fill="#C81305" width="21.787" height="21.789" data-org="440.885" data-y="370.452" class="gop"></rect>
+    <rect x="419.095" y="392.241" fill="#C81305" width="21.79" height="21.789" data-org="419.095" data-y="392.241" class="gop"></rect>
+    <rect x="397.314" y="392.244" fill="#C81305" width="21.786" height="21.786" data-org="397.314" data-y="392.244" class="gop"></rect>
+    <rect x="440.877" y="392.244" fill="#C81305" width="21.79" height="21.786" data-org="440.877" data-y="392.244" class="gop"></rect>
+    </g>
+  <g id="LA" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="353.681" y="370.26" fill="#C81305" width="21.788" height="21.792" data-org="353.681" data-y="370.26" class="gop"></rect>
+    <rect x="375.49" y="392.052" fill="#C81305" width="21.789" height="21.786" data-org="375.49" data-y="392.052" class="gop"></rect>
+    <rect x="353.681" y="413.838" fill="#C81305" width="21.788" height="21.791" data-org="353.681" data-y="413.838" class="gop"></rect>
+    <rect x="353.681" y="392.052" fill="#C81305" width="21.788" height="21.786" data-org="353.681" data-y="392.052" class="gop"></rect>
+    <rect x="375.49" y="413.838" fill="#C81305" width="21.789" height="21.791" data-org="375.49" data-y="413.838" class="gop"></rect>
+    <rect x="397.32" y="413.838" fill="#C81305" width="21.792" height="21.791" data-org="397.32" data-y="413.838" class="gop"></rect>
+    <rect x="375.493" y="370.26" fill="#C81305" width="21.787" height="21.792" data-org="375.493" data-y="370.26" class="gop"></rect>
+    <rect x="353.681" y="348.456" fill="#C81305" width="21.791" height="21.79" data-org="353.681" data-y="348.456" class="gop"></rect>
+    </g>
+  <g id="TX" class="gop state" maptype="carto" style="opacity: 1;">
+    <rect x="222.898" y="326.588" fill="#C81305" width="21.788" height="21.788" data-org="222.898" data-y="326.588" class="gop"></rect>
+    <rect x="201.108" y="370.219" fill="#C81305" width="21.79" height="21.791" data-org="201.108" data-y="370.219" class="gop"></rect>
+    <rect x="222.898" y="348.366" fill="#C81305" width="21.788" height="21.789" data-org="222.898" data-y="348.366" class="gop"></rect>
+    <rect x="244.686" y="348.366" fill="#C81305" width="21.791" height="21.789" data-org="244.686" data-y="348.366" class="gop"></rect>
+    <rect x="222.898" y="370.219" fill="#C81305" width="21.788" height="21.791" data-org="222.898" data-y="370.219" class="gop"></rect>
+    <rect x="244.686" y="370.219" fill="#C81305" width="21.791" height="21.791" data-org="244.686" data-y="370.219" class="gop"></rect>
+    <rect x="266.477" y="370.219" fill="#C81305" width="21.788" height="21.791" data-org="266.477" data-y="370.219" class="gop"></rect>
+    <rect x="288.265" y="479.164" fill="#C81305" width="21.791" height="21.79" data-org="288.265" data-y="479.164" class="gop"></rect>
+    <rect x="222.898" y="392.01" fill="#C81305" width="21.788" height="21.79" data-org="222.898" data-y="392.01" class="gop"></rect>
+    <rect x="244.686" y="392.01" fill="#C81305" width="21.791" height="21.79" data-org="244.686" data-y="392.01" class="gop"></rect>
+    <rect x="266.477" y="392.01" fill="#C81305" width="21.788" height="21.79" data-org="266.477" data-y="392.01" class="gop"></rect>
+    <rect x="288.265" y="392.01" fill="#C81305" width="21.791" height="21.79" data-org="288.265" data-y="392.01" class="gop"></rect>
+    <rect x="310.055" y="392.01" fill="#C81305" width="21.791" height="21.79" data-org="310.055" data-y="392.01" class="gop"></rect>
+    <rect x="331.842" y="392.01" fill="#C81305" width="21.792" height="21.79" data-org="331.842" data-y="392.01" class="gop"></rect>
+    <rect x="266.477" y="479.164" fill="#C81305" width="21.788" height="21.79" data-org="266.477" data-y="479.164" class="gop"></rect>
+    <rect x="266.477" y="457.378" fill="#C81305" width="21.788" height="21.789" data-org="266.477" data-y="457.378" class="gop"></rect>
+    <rect x="244.686" y="457.378" fill="#C81305" width="21.791" height="21.789" data-org="244.686" data-y="457.378" class="gop"></rect>
+    <rect x="201.108" y="392.01" fill="#C81305" width="21.79" height="21.79" data-org="201.108" data-y="392.01" class="gop"></rect>
+    <rect x="222.898" y="413.8" fill="#C81305" width="21.788" height="21.787" data-org="222.898" data-y="413.8" class="gop"></rect>
+    <rect x="244.686" y="413.8" fill="#C81305" width="21.791" height="21.788" data-org="244.686" data-y="413.8" class="gop"></rect>
+    <rect x="266.477" y="413.8" fill="#C81305" width="21.788" height="21.788" data-org="266.477" data-y="413.8" class="gop"></rect>
+    <rect x="288.265" y="413.8" fill="#C81305" width="21.791" height="21.788" data-org="288.265" data-y="413.8" class="gop"></rect>
+    <rect x="310.055" y="413.8" fill="#C81305" width="21.791" height="21.788" data-org="310.055" data-y="413.8" class="gop"></rect>
+    <rect x="331.842" y="413.8" fill="#C81305" width="21.792" height="21.788" data-org="331.842" data-y="413.8" class="gop"></rect>
+    <rect x="288.265" y="370.219" fill="#C81305" width="21.791" height="21.791" data-org="288.265" data-y="370.219" class="gop"></rect>
+    <rect x="266.477" y="348.366" fill="#C81305" width="21.788" height="21.789" data-org="266.477" data-y="348.366" class="gop"></rect>
+    <rect x="288.265" y="348.366" fill="#C81305" width="21.791" height="21.789" data-org="288.265" data-y="348.366" class="gop"></rect>
+    <rect x="331.842" y="370.219" fill="#C81305" width="21.792" height="21.791" data-org="331.842" data-y="370.219" class="gop"></rect>
+    <rect x="201.108" y="413.8" fill="#C81305" width="21.79" height="21.788" data-org="201.108" data-y="413.8" class="gop"></rect>
+    <rect x="222.898" y="435.585" fill="#C81305" width="21.788" height="21.792" data-org="222.898" data-y="435.585" class="gop"></rect>
+    <rect x="244.686" y="435.587" fill="#C81305" width="21.791" height="21.793" data-org="244.686" data-y="435.587" class="gop"></rect>
+    <rect x="266.477" y="435.587" fill="#C81305" width="21.788" height="21.793" data-org="266.477" data-y="435.587" class="gop"></rect>
+    <rect x="288.265" y="435.587" fill="#C81305" width="21.791" height="21.793" data-org="288.265" data-y="435.587" class="gop"></rect>
+    <rect x="310.055" y="435.587" fill="#C81305" width="21.791" height="21.793" data-org="310.055" data-y="435.587" class="gop"></rect>
+    <rect x="310.055" y="370.219" fill="#C81305" width="21.791" height="21.791" data-org="310.055" data-y="370.219" class="gop"></rect>
+    <rect x="201.129" y="348.366" fill="#C81305" width="21.79" height="21.789" data-org="201.129" data-y="348.366" class="gop"></rect>
+    <rect x="288.265" y="457.378" fill="#C81305" width="21.791" height="21.789" data-org="288.265" data-y="457.378" class="gop"></rect>
+    <rect x="179.317" y="370.223" fill="#C81305" width="21.79" height="21.787" data-org="179.317" data-y="370.223" class="gop"></rect>
+    </g>
+  <g id="stroke">
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="397.313,152.454 397.313,130.667 397.313,130.666 
+      397.313,108.879 375.521,108.879 353.733,108.879 353.733,130.666 353.733,130.667 353.733,152.454 353.733,174.243 
+      353.733,196.033 375.521,196.033 397.313,196.033 419.1,196.033 419.1,174.243 419.1,152.454 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="658.699,501.088 636.909,501.088 615.121,501.088 
+      615.121,479.308 593.336,479.308 571.543,479.308 549.753,479.308 527.964,479.308 506.178,479.308 506.178,501.096 
+      527.964,501.096 549.753,501.096 571.543,501.096 571.543,522.878 593.336,522.878 615.121,522.878 615.121,522.879 
+      615.121,544.664 615.121,566.457 615.121,588.247 615.121,610.035 615.121,631.824 636.909,631.824 636.909,653.615 
+      636.909,675.403 658.699,675.403 680.492,675.403 680.492,653.615 680.492,631.824 680.492,610.035 680.492,588.247 
+      680.492,566.457 680.492,544.671 680.492,544.664 680.492,522.879 680.492,522.879 680.492,501.088 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="331.946,195.99 310.158,195.99 288.369,195.99 288.369,217.778 
+      288.369,217.78 288.369,239.567 310.158,239.567 331.946,239.567 353.738,239.567 353.738,217.78 353.738,217.778 353.738,195.99 	
+      "></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="70.393,152.384 48.604,152.384 48.604,174.175 26.815,174.175 
+      26.815,152.386 5.026,152.386 5.026,174.175 5.026,195.964 26.815,195.964 48.604,195.964 70.393,195.964 92.184,195.964 
+      92.184,174.175 92.184,152.384 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="5.026,195.964 26.815,195.964 48.604,195.964 70.393,195.964 
+      92.184,195.964 92.184,304.949 113.998,304.949 113.998,370.246 135.793,370.246 135.793,413.819 113.946,413.819 113.946,457.43 
+      26.8,457.43 26.8,413.819 5.012,413.819 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="135.793,392.034 135.793,370.246 113.998,370.246 
+      113.998,304.949 179.346,304.949 179.346,392.01 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="5.026,152.386 26.815,152.386 26.815,174.175 48.604,174.175 
+      48.604,152.384 70.393,152.384 92.184,152.384 92.184,86.998 48.604,86.998 48.604,108.806 26.8,108.806 26.8,86.998 5.012,86.998 
+      "></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="113.972,217.769 113.972,195.983 113.972,174.194 
+      92.181,174.194 92.181,195.983 92.181,217.769 92.181,217.771 92.181,239.558 113.969,239.558 113.972,239.558 135.761,239.558 
+      135.761,217.769 	"></polygon>
+    <rect x="114.004" y="195.964" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.362" height="21.791"></rect>
+    <rect x="222.994" y="174.202" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.361" height="21.79"></rect>
+    <rect x="222.994" y="196.031" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.361" height="21.79"></rect>
+    <rect x="135.79" y="217.843" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.361" height="21.789"></rect>
+    <rect x="92.181" y="239.558" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="43.612" height="65.322"></rect>
+    <rect x="135.904" y="239.558" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="43.419" height="65.322"></rect>
+    <rect x="179.519" y="239.558" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.286" height="65.322"></rect>
+    <rect x="462.737" y="370.333" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.284" height="65.324"></rect>
+    <rect x="615.201" y="435.855" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.284" height="65.322"></rect>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="593.345,414.101 615.155,414.101 615.155,479.422 
+      527.979,479.422 527.979,370.464 549.804,370.464 549.804,392.16 593.305,392.16 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="615.155,435.764 615.155,414.101 593.345,414.101 
+      593.305,392.16 549.804,392.16 549.804,370.464 702.317,370.464 702.317,413.943 680.516,413.943 680.516,435.855 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="179.372,368.816 179.372,304.88 222.898,304.88 222.898,348.376 
+      201.13,348.376 201.13,370.278 179.346,370.278 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="244.732,239.643 222.994,239.643 222.994,217.854 
+      288.355,217.854 288.355,261.297 244.775,261.297 	"></polygon>
+    <rect x="244.806" y="261.297" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.251" height="43.494"></rect>
+    <rect x="397.356" y="370.403" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="65.251" height="43.627"></rect>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="244.643,326.59 244.643,348.369 310.055,348.369 310.055,304.79 
+      222.912,304.79 222.912,326.588 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="222.912,326.588 244.643,326.588 244.643,348.369 
+      310.055,348.369 310.055,370.209 353.688,370.209 353.688,435.587 331.842,435.587 331.842,457.378 310.055,457.378 
+      310.055,500.954 266.477,500.954 266.477,479.164 244.686,479.164 244.686,457.378 222.898,457.378 222.898,435.585 
+      201.108,435.585 201.108,392.01 179.346,392.01 179.346,370.278 201.13,370.278 201.13,348.376 222.898,348.376 222.898,327.035 	
+      "></polygon>
+    <path fill="none" stroke="#FFFFFF" stroke-width="1.7" d="M353.688,370.592"></path>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="353.688,369.562 353.688,348.449 375.486,348.449 
+      375.486,370.349 397.31,370.349 397.31,414.03 419.1,414.03 419.1,435.629 353.688,435.629 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="353.732,108.867 331.943,108.867 331.943,130.643 
+      331.935,130.643 331.935,130.657 310.147,130.657 288.358,130.657 288.358,152.446 288.358,174.236 288.358,196.026 
+      310.147,196.026 331.935,196.026 331.935,196.01 353.725,196.01 353.725,174.221 353.725,152.434 353.725,130.657 353.732,130.657 
+      "></polygon>
+    <g>
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="419.114,108.874 397.326,108.874 397.326,130.663 
+        419.114,130.663 440.905,130.663 440.905,108.874 		"></polygon>
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="506.271,152.454 484.482,152.454 484.482,130.663 
+        462.694,130.663 440.905,130.663 440.905,152.454 440.905,174.243 440.905,196.031 440.905,217.822 462.694,217.822 
+        484.482,217.822 506.271,217.822 528.061,217.822 528.061,196.033 528.061,196.031 528.061,174.243 528.061,152.454 		"></polygon>
+    </g>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="462.679,217.834 440.891,217.834 440.891,239.623 
+      440.891,261.412 440.891,283.201 440.891,304.97 419.112,304.97 419.112,326.759 440.891,326.759 440.891,326.77 462.679,326.77 
+      484.471,326.77 484.471,304.99 484.471,304.979 484.471,283.201 484.471,261.412 484.471,239.623 484.471,217.834 	"></polygon>
+    <g>
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="724.119,174.299 724.119,152.51 724.119,130.721 
+        724.119,108.931 724.119,87.145 702.331,87.145 680.545,87.145 680.545,108.931 658.756,108.931 658.756,130.721 658.756,130.746 
+        636.963,130.746 636.963,152.51 615.174,152.51 615.174,174.299 593.385,174.299 593.385,196.09 571.6,196.09 571.6,217.878 
+        593.385,217.878 615.174,217.878 636.963,217.878 658.756,217.878 680.545,217.878 702.331,217.878 724.119,217.878 
+        724.119,196.09 		"></polygon>
+      <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="745.922,239.665 767.712,239.665 767.712,217.875 
+        746.126,217.875 745.912,217.878 724.119,217.878 724.119,239.669 745.509,239.669 		"></polygon>
+    </g>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="767.727,130.771 767.694,130.771 745.936,130.771 
+      724.145,130.771 724.145,152.561 724.145,174.349 724.145,196.141 745.936,196.141 745.936,174.349 767.694,174.349 
+      767.727,174.349 789.487,174.349 789.487,152.561 789.487,130.771 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="811.336,0 811.307,0 789.546,0 789.546,21.79 789.546,43.579 
+      811.307,43.579 811.336,43.579 833.096,43.579 833.096,21.79 833.096,0 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="811.336,43.625 811.307,43.625 789.546,43.625 789.546,65.412 
+      789.546,87.201 811.307,87.201 811.336,87.201 833.096,87.201 833.096,65.412 833.096,43.625 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="811.336,130.758 811.307,130.758 789.546,130.758 
+      789.546,152.55 789.546,174.337 811.307,174.337 811.336,174.337 833.096,174.337 833.096,152.55 833.096,130.758 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="756.84,65.33 756.879,65.33 789.546,65.33 789.546,76.267 
+      789.546,87.201 756.879,87.201 756.84,87.201 724.173,87.201 724.173,76.267 724.173,65.33 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="833.089,130.708 724.119,130.708 724.119,87.145 833.089,87.145 
+      833.089,108.92 854.876,108.92 854.876,130.708 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="288.383,239.672 331.946,239.672 331.946,261.289 
+      353.729,261.289 353.729,283.092 375.529,283.092 375.529,326.68 310.055,326.68 310.055,261.297 288.355,261.297 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="353.633,326.58 310.055,326.58 310.055,370.219 353.633,370.219 
+      353.633,348.456 397.292,348.456 397.292,326.68 	"></polygon>
+    <polyline fill="none" stroke="#FFFFFF" stroke-width="1.7" points="375.353,326.832 419.112,326.759 419.112,304.97 
+      440.891,304.97 440.891,283.201 440.891,261.412 440.891,239.623 419.094,239.623 419.1,196.033 397.313,196.033 375.521,196.033 
+      353.733,196.033 353.733,239.567 331.946,239.672 331.946,261.289 353.729,261.289 353.729,283.092 375.529,283.092 
+      375.529,326.672 	"></polyline>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="484.471,326.77 484.471,348.676 528.028,348.676 
+      528.028,370.464 375.486,370.464 375.486,348.456 397.292,348.456 397.292,326.795 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="549.834,217.822 571.579,217.822 571.579,326.749 
+      484.482,326.749 484.482,217.822 506.257,217.822 506.257,239.64 549.834,239.64 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="571.597,348.556 571.597,326.797 484.456,326.797 
+      484.456,348.676 528.021,348.676 528.021,370.367 615.091,370.367 615.091,348.556 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="680.534,326.827 680.534,305.039 615.137,305.039 
+      615.137,326.819 571.597,326.819 571.597,348.676 615.137,348.676 615.137,370.369 680.528,370.369 680.534,370.369 
+      702.321,370.369 702.321,326.827 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="571.579,261.434 571.579,217.822 724.122,217.822 
+      724.122,283.234 593.385,283.234 593.385,261.442 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="593.282,283.234 593.282,283.016 593.282,261.434 
+      571.604,261.434 571.604,326.819 593.282,326.819 615.174,326.819 615.174,283.234 	"></polygon>
+    <rect x="724.122" y="261.444" fill="none" stroke="#FFFFFF" stroke-width="1.7" width="21.785" height="65.393"></rect>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="724.097,326.78 724.097,304.99 724.094,304.99 724.094,283.244 
+      702.312,283.244 702.312,283.201 680.521,283.201 658.728,283.201 636.94,283.201 615.151,283.201 615.151,304.99 636.94,304.99 
+      658.728,304.99 680.521,304.99 680.521,326.78 702.312,326.78 702.312,348.568 724.097,348.568 724.097,370.354 745.889,370.354 
+      745.889,348.568 745.889,326.78 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="811.273,348.628 745.889,348.628 745.889,261.444 
+      724.014,261.444 724.122,239.68 789.478,239.68 789.478,283.263 811.273,283.263 	"></polygon>
+    <polygon fill="none" stroke="#FFFFFF" stroke-width="1.7" points="752.904,392.207 796.61,392.207 796.61,435.782 774.818,435.782 
+      774.818,413.999 752.904,413.999 	"></polygon>
+  </g>
+</svg>

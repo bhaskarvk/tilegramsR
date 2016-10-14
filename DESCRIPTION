@@ -1,7 +1,7 @@
 Package: tilegramsR
 Type: Package
 Title: R spatial data for Tilegrams
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
     role = c("aut", "cre"))
 Description: R spatial objects for Tilegrams.
@@ -19,7 +19,8 @@ Suggests:
     rmapshaper,
     knitr,
     rmarkdown,
-    leaflet  (>= 1.0.2.9003)
+    leaflet  (>= 1.0.2.9003),
+    cleangeo
 VignetteBuilder: knitr
 URL: https://github.com/bhaskarvk/tilegramsR
 BugReports: https://github.com/bhaskarvk/tilegramsR/issues

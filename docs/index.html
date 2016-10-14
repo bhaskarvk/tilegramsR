@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-<title>Home. tilegramsR 0.1.1</title>
+<title>Home. tilegramsR 0.1.2</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="">
 
@@ -32,7 +32,7 @@
     <div class="navbar">
   <div class="navbar-inner">
     <div class="container">
-      <a class="brand" href="index.html">tilegramsR 0.1.1</a>
+      <a class="brand" href="index.html">tilegramsR 0.1.2</a>
       <div class="nav">
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
@@ -53,31 +53,81 @@
   <div class="span8">
     <h1>tilegramsR</h1>
 
-<p><a href="https://travis-ci.org/bhaskarvk/tilegramsR"><img src="https://travis-ci.org/bhaskarvk/tilegramsR.svg?branch=master" alt="Travis-CI Build Status"/></a></p>
-
-<p>The goal of tilegramsR is to provide R spatial objects representing Tilegrams.
+<p>The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
 To know more about Tilegrams see <a href="https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md">this post</a> and a <a href="https://pitchinteractiveinc.github.io/tilegrams/">this web app</a>.</p>
 
 <h2>Data</h2>
 
-<p>You get the following data with this package</p>
+<p>The package provides the following spatial objects</p>
+
+<h3>Pitch Interactive Population based Tilegram</h3>
 
 <ul>
 <li><strong>Pitch_US_Population_2016_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 500K people</li>
 <li><strong>Pitch_US_Population_2016_v1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state </li>
-<li><p><strong>Pitch_US_Population_2016_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
-<li><p><strong>FiveThirtyEightElectoralCollege</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</p></li>
-<li><p><strong>FiveThirtyEightElectoralCollege.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state </p></li>
-<li><p><strong>FiveThirtyEightElectoralCollege.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
-<li><p><strong>NPR1to1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</p></li>
-<li><p><strong>NPR1to1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+<li><strong>Pitch_US_Population_2016_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>fivethirtyeight&#39;s Electoral College Tilegram</h3>
+
+<ul>
+<li><strong>FiveThirtyEightElectoralCollege</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</li>
+<li><strong>FiveThirtyEightElectoralCollege.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state </li>
+<li><strong>FiveThirtyEightElectoralCollege.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>NPR 1 State = 1 Hexagon Tilegram</h3>
+
+<ul>
+<li><strong>NPR1to1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>NPR1to1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>Daily KOS Dual Hexagon Tilegram</h3>
+
+<ul>
+<li><strong>DKOS_50_State_OuterHex_Tilemap_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_50_State_InnerHex_Tilemap_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_50_State_Hex_Tilemap_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>Daily KOS Congressional Districts Tilegram</h3>
+
+<ul>
+<li><strong>DKOS_CD_Hexmap_v1.1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 congressional District</li>
+<li><strong>DKOS_CD_Hexmap_v1.1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_CD_Hexmap_v1.1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>Daily KOS Electoral College Tilegram</h3>
+
+<ul>
+<li><strong>DKOS_Electoral_College_Map_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</li>
+<li><strong>DKOS_Electoral_College_Map_v1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_Electoral_College_Map_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+
+<h3>Daily KOS Distorted Electoral College Tilegram</h3>
+
+<ul>
+<li><strong>DKOS_Distorted_Electoral_College_Map_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_Distorted_Electoral_College_Map_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
 </ul>
 
 <p>As and when newer Tilegrams are made available they will be added to this package.</p>
 
 <h2>Example Code</h2>
 
-<p>Check out <a href="http://rpubs.com/bhaskarvk/tilegramsR">Rpubs: tilegramsR</a></p>
+<p>Check out <code>inst\examples</code> folder, or see it in action at <a href="http://rpubs.com/bhaskarvk/tilegramsR">Rpubs: tilegramsR</a> and <a href="http://rpubs.com/bhaskarvk/electoral-Map-2016">Rpubs: Election Map</a>.</p>
+
+<h2>Credits</h2>
+
+<ul>
+<li><a href="https://twitter.com/pitchinc">Pitch Interactive</a> for the excellent <a href="https://pitchinteractiveinc.github.io/tilegrams/">Tilegrams</a> webapp and population tilegram.</li>
+<li><a href="https://twitter.com/donnermaps">Daniel Donner</a> of <a href="https://refinery.dailykosbeta.com/elections-maps">Daily KOS</a> for Tilegrams.</li>
+<li><a href="https://twitter.com/ellawinthrop">Ella Koeze</a> for <a href="https://projects.fivethirtyeight.com/2016-election-forecast/">fivethirtyeight[.]com</a> Tilegrams.</li>
+<li><a href="https://twitter.com/dannydb">Danny DeBelius</a> &amp; <a href="https://twitter.com/brianboyer">Brian Boyer</a> for <a href="http://blog.apps.npr.org/2015/05/11/hex-tile-maps.html">NPR</a>&#39;s Hexagon Tilegrams.</li>
+</ul>
 
   </div>
 

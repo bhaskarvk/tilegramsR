@@ -15,11 +15,11 @@ Pitch_US_Population_2016_v1.states
 Pitch_US_Population_2016_v1.centers
 }
 \description{
-A `SpatialPolygonsDataFrame` where each polygon = 500K people
+A `SpatialPolygonsDataFrame` where each polygon equals 500K people
 
-A `SpatialPolygonsDataFrame` where each polygon = 1 state
+A `SpatialPolygonsDataFrame` where each polygon represents a state
 
-A `SpatialPointsDataFrame`  of centroids of each state
+A `SpatialPointsDataFrame` of centroids of each state
 }
 \keyword{datasets}
 

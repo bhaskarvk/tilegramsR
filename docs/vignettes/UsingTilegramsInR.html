@@ -12,7 +12,7 @@
 
 <meta name="author" content="Bhaskar V. Karambelar" />
 
-<meta name="date" content="2016-10-12" />
+<meta name="date" content="2016-10-14" />
 
 <title>Using Tilegrams in R</title>
 
@@ -32,25 +32,68 @@
 
 <h1 class="title toc-ignore">Using Tilegrams in R</h1>
 <h4 class="author"><em>Bhaskar V. Karambelar</em></h4>
-<h4 class="date"><em>2016-10-12</em></h4>
+<h4 class="date"><em>2016-10-14</em></h4>
 
 
 
-<p>The goal of tilegramsR is to provide R spatial objects representing Tilegrams. To know more about Tilegrams see <a href="https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md">this post</a> and a <a href="https://pitchinteractiveinc.github.io/tilegrams/">this web app</a>.</p>
+<p>The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet. To know more about Tilegrams see <a href="https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md">this post</a> and a <a href="https://pitchinteractiveinc.github.io/tilegrams/">this web app</a>.</p>
 <div id="data" class="section level2">
 <h2>Data</h2>
-<p>You get the following data with this package</p>
+<p>The package provides the following spatial objects</p>
+<div id="pitch-interactive-population-based-tilegram" class="section level4">
+<h4>Pitch Interactive Population based Tilegram</h4>
 <ul>
 <li><strong>Pitch_US_Population_2016_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 500K people</li>
 <li><strong>Pitch_US_Population_2016_v1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
-<li><p><strong>Pitch_US_Population_2016_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+<li><strong>Pitch_US_Population_2016_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
+<div id="fivethirtyeights-electoral-college-tilegram" class="section level4">
+<h4>fivethirtyeight’s Electoral College Tilegram</h4>
+<ul>
 <li><strong>FiveThirtyEightElectoralCollege</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</li>
 <li><strong>FiveThirtyEightElectoralCollege.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
-<li><p><strong>FiveThirtyEightElectoralCollege.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
-<li><strong>NPR1to1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
-<li><p><strong>NPR1to1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</p></li>
+<li><strong>FiveThirtyEightElectoralCollege.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
 </ul>
-<p>As and when newer Tilegrams are made available they will be added to this package.</p>
+</div>
+<div id="npr-1-state-1-hexagon-tilegram" class="section level4">
+<h4>NPR 1 State = 1 Hexagon Tilegram</h4>
+<ul>
+<li><strong>NPR1to1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>NPR1to1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
+<div id="daily-kos-dual-hexagon-tilegram" class="section level4">
+<h4>Daily KOS Dual Hexagon Tilegram</h4>
+<ul>
+<li><strong>DKOS_50_State_OuterHex_Tilemap_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_50_State_InnerHex_Tilemap_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_50_State_Hex_Tilemap_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
+<div id="daily-kos-congressional-districts-tilegram" class="section level4">
+<h4>Daily KOS Congressional Districts Tilegram</h4>
+<ul>
+<li><strong>DKOS_CD_Hexmap_v1.1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 congressional District</li>
+<li><strong>DKOS_CD_Hexmap_v1.1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_CD_Hexmap_v1.1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
+<div id="daily-kos-electoral-college-tilegram" class="section level4">
+<h4>Daily KOS Electoral College Tilegram</h4>
+<ul>
+<li><strong>DKOS_Electoral_College_Map_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 electoral college</li>
+<li><strong>DKOS_Electoral_College_Map_v1.states</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_Electoral_College_Map_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
+<div id="daily-kos-distorted-electoral-college-tilegram" class="section level4">
+<h4>Daily KOS Distorted Electoral College Tilegram</h4>
+<ul>
+<li><strong>DKOS_Distorted_Electoral_College_Map_v1</strong>: A <code>SpatialPolygonsDataFrame</code> where each polygon = 1 state</li>
+<li><strong>DKOS_Distorted_Electoral_College_Map_v1.centers</strong>: A <code>SpatialPointsDataFrame</code> of centroids of each state</li>
+</ul>
+</div>
 </div>
 
 
