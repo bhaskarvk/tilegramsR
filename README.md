@@ -47,6 +47,26 @@ The package provides the following spatial objects
 - **DKOS_Distorted_Electoral_College_Map_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
 - **DKOS_Distorted_Electoral_College_Map_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
 
+### NPR.DorlingCartogram
+
+- **NPR.DorlingCartogram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **NPR.DorlingCartogram.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+### Washington Post Tilegram
+
+- **WP**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **WP.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+### Wall Street Journal Tilegram
+
+- **WSJ**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **WSJ.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+### Datamap.io.tilegram
+
+- **Datamap.io.tilegram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **Datamap.io.tilegram.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
 As and when newer Tilegrams are made available they will be added to this package.
 
 ## Example Code
@@ -59,3 +79,7 @@ Check out `inst\examples` folder, or see it in action at [Rpubs: tilegramsR](htt
 - [Daniel Donner](https://twitter.com/donnermaps) of [Daily KOS](https://refinery.dailykosbeta.com/elections-maps) for Tilegrams.
 - [Ella Koeze](https://twitter.com/ellawinthrop) for [fivethirtyeight[.]com](https://projects.fivethirtyeight.com/2016-election-forecast/) Tilegrams.
 - [Danny DeBelius](https://twitter.com/dannydb) & [Brian Boyer](https://twitter.com/brianboyer) for [NPR](http://blog.apps.npr.org/2015/05/11/hex-tile-maps.html)'s Hexagon Tilegrams.
+- [NPR Dorling Cartogram](http://www.npr.org/2016/10/09/497277536)
+- [Washington Post Tilegram](https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/)
+- [Wall Street Journal Tilegram](http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/)
+- [Datamap.io Tilegram](https://elections.datamap.io/us/2016/09/23/electoral_college_forecast)

@@ -98,7 +98,7 @@ DKOS_Electoral_College_Map_v1 <- cleangeo::clgeo_Clean(
 # The state filed has different entries for Nebraska and Maine's Districts
 # So we need to extract the trueState from them.
 DKOS_Electoral_College_Map_v1@data %<>%
-  dplyr::mutate(trueState=stringr::str_extract(State,'^..'))
+  dplyr::mutate(trueState=as.factor(stringr::str_extract(State,'^..')))
 
 devtools::use_data(DKOS_Electoral_College_Map_v1, overwrite = TRUE)
 
@@ -149,3 +149,74 @@ DKOS_50_State_Hex_Tilemap_v1.centers = SpatialPointsDataFrame(
   DKOS_50_State_OuterHex_Tilemap_v1@data, match.ID = F)
 
 devtools::use_data(DKOS_50_State_Hex_Tilemap_v1.centers, overwrite = TRUE)
+
+# NPR Dorling Cartogram ----
+# http://www.npr.org/2016/10/09/497277536
+
+NPR.DorlingCartogram <- readOGR('./data-raw/NPR/npr.geojson',
+                                'OGRGeoJSON')
+proj4string(NPR.DorlingCartogram) <- ''
+
+devtools::use_data(NPR.DorlingCartogram, overwrite = TRUE)
+
+NPR.DorlingCartogram.centers = SpatialPointsDataFrame(
+  rgeos::gCentroid(NPR.DorlingCartogram,
+                   byid = TRUE, id=NPR.DorlingCartogram@data$id),
+  NPR.DorlingCartogram@data, match.ID = F)
+
+devtools::use_data(NPR.DorlingCartogram.centers, overwrite = TRUE)
+
+# Washington Post Tiles ----
+# https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/
+
+WP <- readOGR('./data-raw/WashingtonPost/wp.geojson', 'OGRGeoJSON')
+proj4string(WP) <- ''
+
+devtools::use_data(WP, overwrite = TRUE)
+
+WP.centers = SpatialPointsDataFrame(
+  rgeos::gCentroid(WP,
+                   byid = TRUE, id=WP@data$id),
+  WP@data, match.ID = F)
+
+devtools::use_data(WP.centers, overwrite = TRUE)
+
+# Wall Street Journal Tiles ----
+# http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/
+
+WSJ <- readOGR('./data-raw/WallStreetJournal/wsj.geojson', 'OGRGeoJSON')
+proj4string(WSJ) <- ''
+
+devtools::use_data(WSJ, overwrite = TRUE)
+
+WSJ.centers = SpatialPointsDataFrame(
+  rgeos::gCentroid(WSJ,
+                   byid = TRUE, id=WSJ@data$id),
+  WSJ@data, match.ID = F)
+
+devtools::use_data(WSJ.centers, overwrite = TRUE)
+
+# Datamap.io ----
+# https://elections.datamap.io/us/2016/09/23/electoral_college_forecast
+# http://bl.ocks.org/rogerfischer/15ef631812c56e3ef85af8191ef0de75
+
+Datamap.io.tilegram <- readOGR('./data-raw/datamap',
+                                'us_ec2016_state_hexagon')
+Datamap.io.tilegram@data %<>%
+  dplyr::mutate(FIPS=stringr::str_extract(id,'..$'))
+
+Datamap.io.tilegram@data %<>%
+  dplyr::left_join(
+    usgazetteer::state.areas.2010 %>%
+      dplyr::select(State, FIPS, USPS),
+    by=c('FIPS'='FIPS'))
+
+
+devtools::use_data(Datamap.io.tilegram, overwrite = TRUE)
+
+Datamap.io.tilegram.centers = SpatialPointsDataFrame(
+  rgeos::gCentroid(Datamap.io.tilegram,
+                   byid = TRUE, id=Datamap.io.tilegram@data$id),
+  Datamap.io.tilegram@data, match.ID = F)
+
+devtools::use_data(Datamap.io.tilegram.centers, overwrite = TRUE)

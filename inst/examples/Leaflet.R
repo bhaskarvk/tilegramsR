@@ -261,3 +261,107 @@ leaflet(
       noHide = 'T', textOnly = T, offset=c(-20,-15), textsize = '15px',
       direction="auto")) %>%
   highlightStates()
+
+# NPR Dorling Cartogram ----
+#' ### NPR Dorling
+
+states <- NPR.DorlingCartogram@data$id
+factpal <- colorFactor(colormap::colormap(
+  nshades = length(states)), states)
+
+#+ fig.width= 9, fig.height=6
+leaflet(
+  options=leafletOptions(
+    crs = leafletCRS("L.CRS.Simple"),
+    minZoom = 0.1, maxZoom = 0.1,
+    dragging = FALSE, zoomControl = FALSE,
+    attributionControl = FALSE)) %>%
+  addPolygons(
+    data=NPR.DorlingCartogram, group = 'states',
+    weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
+    fillColor= ~factpal(id)) %>%
+  addLabelOnlyMarkers(
+    data=NPR.DorlingCartogram.centers,
+    label = ~as.character(id),
+    labelOptions = labelOptions(
+      noHide = 'T', textOnly = T, offset=c(-12,-15), textsize = '15px',
+      direction="auto")) %>%
+  highlightStates()
+
+# Washington Post Tilegram ----
+#' ### Washington Post
+
+states <- WP@data$id
+factpal <- colorFactor(colormap::colormap(
+  nshades = length(states)), states)
+
+#+ fig.width= 9, fig.height=6
+leaflet(
+  options=leafletOptions(
+    crs = leafletCRS("L.CRS.Simple"),
+    minZoom = 0.1, maxZoom = 0.1,
+    dragging = FALSE, zoomControl = FALSE,
+    attributionControl = FALSE)) %>%
+  addPolygons(
+    data=WP, group = 'states',
+    weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
+    fillColor= ~factpal(id)) %>%
+  addLabelOnlyMarkers(
+    data=WP.centers,
+    label = ~as.character(id),
+    labelOptions = labelOptions(
+      noHide = 'T', textOnly = T, offset=c(-10,-8), textsize = '15px',
+      direction="auto")) %>%
+  highlightStates()
+
+# Wall Street Journal Tilegram ----
+#' ### Wall Street Journal
+
+states <- WSJ@data$id
+factpal <- colorFactor(colormap::colormap(
+  nshades = length(states)), states)
+
+#+ fig.width= 9, fig.height=6
+leaflet(
+  options=leafletOptions(
+    crs = leafletCRS("L.CRS.Simple"),
+    minZoom = 0.1, maxZoom = 0.1,
+    dragging = FALSE, zoomControl = FALSE,
+    attributionControl = FALSE)) %>%
+  addPolygons(
+    data=WSJ, group = 'states',
+    weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
+    fillColor= ~factpal(id)) %>%
+  addLabelOnlyMarkers(
+    data=WSJ.centers,
+    label = ~as.character(id),
+    labelOptions = labelOptions(
+      noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
+      direction="auto")) %>%
+  highlightStates()
+
+# Datamap.io Tilegram ----
+#' ### Datamap.io
+
+states <- Datamap.io.tilegram@data$USPS
+factpal <- colorFactor(colormap::colormap(
+  nshades = length(states)), states)
+
+#+ fig.width= 9, fig.height=6
+leaflet(
+  options=leafletOptions(
+    crs = leafletCRS("L.CRS.Simple"),
+    minZoom = -1, maxZoom = -1,
+    dragging = FALSE, zoomControl = FALSE,
+    attributionControl = FALSE)) %>%
+  addPolygons(
+    data=Datamap.io.tilegram, group = 'states',
+    weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
+    fillColor= ~factpal(USPS)) %>%
+  addLabelOnlyMarkers(
+    data=Datamap.io.tilegram.centers,
+    label = ~as.character(USPS),
+    labelOptions = labelOptions(
+      noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
+      direction="auto")) %>%
+  highlightStates()

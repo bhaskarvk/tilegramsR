@@ -3,7 +3,7 @@
 #' author: "Bhaskar V. Karambelkar"
 #' date: "October 12th, 2016"
 #' output:
-#'   html_document:
+#'   html_document
 #' ---
 #'
 #' ## Explanation of the code

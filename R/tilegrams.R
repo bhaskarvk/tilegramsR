@@ -150,3 +150,67 @@
 #' @format A SpatialPointsDataFrame
 #' @rdname DKOS_Distorted_Electoral_College_Map_v1
 "DKOS_Distorted_Electoral_College_Map_v1.centers"
+
+# NPR Dorling Cartogram ----
+#' NPR.DorlingCartogram
+#'
+#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#'
+#' @format A SpatialPolygonsDataFrame
+"NPR.DorlingCartogram"
+
+#' NPR.DorlingCartogram.centers
+#'
+#' A `SpatialPointsDataFrame` of centroids of each state
+#'
+#' @format A SpatialPointsDataFrame
+#' @rdname NPR.DorlingCartogram
+"NPR.DorlingCartogram.centers"
+
+# Washington Post Tilegram ----
+#' WP
+#'
+#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#'
+#' @format A SpatialPolygonsDataFrame
+"WP"
+
+#' WP.centers
+#'
+#' A `SpatialPointsDataFrame` of centroids of each state
+#'
+#' @format A SpatialPointsDataFrame
+#' @rdname WP
+"WP.centers"
+
+# Wall Street Journal Tilegram ----
+#' WSJ
+#'
+#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#'
+#' @format A SpatialPolygonsDataFrame
+"WSJ"
+
+#' WSJ.centers
+#'
+#' A `SpatialPointsDataFrame` of centroids of each state
+#'
+#' @format A SpatialPointsDataFrame
+#' @rdname WSJ
+"WSJ.centers"
+
+# Datamap.io Tilegram ----
+#' Datamap.io.tilegram
+#'
+#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#'
+#' @format A SpatialPolygonsDataFrame
+"Datamap.io.tilegram"
+
+#' Datamap.io.tilegram.centers
+#'
+#' A `SpatialPointsDataFrame` of centroids of each state
+#'
+#' @format A SpatialPointsDataFrame
+#' @rdname Datamap.io.tilegram
+"Datamap.io.tilegram.centers"

@@ -54,3 +54,23 @@ The package provides the following spatial objects
 
 - **DKOS_Distorted_Electoral_College_Map_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
 - **DKOS_Distorted_Electoral_College_Map_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+#### NPR.DorlingCartogram
+
+- **NPR.DorlingCartogram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **NPR.DorlingCartogram.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+#### Washington Post Tilegram
+
+- **WP**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **WP.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+#### Wall Street Journal Tilegram
+
+- **WSJ**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **WSJ.centers**: A `SpatialPointsDataFrame` of centroids of each state
+
+#### Datamap.io.tilegram
+
+- **Datamap.io.tilegram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
+- **Datamap.io.tilegram.centers**: A `SpatialPointsDataFrame` of centroids of each state
