@@ -3,5 +3,5 @@
 ^data-raw$
 ^docs$
 ^\.travis\.yml$
-^inst/examples/*.html$
+^inst/examples/.*\.html$
 ^inst/examples/rsconnect$
