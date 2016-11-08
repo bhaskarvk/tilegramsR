@@ -16,40 +16,20 @@ library(leaflet)
 
 # JS code ----
 
-# A Javascript function we'll use to highlight our states
-highlightStates <- function(
-  map, groupName='states', defaultWeight=2, hightlightWeight=4) {
+# A Javascript function we'll use style our leaflet widget
+styleMap <- function(
+  map, style = list(background='transparent')) {
   map %>%  htmlwidgets::onRender(
-    sprintf(
-      " function(el, t) {
-          this._container.style['background'] = '#ffffff';
-          var defaultStyle = {
-            weight: %d,
-          };
-          var highlightStyle = {
-            weight: %d,
-          };
-
-          var myMap = this;
-
-          var layers = myMap.layerManager._byGroup.%s;
-          for(var i in layers) {
-            var layer = layers[i];
-            layer.on('mouseover',
-              function(e) {
-              this.setStyle(highlightStyle);
-              this.bringToFront();
-              });
-            layer.on('mouseout',
-              function(e) {
-                this.setStyle(defaultStyle);
-                //this.bringToBack();
-              });
-          }
-      }"
-      ,
-      defaultWeight, hightlightWeight, groupName
-    )
+    JS("function(el, x, style) {
+      var myMap = this;
+      if($.isEmptyObject(myMap._container.style)) {
+        myMap._container.style = {};
+      }
+      $.each(style, function(key, value) {
+        myMap._container.style[key] = value;
+      });
+    }"),
+    data = style
   )
 }
 
@@ -70,15 +50,15 @@ leaflet(
     attributionControl = FALSE)) %>%
   addPolygons(
     weight=2,color='#000000', group = 'states',
-    fillOpacity = 0.6, opacity = 1,
-    fillColor= ~factpal(state)) %>%
+    fillOpacity = 0.6, opacity = 1, fillColor= ~factpal(state),
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addLabelOnlyMarkers(
     data=NPR1to1.centers,
     label = ~as.character(state),
     labelOptions = labelOptions(
     noHide = 'T', textOnly = T,
     offset=c(-4,-10), textsize = '12px')) %>%
-  highlightStates()
+  styleMap()
 
 # Pitch ----
 #' ### Population
@@ -101,14 +81,15 @@ leaflet(
   addPolygons(
     data=Pitch_US_Population_2016_v1.states, group = 'states',
     weight=2,color='#000000',
-    fill = T, opacity = 1, fillOpacity = 0) %>%
+    fill = T, opacity = 1, fillOpacity = 0,
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addLabelOnlyMarkers(
     data=Pitch_US_Population_2016_v1.centers,
     label = ~as.character(state),
     labelOptions = labelOptions(
     noHide = 'T', textOnly = T,
     offset=c(-4,-10), textsize = '15px')) %>%
-  highlightStates()
+  styleMap()
 
 
 # 538.com ----
@@ -132,14 +113,15 @@ leaflet(
   addPolygons(
     data=FiveThirtyEightElectoralCollege.states, group = 'states',
     weight=2,color='#000000',
-    fill = T, opacity = 1, fillOpacity = 0) %>%
+    fill = T, opacity = 1, fillOpacity = 0,
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addLabelOnlyMarkers(
     data=FiveThirtyEightElectoralCollege.centers,
     label = ~as.character(state),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T,
       offset=c(-8,-20), textsize = '15px')) %>%
-  highlightStates()
+  styleMap()
 
 # Daily KOS Dual Hexbin Tilegram ----
 #' ### DKOS DualHex
@@ -160,11 +142,13 @@ leaflet(
   addPolygons(
     data=DKOS_50_State_OuterHex_Tilemap_v1, group='states',
     weight=2,color='#000000', opacity = 1,
-    fillColor= ~factpal(State)) %>%
+    fillColor= ~factpal(State),
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addPolygons(
     data=DKOS_50_State_InnerHex_Tilemap_v1,
     weight=1,color='#000000', opacity=1, fillOpacity = 1,
-    fillColor= ~factpal2(State)) %>%
+    fillColor= ~factpal2(State),
+    options = pathOptions(clickable = FALSE, pointerEvents = 'none')) %>%
   addLabelOnlyMarkers(
     data=DKOS_50_State_Hex_Tilemap_v1.centers,
     label = ~as.character(State),
@@ -172,7 +156,7 @@ leaflet(
       noHide = 'T', textOnly = T,
       offset=c(-4,-10), textsize = '12px',
       style=list('color'='#ffffff'))) %>%
-  highlightStates()
+  styleMap()
 
 
 # Daily KOS Congressional Districts Hexbin Tilegram ----
@@ -196,14 +180,15 @@ leaflet(
   addPolygons(
     data=DKOS_CD_Hexmap_v1.1.states, group = 'states',
     weight=2,color='#000000', fill = T,
-    opacity = 1, fillOpacity = 0) %>%
+    opacity = 1, fillOpacity = 0,
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addLabelOnlyMarkers(
     data=DKOS_CD_Hexmap_v1.1.centers,
     label = ~as.character(STATE),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-12,-15), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 
 # Daily KOS Electoral College Map ----
@@ -227,14 +212,15 @@ leaflet(
   addPolygons(
     data=DKOS_Electoral_College_Map_v1.states, group = 'states',
     weight=2,color='#000000', fill = T,
-    opacity = 1, fillOpacity = 0) %>%
+    opacity = 1, fillOpacity = 0,
+    highlightOptions = highlightOptions(weight = 4)) %>%
   addLabelOnlyMarkers(
     data=DKOS_Electoral_College_Map_v1.centers,
     label = ~as.character(trueState),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-12,-15), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 # Daily KOS Distorted_Electoral College Map ----
 #' ### DKOS Distorted
@@ -253,14 +239,15 @@ leaflet(
   addPolygons(
     data=DKOS_Distorted_Electoral_College_Map_v1, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
-    fillColor= ~factpal(STUSPS)) %>%
+    fillColor= ~factpal(STUSPS),
+    highlightOptions = highlightOptions(weight = 3)) %>%
   addLabelOnlyMarkers(
     data=DKOS_Distorted_Electoral_College_Map_v1.centers,
     label = ~as.character(STUSPS),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-20,-15), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 # NPR Demers Cartogram ----
 #' ### NPR Demers
@@ -279,14 +266,15 @@ leaflet(
   addPolygons(
     data=NPR.DemersCartogram, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
-    fillColor= ~factpal(id)) %>%
+    fillColor= ~factpal(id),
+    highlightOptions = highlightOptions(weight = 3)) %>%
   addLabelOnlyMarkers(
     data=NPR.DemersCartogram.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-12,-15), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 # Washington Post Tilegram ----
 #' ### Washington Post
@@ -305,14 +293,15 @@ leaflet(
   addPolygons(
     data=WP, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
-    fillColor= ~factpal(id)) %>%
+    fillColor= ~factpal(id),
+    highlightOptions = highlightOptions(weight = 3)) %>%
   addLabelOnlyMarkers(
     data=WP.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-10,-8), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 # Wall Street Journal Tilegram ----
 #' ### Wall Street Journal
@@ -331,14 +320,15 @@ leaflet(
   addPolygons(
     data=WSJ, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
-    fillColor= ~factpal(id)) %>%
+    fillColor= ~factpal(id),
+    highlightOptions = highlightOptions(weight = 3)) %>%
   addLabelOnlyMarkers(
     data=WSJ.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()
 
 # Datamap.io Tilegram ----
 #' ### Datamap.io
@@ -357,11 +347,12 @@ leaflet(
   addPolygons(
     data=Datamap.io.tilegram, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
-    fillColor= ~factpal(USPS)) %>%
+    fillColor= ~factpal(USPS),
+    highlightOptions = highlightOptions(weight = 3)) %>%
   addLabelOnlyMarkers(
     data=Datamap.io.tilegram.centers,
     label = ~as.character(USPS),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
       direction="auto")) %>%
-  highlightStates()
+  styleMap()

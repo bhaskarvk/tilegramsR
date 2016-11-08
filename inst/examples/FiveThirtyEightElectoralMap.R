@@ -43,7 +43,7 @@ ensureCranPkg('htmltools')
 #' <br/>
 #' Libraries we need from github
 if(!suppressWarnings(requireNamespace('leaflet',quietly = TRUE)) ||
-   packageVersion('leaflet') < '1.0.2.9003') {
+   packageVersion('leaflet') < '1.0.2.9006') {
   devtools::install_github('rstudio/leaflet')
 }
 
@@ -60,6 +60,7 @@ if(!suppressWarnings(requireNamespace('usgazetteer', quietly = TRUE))) {
 
 library(tilegramsR)
 library(leaflet)
+library(magrittr)
 
 # The URL for election forecast
 url <- 'http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-senate-forecast'
@@ -162,60 +163,39 @@ leaflet(options=leafletOptions(
   minZoom = -1.5, maxZoom = -1.5,
   dragging = FALSE, zoomControl = FALSE,
   attributionControl = FALSE)) %>%
-  addPolygons(data=FiveThirtyEightElectoralCollege, group = 'college',
-              weight=1,color='#000', fill=F,
-              opacity=0.3) %>%
-  addPolygons(data=spdf, group = 'states',
-              weight=1,color='#222',
-              fillColor= ~factpal(who),
-              fill = T, opacity = 1,
-              fillOpacity = ~ifelse(who=='D',(dem.winprob/100)-0.1,
-                                    (rep.winprob/100)-0.1),
-              label=~hoverText,
-              labelOptions = labelOptions(
-                offset = c(-100,-140),
-                #direction='bottom',
-                textOnly = T,
-                style=list(
-                  'background'='rgba(255,255,255,0.95)',
-                  'border-color' = 'rgba(0,0,0,1)',
-                  'border-radius' = '4px',
-                  'border-style' = 'solid',
-                  'border-width' = '4px'))) %>%
-  addLabelOnlyMarkers(data=FiveThirtyEightElectoralCollege.centers,
-              label = ~as.character(state),
-              labelOptions = labelOptions(
-                noHide = 'T', textOnly = T,
-                offset=c(-5,-10), textsize = '15px',
-                style=list('color'='black')) )  %>%
+  addPolygons(
+    data=FiveThirtyEightElectoralCollege, group = 'college',
+    weight=1,color='#000', fill=F, opacity=0.3) %>%
+  addPolygons(
+    data=spdf, group = 'states',
+    weight=1, color='#222',
+    fillColor= ~factpal(who), fill = T, opacity = 1,
+    fillOpacity = ~ifelse(who=='D',(dem.winprob/100)-0.1,
+                          (rep.winprob/100)-0.1),
+    label=~hoverText,
+    labelOptions = labelOptions(
+      offset = c(-100,-140),
+      #direction='bottom',
+      textOnly = T,
+      style=list(
+        'background'='rgba(255,255,255,0.95)',
+        'border-color' = 'rgba(0,0,0,1)',
+        'border-radius' = '4px',
+        'border-style' = 'solid',
+        'border-width' = '4px')),
+    highlightOptions = highlightOptions(weight = 3, bringToFront = TRUE)) %>%
+  addLabelOnlyMarkers(
+    data=FiveThirtyEightElectoralCollege.centers,
+    label = ~as.character(state),
+    labelOptions = labelOptions(
+      noHide = 'T', textOnly = T,
+      offset=c(-5,-10), textsize = '15px',
+      style=list('color'='black')) )  %>%
   htmlwidgets::onRender(
-    " function(el, t) {
+    "function(el, t) {
         var myMap = this;
-
         // get rid of the ugly grey background
         myMap._container.style['background'] = '#ffffff';
-
-        var defaultStyle = {
-          weight: 1,
-        };
-        var highlightStyle = {
-          weight: 4,
-        };
-
-        // Add hover effect for each state polygon
-        var layers = myMap.layerManager._byGroup.states;
-        for(var i in layers) {
-          var layer = layers[i];
-          layer.on('mouseover',
-            function(e) {
-            this.setStyle(highlightStyle);
-            this.bringToFront();
-            });
-          layer.on('mouseout',
-            function(e) {
-              this.setStyle(defaultStyle);
-            });
-        }
     }")
 
 #' <br/><br/>

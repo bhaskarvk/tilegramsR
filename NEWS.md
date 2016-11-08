@@ -1,4 +1,4 @@
-# tilegramsR 0.1.3
+# tilegramsR 0.1.4
 
 * Renamed NPR.DorlingCarogram to its proper name NPR.DemersCartogram
 

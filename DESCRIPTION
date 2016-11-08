@@ -5,7 +5,8 @@ Version: 0.1.4
 Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
     role = c("aut", "cre"))
 Description: R spatial objects for Tilegrams.
-    See https://github.com/PitchInteractiveInc/tilegrams.
+  Tilegrams are tiled maps where the region size is proportional to
+  the certain characteristics of the dataset.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
