@@ -1,5 +1,9 @@
 # tilegramsR 0.1.3
 
+* Renamed NPR.DorlingCarogram to its proper name NPR.DemersCartogram
+
+# tilegramsR 0.1.3
+
 * Even more cartograms from Washington Post, WSJ, NPR, Datamap.com
 
 # tilegramsR 0.1.2

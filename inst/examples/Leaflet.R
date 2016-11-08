@@ -262,10 +262,10 @@ leaflet(
       direction="auto")) %>%
   highlightStates()
 
-# NPR Dorling Cartogram ----
-#' ### NPR Dorling
+# NPR Demers Cartogram ----
+#' ### NPR Demers
 
-states <- NPR.DorlingCartogram@data$id
+states <- NPR.DemersCartogram@data$id
 factpal <- colorFactor(colormap::colormap(
   nshades = length(states)), states)
 
@@ -277,11 +277,11 @@ leaflet(
     dragging = FALSE, zoomControl = FALSE,
     attributionControl = FALSE)) %>%
   addPolygons(
-    data=NPR.DorlingCartogram, group = 'states',
+    data=NPR.DemersCartogram, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
     fillColor= ~factpal(id)) %>%
   addLabelOnlyMarkers(
-    data=NPR.DorlingCartogram.centers,
+    data=NPR.DemersCartogram.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
       noHide = 'T', textOnly = T, offset=c(-12,-15), textsize = '15px',

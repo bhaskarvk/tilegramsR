@@ -1,7 +1,7 @@
 Package: tilegramsR
 Type: Package
 Title: R spatial data for Tilegrams
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
     role = c("aut", "cre"))
 Description: R spatial objects for Tilegrams.

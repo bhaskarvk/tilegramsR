@@ -150,21 +150,21 @@ DKOS_50_State_Hex_Tilemap_v1.centers = SpatialPointsDataFrame(
 
 devtools::use_data(DKOS_50_State_Hex_Tilemap_v1.centers, overwrite = TRUE)
 
-# NPR Dorling Cartogram ----
+# NPR Demers Cartogram ----
 # http://www.npr.org/2016/10/09/497277536
 
-NPR.DorlingCartogram <- readOGR('./data-raw/NPR/npr.geojson',
+NPR.DemersCartogram <- readOGR('./data-raw/NPR/npr.geojson',
                                 'OGRGeoJSON')
-proj4string(NPR.DorlingCartogram) <- ''
+proj4string(NPR.DemersCartogram) <- ''
 
-devtools::use_data(NPR.DorlingCartogram, overwrite = TRUE)
+devtools::use_data(NPR.DemersCartogram, overwrite = TRUE)
 
-NPR.DorlingCartogram.centers = SpatialPointsDataFrame(
-  rgeos::gCentroid(NPR.DorlingCartogram,
-                   byid = TRUE, id=NPR.DorlingCartogram@data$id),
-  NPR.DorlingCartogram@data, match.ID = F)
+NPR.DemersCartogram.centers = SpatialPointsDataFrame(
+  rgeos::gCentroid(NPR.DemersCartogram,
+                   byid = TRUE, id=NPR.DemersCartogram@data$id),
+  NPR.DemersCartogram@data, match.ID = F)
 
-devtools::use_data(NPR.DorlingCartogram.centers, overwrite = TRUE)
+devtools::use_data(NPR.DemersCartogram.centers, overwrite = TRUE)
 
 # Washington Post Tiles ----
 # https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/

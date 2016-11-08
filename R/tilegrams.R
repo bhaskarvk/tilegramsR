@@ -151,21 +151,21 @@
 #' @rdname DKOS_Distorted_Electoral_College_Map_v1
 "DKOS_Distorted_Electoral_College_Map_v1.centers"
 
-# NPR Dorling Cartogram ----
-#' NPR.DorlingCartogram
+# NPR Demers Cartogram ----
+#' NPR.DemersCartogram
 #'
 #' A `SpatialPolygonsDataFrame` where each polygon represents a state
 #'
 #' @format A SpatialPolygonsDataFrame
-"NPR.DorlingCartogram"
+"NPR.DemersCartogram"
 
-#' NPR.DorlingCartogram.centers
+#' NPR.DemersCartogram.centers
 #'
 #' A `SpatialPointsDataFrame` of centroids of each state
 #'
 #' @format A SpatialPointsDataFrame
-#' @rdname NPR.DorlingCartogram
-"NPR.DorlingCartogram.centers"
+#' @rdname NPR.DemersCartogram
+"NPR.DemersCartogram.centers"
 
 # Washington Post Tilegram ----
 #' WP
