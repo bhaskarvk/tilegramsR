@@ -1,7 +1,6 @@
 #' ---
 #' title: "Tilegrams in R"
 #' author: "Bhaskar V. Karambelkar"
-#' date: "October 13th, 2016"
 #' output:
 #'   html_document:
 #'     toc: true

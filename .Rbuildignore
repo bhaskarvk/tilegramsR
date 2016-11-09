@@ -3,5 +3,6 @@
 ^data-raw$
 ^docs$
 ^\.travis\.yml$
-^inst/examples/.*\.html$
-^inst/examples/rsconnect$
+^inst/examples
+^README\.md
+^NEWS\.md

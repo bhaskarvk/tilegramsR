@@ -21,5 +21,13 @@ A `SpatialPolygonsDataFrame` where each polygon represents a state
 
 A `SpatialPointsDataFrame` of centroids of each state
 }
+\examples{
+\dontrun{
+library(leaflet)
+library(tilegramsR)
+spdf <- DKOS_Electoral_College_Map_v1
+leaflet(spdf) \%>\% addPolygons()
+}
+}
 \keyword{datasets}
 
