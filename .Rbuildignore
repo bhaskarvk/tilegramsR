@@ -6,3 +6,4 @@
 ^inst/examples
 ^README\.md
 ^NEWS\.md
+^appveyor\.yml$
