@@ -25,4 +25,3 @@ leaflet(spdf) \%>\% addPolygons()
 }
 }
 \keyword{datasets}
-

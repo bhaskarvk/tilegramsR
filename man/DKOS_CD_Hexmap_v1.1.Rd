@@ -3,8 +3,8 @@
 \docType{data}
 \name{DKOS_CD_Hexmap_v1.1}
 \alias{DKOS_CD_Hexmap_v1.1}
-\alias{DKOS_CD_Hexmap_v1.1.centers}
 \alias{DKOS_CD_Hexmap_v1.1.states}
+\alias{DKOS_CD_Hexmap_v1.1.centers}
 \title{DKOS_CD_Hexmap_v1.1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
@@ -30,4 +30,3 @@ leaflet(spdf) \%>\% addPolygons()
 }
 }
 \keyword{datasets}
-

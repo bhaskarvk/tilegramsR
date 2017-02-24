@@ -9,4 +9,4 @@ addons:
     packages:
       - libproj-dev
       - libgdal-dev
-      - libv8-dev
+      - libv8-3.14-dev

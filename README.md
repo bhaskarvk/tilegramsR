@@ -1,19 +1,18 @@
 ## tilegramsR
 
-The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
-To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
-
-#### Project Status
-
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2016--11--15-yellowgreen.svg)](/commits/master)
-
-#### Build Status
 
 [![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/tilegramsR.svg?branch=master)](https://travis-ci.org/bhaskarvk/tilegramsR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/tilegramsR?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/tilegramsR)
 
-#### CRAN Status
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.1.0-6666ff.svg)](https://cran.r-project.org/) [![](http://cranlogs.r-pkg.org/badges/grand-total/tilegramsR)](http://cran.rstudio.com/web/packages/tilegramsR/index.html) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/tilegramsR)](https://cran.r-project.org/package=tilegramsR) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.4-orange.svg?style=flat-square)](commits/master)
+
+----
+
+The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
+To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
+
 
 ### Data
 

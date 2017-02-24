@@ -3,8 +3,8 @@
 \docType{data}
 \name{FiveThirtyEightElectoralCollege}
 \alias{FiveThirtyEightElectoralCollege}
-\alias{FiveThirtyEightElectoralCollege.centers}
 \alias{FiveThirtyEightElectoralCollege.states}
+\alias{FiveThirtyEightElectoralCollege.centers}
 \title{FiveThirtyEightElectoralCollege}
 \format{A SpatialPolygonsDataFrame}
 \usage{
@@ -30,4 +30,3 @@ leaflet(spdf) \%>\% addPolygons()
 }
 }
 \keyword{datasets}
-

@@ -25,4 +25,4 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/bhaskarvk/tilegramsR
 BugReports: https://github.com/bhaskarvk/tilegramsR/issues
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

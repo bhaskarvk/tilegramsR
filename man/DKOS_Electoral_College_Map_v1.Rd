@@ -3,8 +3,8 @@
 \docType{data}
 \name{DKOS_Electoral_College_Map_v1}
 \alias{DKOS_Electoral_College_Map_v1}
-\alias{DKOS_Electoral_College_Map_v1.centers}
 \alias{DKOS_Electoral_College_Map_v1.states}
+\alias{DKOS_Electoral_College_Map_v1.centers}
 \title{DKOS_Electoral_College_Map_v1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
@@ -30,4 +30,3 @@ leaflet(spdf) \%>\% addPolygons()
 }
 }
 \keyword{datasets}
-

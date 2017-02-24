@@ -2,9 +2,9 @@
 % Please edit documentation in R/tilegrams.R
 \docType{data}
 \name{DKOS_50_State_OuterHex_Tilemap_v1}
-\alias{DKOS_50_State_Hex_Tilemap_v1.centers}
-\alias{DKOS_50_State_InnerHex_Tilemap_v1}
 \alias{DKOS_50_State_OuterHex_Tilemap_v1}
+\alias{DKOS_50_State_InnerHex_Tilemap_v1}
+\alias{DKOS_50_State_Hex_Tilemap_v1.centers}
 \title{DKOS_50_State_OuterHex_Tilemap_v1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
@@ -22,4 +22,3 @@ A `SpatialPolygonsDataFrame` where each polygon represents a state
 A `SpatialPointsDataFrame` of centroids of each state
 }
 \keyword{datasets}
-

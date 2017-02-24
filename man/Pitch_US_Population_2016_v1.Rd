@@ -3,8 +3,8 @@
 \docType{data}
 \name{Pitch_US_Population_2016_v1}
 \alias{Pitch_US_Population_2016_v1}
-\alias{Pitch_US_Population_2016_v1.centers}
 \alias{Pitch_US_Population_2016_v1.states}
+\alias{Pitch_US_Population_2016_v1.centers}
 \title{Pitch_US_Population_2016_v1}
 \format{A SpatialPolygonsDataFrame}
 \usage{
@@ -30,4 +30,3 @@ leaflet(spdf) \%>\% addPolygons()
 }
 }
 \keyword{datasets}
-
