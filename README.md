@@ -1,12 +1,10 @@
 ## tilegramsR
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2016--11--15-yellowgreen.svg)](/commits/master)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-2016--11--15-yellowgreen.svg)](/commits/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![keybase verified](https://img.shields.io/badge/keybase-verified-brightgreen.svg)](https://gist.github.com/bhaskarvk/46fbf2ba7b5713151d7e)
 
 [![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/tilegramsR.svg?branch=master)](https://travis-ci.org/bhaskarvk/tilegramsR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/tilegramsR?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/tilegramsR)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.1.0-6666ff.svg)](https://cran.r-project.org/) [![](http://cranlogs.r-pkg.org/badges/grand-total/tilegramsR)](http://cran.rstudio.com/web/packages/tilegramsR/index.html) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/tilegramsR)](https://cran.r-project.org/package=tilegramsR) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.4-orange.svg?style=flat-square)](commits/master)
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.1.0-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-0.1.4-orange.svg?style=flat-square)](commits/master) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/tilegramsR)](https://cran.r-project.org/package=tilegramsR) [![](http://cranlogs.r-pkg.org/badges/grand-total/tilegramsR)](http://cran.rstudio.com/web/packages/tilegramsR/index.html)
 
 ----
 
