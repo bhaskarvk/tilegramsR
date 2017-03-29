@@ -49,8 +49,10 @@ The package provides spatial objects in [sf](https://github.com/edzer/sfr) forma
 ##### France
 
 - **sf_france_regions_population**: A `sf` object of French regions
+- **sf_france_regions_population.regions**: A `sf` object of boundaries of French regions
 - **sf_france_regions_population.centers**: A `sf` object of centroids of each French region
 - **sf_france_all_regions_population**: A `sf` object of French Regions including overseas regions
+- **sf_france_all_regions_population.regions**: A `sf` object of boundaries of all French regions
 - **sf_france_all_regions_population.centers**: A `sf` object of centroids of each French Region including overseas regions
 - **sf_france_departments**: A `sf` object of French departments
 - **sf_france_departments.centers**: A `sf` object of centroids of each French department
