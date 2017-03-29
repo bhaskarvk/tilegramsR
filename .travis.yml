@@ -9,4 +9,7 @@ addons:
     packages:
       - libproj-dev
       - libgdal-dev
+      - libgeos-dev
       - libv8-3.14-dev
+      - libudunits2-dev
+
