@@ -1,0 +1,147 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.path = "README-"
+)
+```
+
+## tilegramsR
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-green.svg)](/commits/master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![keybase verified](https://img.shields.io/badge/keybase-verified-brightgreen.svg)](https://gist.github.com/bhaskarvk/46fbf2ba7b5713151d7e)
+
+[![Travis-CI Build Status](https://travis-ci.org/bhaskarvk/tilegramsR.svg?branch=master)](https://travis-ci.org/bhaskarvk/tilegramsR) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/bhaskarvk/tilegramsR?branch=master&svg=true)](https://ci.appveyor.com/project/bhaskarvk/tilegramsR)
+
+```{r, echo = FALSE}
+description <- readLines(system.file("DESCRIPTION", package='tilegramsR'))
+rvers <- stringr::str_match(grep("R \\(", description, value = TRUE), "[0-9]{1,4}\\.[0-9]{1,4}\\.[0-9]{1,4}")[1,1]
+version <- gsub(" ", "", gsub("Version:", "", grep("Version:", description, value = TRUE)))
+```
+
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-`r rvers`-6666ff.svg)](https://cran.r-project.org/) [![packageversion](https://img.shields.io/badge/Package%20version-`r version`-orange.svg?style=flat-square)](commits/master) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/tilegramsR)](https://cran.r-project.org/package=tilegramsR) [![](http://cranlogs.r-pkg.org/badges/grand-total/tilegramsR)](http://cran.rstudio.com/web/packages/tilegramsR/index.html)
+
+
+----
+
+The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
+To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
+
+### Usage
+
+#### Installation
+
+```{r eval=FALSE}
+install.packages('tilegramsR')
+
+#OR Latest Development version
+
+devtools::install_github('bhaskarvk/tilegramsR')
+```
+
+#### Example Code
+
+Check out `inst\examples` folder, or see it in action at [Rpubs: tilegramsR](http://rpubs.com/bhaskarvk/tilegramsR) and [Rpubs: Election Map](http://rpubs.com/bhaskarvk/electoral-Map-2016).
+
+
+### Data
+
+The package provides spatial objects in [sf](https://github.com/edzer/sfr) format.
+
+#### Pitch Interactive Tilegrams
+
+##### U.S.A
+
+- **sf_Pitch_US_Population_2016_v1**: A `sf` object where each feature = 500K people
+- **sf_Pitch_US_Population_2016_v1.states**: A `sf` object where each feature =  1 state of the U.S.A 
+- **sf_Pitch_US_Population_2016_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Germany
+
+- **sf_germany_constituencies**: A `sf` object where each feature is a German Constituency
+- **sf_germany_constituencies.centers**: A `sf` object of centroids of each German Constituency
+
+##### France
+
+- **sf_france_regions_population**: A `sf` object of French regions
+- **sf_france_regions_population.centers**: A `sf` object of centroids of each French region
+- **sf_france_all_regions_population**: A `sf` object of French Regions including overseas regions
+- **sf_france_all_regions_population.centers**: A `sf` object of centroids of each French Region including overseas regions
+- **sf_france_departments**: A `sf` object of French departments
+- **sf_france_departments.centers**: A `sf` object of centroids of each French department
+
+#### fivethirtyeight's Electoral College Tilegram
+
+- **sf_FiveThirtyEightElectoralCollege**: A `sf` object where each feature = 1 electoral college
+- **sf_FiveThirtyEightElectoralCollege.states**: A `sf` object where each feature =  1 state of the U.S.A 
+- **sf_FiveThirtyEightElectoralCollege.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+#### NPR  
+
+##### Hexagon Tilegram
+
+- **sf_NPR1to1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_NPR1to1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### NPR.DemersCartogram
+
+- **sf_NPR.DemersCartogram**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_NPR.DemersCartogram.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+
+#### Daily KOS
+
+##### Dual Hexagon Tilegram
+
+- **sf_DKOS_50_State_OuterHex_Tilemap_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_50_State_InnerHex_Tilemap_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_50_State_Hex_Tilemap_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Congressional Districts Tilegram
+
+- **sf_DKOS_CD_Hexmap_v1.1**: A `sf` object where each feature = 1 congressional District
+- **sf_DKOS_CD_Hexmap_v1.1.states**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_CD_Hexmap_v1.1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Electoral College Tilegram
+
+- **sf_DKOS_Electoral_College_Map_v1**: A `sf` object where each feature = 1 electoral college
+- **sf_DKOS_Electoral_College_Map_v1.states**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_Electoral_College_Map_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Distorted Electoral College Tilegram
+
+- **sf_DKOS_Distorted_Electoral_College_Map_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_Distorted_Electoral_College_Map_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+#### Washington Post Tilegram
+
+- **sf_WP**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_WP.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+#### Wall Street Journal Tilegram
+
+- **sf_WSJ**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_WSJ.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+#### Datamap.io.tilegram
+
+- **sf_Datamap.io.tilegram**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_Datamap.io.tilegram.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+As and when newer Tilegrams are made available they will be added to this package.
+
+### Credits
+
+- [Pitch Interactive](https://twitter.com/pitchinc) for the excellent [Tilegrams](https://pitchinteractiveinc.github.io/tilegrams/) webapp and population tilegram.
+- [Daniel Donner](https://twitter.com/donnermaps) of [Daily KOS](https://refinery.dailykosbeta.com/elections-maps) for Tilegrams.
+- [Ella Koeze](https://twitter.com/ellawinthrop) for [fivethirtyeight[.]com](https://projects.fivethirtyeight.com/2016-election-forecast/) Tilegrams.
+- [Danny DeBelius](https://twitter.com/dannydb) & [Brian Boyer](https://twitter.com/brianboyer) for [NPR](http://blog.apps.npr.org/2015/05/11/hex-tile-maps.html)'s Hexagon Tilegrams.
+- [NPR Demers Cartogram](http://www.npr.org/2016/10/18/498406765/npr-battleground-map-hillary-clinton-is-winning-and-its-not-close)
+- [Washington Post Tilegram](https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/)
+- [Wall Street Journal Tilegram](http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/)
+- [Datamap.io Tilegram](https://elections.datamap.io/us/2016/09/23/electoral_college_forecast)

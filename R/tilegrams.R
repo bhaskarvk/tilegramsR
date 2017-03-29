@@ -1,276 +1,358 @@
 # Pitch Interactive Population ----
-#' Pitch_US_Population_2016_v1
+#' sf_Pitch_US_Population_2016_v1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon equals 500K people
+#' A `sf` object where each polygon equals 500K people
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- Pitch_US_Population_2016_v1
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_Pitch_US_Population_2016_v1
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"Pitch_US_Population_2016_v1"
+"sf_Pitch_US_Population_2016_v1"
 
-#' Pitch_US_Population_2016_v1.states
+#' sf_Pitch_US_Population_2016_v1.states
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname Pitch_US_Population_2016_v1
-"Pitch_US_Population_2016_v1.states"
+#' @format sf
+#' @rdname sf_Pitch_US_Population_2016_v1
+"sf_Pitch_US_Population_2016_v1.states"
 
-#' Pitch_US_Population_2016_v1.centers
+#' sf_Pitch_US_Population_2016_v1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname Pitch_US_Population_2016_v1
-"Pitch_US_Population_2016_v1.centers"
+#' @format sf
+#' @rdname sf_Pitch_US_Population_2016_v1
+"sf_Pitch_US_Population_2016_v1.centers"
 
 # FiveThirtyEight.com Electoral College ----
-#' FiveThirtyEightElectoralCollege
+#' sf_FiveThirtyEightElectoralCollege
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon equals one electoral vote
+#' A `sf` object where each polygon equals one electoral vote
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- FiveThirtyEightElectoralCollege
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_FiveThirtyEightElectoralCollege
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"FiveThirtyEightElectoralCollege"
+"sf_FiveThirtyEightElectoralCollege"
 
-#' FiveThirtyEightElectoralCollege.states
+#' sf_FiveThirtyEightElectoralCollege.states
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname FiveThirtyEightElectoralCollege
-"FiveThirtyEightElectoralCollege.states"
+#' @format sf
+#' @rdname sf_FiveThirtyEightElectoralCollege
+"sf_FiveThirtyEightElectoralCollege.states"
 
-#' FiveThirtyEightElectoralCollege.centers
+#' sf_FiveThirtyEightElectoralCollege.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname FiveThirtyEightElectoralCollege
-"FiveThirtyEightElectoralCollege.centers"
+#' @format sf
+#' @rdname sf_FiveThirtyEightElectoralCollege
+"sf_FiveThirtyEightElectoralCollege.centers"
 
 # NPR Hexbins ----
-#' NPR1to1
+#' sf_NPR1to1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- NPR1to1
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_NPR1to1
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"NPR1to1"
+"sf_NPR1to1"
 
-#' NPR1to1.centers
+#' sf_NPR1to1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname NPR1to1
-"NPR1to1.centers"
+#' @format sf
+#' @rdname sf_NPR1to1
+"sf_NPR1to1.centers"
 
 # Daily KOS Hexbins ----
-#' DKOS_50_State_OuterHex_Tilemap_v1
+#' sf_DKOS_50_State_OuterHex_Tilemap_v1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname DKOS_50_State_Hex_Tilemap
-"DKOS_50_State_OuterHex_Tilemap_v1"
+#' @format sf
+#' @rdname sf_DKOS_50_State_Hex_Tilemap
+"sf_DKOS_50_State_OuterHex_Tilemap_v1"
 
-#' DKOS_50_State_InnerHex_Tilemap_v1
+#' sf_DKOS_50_State_InnerHex_Tilemap_v1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname DKOS_50_State_Hex_Tilemap
-"DKOS_50_State_InnerHex_Tilemap_v1"
+#' @format sf
+#' @rdname sf_DKOS_50_State_Hex_Tilemap
+"sf_DKOS_50_State_InnerHex_Tilemap_v1"
 
-#' DKOS_50_State_Hex_Tilemap_v1.centers
+#' sf_DKOS_50_State_Hex_Tilemap_v1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname DKOS_50_State_Hex_Tilemap
-"DKOS_50_State_Hex_Tilemap_v1.centers"
+#' @format sf
+#' @rdname sf_DKOS_50_State_Hex_Tilemap
+"sf_DKOS_50_State_Hex_Tilemap_v1.centers"
 
 # Daily KOS Congressional Districts ----
-#' DKOS_CD_Hexmap_v1.1
+#' sf_DKOS_CD_Hexmap_v1.1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon equals one congressional district
+#' A `sf` object where each polygon equals one congressional district
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- DKOS_CD_Hexmap_v1.1
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_DKOS_CD_Hexmap_v1.1
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"DKOS_CD_Hexmap_v1.1"
+"sf_DKOS_CD_Hexmap_v1.1"
 
-#' DKOS_CD_Hexmap_v1.1.states
+#' sf_DKOS_CD_Hexmap_v1.1.states
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname DKOS_CD_Hexmap_v1.1
-"DKOS_CD_Hexmap_v1.1.states"
+#' @format sf
+#' @rdname sf_DKOS_CD_Hexmap_v1.1
+"sf_DKOS_CD_Hexmap_v1.1.states"
 
-#' DKOS_CD_Hexmap_v1.1.centers
+#' sf_DKOS_CD_Hexmap_v1.1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname DKOS_CD_Hexmap_v1.1
-"DKOS_CD_Hexmap_v1.1.centers"
+#' @format sf
+#' @rdname sf_DKOS_CD_Hexmap_v1.1
+"sf_DKOS_CD_Hexmap_v1.1.centers"
 
 # Daily KOS Electoral College ----
-#' DKOS_Electoral_College_Map_v1
+#' sf_DKOS_Electoral_College_Map_v1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon equals one electoral college
+#' A `sf` object where each polygon equals one electoral college
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- DKOS_Electoral_College_Map_v1
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_DKOS_Electoral_College_Map_v1
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"DKOS_Electoral_College_Map_v1"
+"sf_DKOS_Electoral_College_Map_v1"
 
-#' DKOS_Electoral_College_Map_v1.states
+#' sf_DKOS_Electoral_College_Map_v1.states
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
-#' @rdname DKOS_Electoral_College_Map_v1
-"DKOS_Electoral_College_Map_v1.states"
+#' @format sf
+#' @rdname sf_DKOS_Electoral_College_Map_v1
+"sf_DKOS_Electoral_College_Map_v1.states"
 
-#' DKOS_Electoral_College_Map_v1.centers
+#' sf_DKOS_Electoral_College_Map_v1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname DKOS_Electoral_College_Map_v1
-"DKOS_Electoral_College_Map_v1.centers"
+#' @format sf
+#' @rdname sf_DKOS_Electoral_College_Map_v1
+"sf_DKOS_Electoral_College_Map_v1.centers"
 
 # Daily KOS Distorted Electoral College ----
-#' DKOS_Distorted_Electoral_College_Map_v1
+#' sf_DKOS_Distorted_Electoral_College_Map_v1
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- DKOS_Distorted_Electoral_College_Map_v1
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_DKOS_Distorted_Electoral_College_Map_v1
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"DKOS_Distorted_Electoral_College_Map_v1"
+"sf_DKOS_Distorted_Electoral_College_Map_v1"
 
-#' DKOS_Distorted_Electoral_College_Map_v1.centers
+#' sf_DKOS_Distorted_Electoral_College_Map_v1.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname DKOS_Distorted_Electoral_College_Map_v1
-"DKOS_Distorted_Electoral_College_Map_v1.centers"
+#' @format sf
+#' @rdname sf_DKOS_Distorted_Electoral_College_Map_v1
+"sf_DKOS_Distorted_Electoral_College_Map_v1.centers"
 
 # NPR Demers Cartogram ----
-#' NPR.DemersCartogram
+#' sf_NPR.DemersCartogram
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- NPR.DemersCartogram
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_NPR.DemersCartogram
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"NPR.DemersCartogram"
+"sf_NPR.DemersCartogram"
 
-#' NPR.DemersCartogram.centers
+#' sf_NPR.DemersCartogram.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname NPR.DemersCartogram
-"NPR.DemersCartogram.centers"
+#' @format sf
+#' @rdname sf_NPR.DemersCartogram
+"sf_NPR.DemersCartogram.centers"
 
 # Washington Post Tilegram ----
-#' WP
+#' sf_WP
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- WP
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_WP
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"WP"
+"sf_WP"
 
-#' WP.centers
+#' sf_WP.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname WP
-"WP.centers"
+#' @format sf
+#' @rdname sf_WP
+"sf_WP.centers"
 
 # Wall Street Journal Tilegram ----
-#' WSJ
+#' sf_WSJ
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- WSJ
+#' spdf <- sf_WSJ
 #' leaflet(spdf) %>% addPolygons()
 #' }
-"WSJ"
+"sf_WSJ"
 
-#' WSJ.centers
+#' sf_WSJ.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname WSJ
-"WSJ.centers"
+#' @format sf
+#' @rdname sf_WSJ
+"sf_WSJ.centers"
 
 # Datamap.io Tilegram ----
-#' Datamap.io.tilegram
+#' sf_Datamap.io.tilegram
 #'
-#' A `SpatialPolygonsDataFrame` where each polygon represents a state
+#' A `sf` object where each polygon represents a state
 #'
-#' @format A SpatialPolygonsDataFrame
+#' @format sf
 #' @examples \dontrun{
 #' library(leaflet)
 #' library(tilegramsR)
-#' spdf <- Datamap.io.tilegram
-#' leaflet(spdf) %>% addPolygons()
+#' data <- sf_Datamap.io.tilegram
+#' leaflet(data,
+#'   options=leafletOptions(crs=leafletCRS("L.CRS.Simple"))) %>%
+#'   addPolygons()
 #' }
-"Datamap.io.tilegram"
+"sf_Datamap.io.tilegram"
 
-#' Datamap.io.tilegram.centers
+#' sf_Datamap.io.tilegram.centers
 #'
-#' A `SpatialPointsDataFrame` of centroids of each state
+#' A `sf` object of centroids of each state
 #'
-#' @format A SpatialPointsDataFrame
-#' @rdname Datamap.io.tilegram
-"Datamap.io.tilegram.centers"
+#' @format sf
+#' @rdname sf_Datamap.io.tilegram
+"sf_Datamap.io.tilegram.centers"
+
+# Germany Regions ----
+
+#' sf_germany_constituencies
+#'
+#' A `sf` object for regions of Germany
+"sf_germany_constituencies"
+
+#' sf_germany_constituencies.centers
+#'
+#' A `sf` object of centroids of each German region.
+#' @rdname sf_germany_constituencies
+"sf_germany_constituencies.centers"
+
+# France Regions ----
+
+#' sf_france_regions_population
+#'
+#' A `sf` object for regions of France
+"sf_france_regions_population"
+
+#' sf_france_regions_population.regions
+#'
+#' A `sf` object of regional boundaries of each French region.
+#' @rdname sf_france_regions_population
+"sf_france_regions_population.regions"
+
+#' sf_france_regions_population.centers
+#'
+#' A `sf` object of centroids of each French region.
+#' @rdname sf_france_regions_population
+"sf_france_regions_population.centers"
+
+# France Regions with Overseas ----
+
+#' sf_france_all_regions_population
+#'
+#' A `sf` object for regions of France including overseas.
+"sf_france_all_regions_population"
+
+#' sf_france_all_regions_population.regions
+#'
+#' A `sf` object of regional boundaries of each French region.
+#' @rdname sf_france_all_regions_population
+"sf_france_all_regions_population.regions"
+
+#' sf_france_all_regions_population.centers
+#'
+#' A `sf` object of centroids of each French region.
+#' @rdname sf_france_all_regions_population
+"sf_france_all_regions_population.centers"
+
+# France Departments ----
+
+#' sf_france_departments
+#'
+#' A `sf` object for departments of France.
+"sf_france_departments"
+
+#' sf_france_departments.centers
+#'
+#' A `sf` object of centroids of each French department.
+#' @rdname sf_france_departments
+"sf_france_departments.centers"

@@ -8,69 +8,121 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
 The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
 To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
 
-## Data
+### Usage
 
-The package provides the following spatial objects
+#### Installation
 
-#### Pitch Interactive Population based Tilegram
+```{r eval=FALSE}
+install.packages('tilegramsR')
 
-- **Pitch_US_Population_2016_v1**: A `SpatialPolygonsDataFrame` where each polygon = 500K people
-- **Pitch_US_Population_2016_v1.states**: A `SpatialPolygonsDataFrame` where each polygon = 1 state 
-- **Pitch_US_Population_2016_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+#OR Latest Development version
+
+devtools::install_github('bhaskarvk/tilegramsR')
+```
+
+#### Example Code
+
+Check out `inst\examples` folder, or see it in action at [Rpubs: tilegramsR](http://rpubs.com/bhaskarvk/tilegramsR) and [Rpubs: Election Map](http://rpubs.com/bhaskarvk/electoral-Map-2016).
+
+
+### Data
+
+The package provides spatial objects in [sf](https://github.com/edzer/sfr) format.
+
+#### Pitch Interactive Tilegrams
+
+##### U.S.A
+
+- **sf_Pitch_US_Population_2016_v1**: A `sf` object where each feature = 500K people
+- **sf_Pitch_US_Population_2016_v1.states**: A `sf` object where each feature =  1 state of the U.S.A 
+- **sf_Pitch_US_Population_2016_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Germany
+
+- **sf_germany_constituencies**: A `sf` object where each feature is a German Constituency
+- **sf_germany_constituencies.centers**: A `sf` object of centroids of each German Constituency
+
+##### France
+
+- **sf_france_regions_population**: A `sf` object of French regions
+- **sf_france_regions_population.centers**: A `sf` object of centroids of each French region
+- **sf_france_all_regions_population**: A `sf` object of French Regions including overseas regions
+- **sf_france_all_regions_population.centers**: A `sf` object of centroids of each French Region including overseas regions
+- **sf_france_departments**: A `sf` object of French departments
+- **sf_france_departments.centers**: A `sf` object of centroids of each French department
 
 #### fivethirtyeight's Electoral College Tilegram
 
-- **FiveThirtyEightElectoralCollege**: A `SpatialPolygonsDataFrame` where each polygon = 1 electoral college
-- **FiveThirtyEightElectoralCollege.states**: A `SpatialPolygonsDataFrame` where each polygon = 1 state 
-- **FiveThirtyEightElectoralCollege.centers**: A `SpatialPointsDataFrame` of centroids of each state
+- **sf_FiveThirtyEightElectoralCollege**: A `sf` object where each feature = 1 electoral college
+- **sf_FiveThirtyEightElectoralCollege.states**: A `sf` object where each feature =  1 state of the U.S.A 
+- **sf_FiveThirtyEightElectoralCollege.centers**: A `sf` object of centroids of each state of the U.S.A.
 
-#### NPR 1 State = 1 Hexagon Tilegram
+#### NPR  
 
-- **NPR1to1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **NPR1to1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+##### Hexagon Tilegram
 
-#### Daily KOS Dual Hexagon Tilegram
+- **sf_NPR1to1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_NPR1to1.centers**: A `sf` object of centroids of each state of the U.S.A.
 
-- **DKOS_50_State_OuterHex_Tilemap_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **DKOS_50_State_InnerHex_Tilemap_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **DKOS_50_State_Hex_Tilemap_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+##### NPR.DemersCartogram
 
-#### Daily KOS Congressional Districts Tilegram
+- **sf_NPR.DemersCartogram**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_NPR.DemersCartogram.centers**: A `sf` object of centroids of each state of the U.S.A.
 
-- **DKOS_CD_Hexmap_v1.1**: A `SpatialPolygonsDataFrame` where each polygon = 1 congressional District
-- **DKOS_CD_Hexmap_v1.1.states**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **DKOS_CD_Hexmap_v1.1.centers**: A `SpatialPointsDataFrame` of centroids of each state
 
-#### Daily KOS Electoral College Tilegram
+#### Daily KOS
 
-- **DKOS_Electoral_College_Map_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 electoral college
-- **DKOS_Electoral_College_Map_v1.states**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **DKOS_Electoral_College_Map_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+##### Dual Hexagon Tilegram
 
-#### Daily KOS Distorted Electoral College Tilegram
+- **sf_DKOS_50_State_OuterHex_Tilemap_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_50_State_InnerHex_Tilemap_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_50_State_Hex_Tilemap_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
 
-- **DKOS_Distorted_Electoral_College_Map_v1**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **DKOS_Distorted_Electoral_College_Map_v1.centers**: A `SpatialPointsDataFrame` of centroids of each state
+##### Congressional Districts Tilegram
 
-#### NPR.DemersCartogram
+- **sf_DKOS_CD_Hexmap_v1.1**: A `sf` object where each feature = 1 congressional District
+- **sf_DKOS_CD_Hexmap_v1.1.states**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_CD_Hexmap_v1.1.centers**: A `sf` object of centroids of each state of the U.S.A.
 
-- **NPR.DemersCartogram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **NPR.DemersCartogram.centers**: A `SpatialPointsDataFrame` of centroids of each state
+##### Electoral College Tilegram
+
+- **sf_DKOS_Electoral_College_Map_v1**: A `sf` object where each feature = 1 electoral college
+- **sf_DKOS_Electoral_College_Map_v1.states**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_Electoral_College_Map_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+##### Distorted Electoral College Tilegram
+
+- **sf_DKOS_Distorted_Electoral_College_Map_v1**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_DKOS_Distorted_Electoral_College_Map_v1.centers**: A `sf` object of centroids of each state of the U.S.A.
 
 #### Washington Post Tilegram
 
-- **WP**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **WP.centers**: A `SpatialPointsDataFrame` of centroids of each state
+- **sf_WP**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_WP.centers**: A `sf` object of centroids of each state of the U.S.A.
 
 #### Wall Street Journal Tilegram
 
-- **WSJ**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **WSJ.centers**: A `SpatialPointsDataFrame` of centroids of each state
+- **sf_WSJ**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_WSJ.centers**: A `sf` object of centroids of each state of the U.S.A.
 
 #### Datamap.io.tilegram
 
-- **Datamap.io.tilegram**: A `SpatialPolygonsDataFrame` where each polygon = 1 state
-- **Datamap.io.tilegram.centers**: A `SpatialPointsDataFrame` of centroids of each state
+- **sf_Datamap.io.tilegram**: A `sf` object where each feature =  1 state of the U.S.A
+- **sf_Datamap.io.tilegram.centers**: A `sf` object of centroids of each state of the U.S.A.
+
+As and when newer Tilegrams are made available they will be added to this package.
+
+### Credits
+
+- [Pitch Interactive](https://twitter.com/pitchinc) for the excellent [Tilegrams](https://pitchinteractiveinc.github.io/tilegrams/) webapp and population tilegram.
+- [Daniel Donner](https://twitter.com/donnermaps) of [Daily KOS](https://refinery.dailykosbeta.com/elections-maps) for Tilegrams.
+- [Ella Koeze](https://twitter.com/ellawinthrop) for [fivethirtyeight[.]com](https://projects.fivethirtyeight.com/2016-election-forecast/) Tilegrams.
+- [Danny DeBelius](https://twitter.com/dannydb) & [Brian Boyer](https://twitter.com/brianboyer) for [NPR](http://blog.apps.npr.org/2015/05/11/hex-tile-maps.html)'s Hexagon Tilegrams.
+- [NPR Demers Cartogram](http://www.npr.org/2016/10/18/498406765/npr-battleground-map-hillary-clinton-is-winning-and-its-not-close)
+- [Washington Post Tilegram](https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/)
+- [Wall Street Journal Tilegram](http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/)
+- [Datamap.io Tilegram](https://elections.datamap.io/us/2016/09/23/electoral_college_forecast)

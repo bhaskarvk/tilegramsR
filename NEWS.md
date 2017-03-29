@@ -1,3 +1,13 @@
+# tilegramsR 0.2.0
+
+## New Features
+
+* Tilegrams for France and Germany.
+
+## Changes
+
+* All Tilegrams are now [`sf`](https://github.com/edzer/sfr) objects and `sp` objects are deprecated.
+
 # tilegramsR 0.1.4
 
 ## Changes

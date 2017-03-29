@@ -3,7 +3,9 @@
 ^data-raw$
 ^docs$
 ^\.travis\.yml$
-^inst/examples
+examples
 ^README\.md
 ^NEWS\.md
 ^appveyor\.yml$
+^README\.Rmd$
+^README-.*\.png$
