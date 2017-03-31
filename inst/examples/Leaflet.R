@@ -235,7 +235,10 @@ leaflet(
 leaflet(
   options= getLeafletOptions(0.1, 0.1)) %>%
   addPolygons(
-    data=sf_WSJ, group = 'states',
+    data=sf_WSJ,
+    weight=.5,color='#000000', fill = FALSE ) %>%
+  addPolygons(
+    data=sf_WSJ.states, group = 'states',
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
     fillColor= ~getFactorPal(id)(id),
     highlightOptions = highlightOptions(weight = 3)) %>%
@@ -243,8 +246,8 @@ leaflet(
     data=sf_WSJ.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
-      noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
-      direction="auto")) %>%
+      noHide = 'T', textOnly = T,
+      offset=c(0, -8), textsize = '15px')) %>%
   setMapWidgetStyle()
 
 # Datamap.io ----

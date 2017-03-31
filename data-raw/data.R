@@ -157,10 +157,11 @@ devtools::use_data(sf_WP.centers, overwrite = TRUE)
 
 sf_WSJ <- read_sf('./data-raw/WallStreetJournal/wsj.geojson', 'OGRGeoJSON') %>%
   st_set_crs(NA)
+sf_WSJ.states <- read_sf('./data-raw/WallStreetJournal/wsj-states.geojson', 'OGRGeoJSON') %>%
+  st_set_crs(NA)
+devtools::use_data(sf_WSJ.states, overwrite = TRUE)
 
-devtools::use_data(sf_WSJ, overwrite = TRUE)
-
-sf_WSJ.centers <- st_centroid(sf_WSJ)
+sf_WSJ.centers <- st_centroid(sf_WSJ.states)
 devtools::use_data(sf_WSJ.centers, overwrite = TRUE)
 
 # Datamap.io ----
