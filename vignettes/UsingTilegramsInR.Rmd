@@ -2,14 +2,22 @@
 title: "Using Tilegrams in R"
 author: "Bhaskar V. Karambelar"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+bibliography: bibliography.bib
+output:
+  rmarkdown::html_document:
+    mathjax: null
+    theme: yeti
+    toc: true
+    toc_depth: 4
+    toc_float: true
 vignette: >
   %\VignetteIndexEntry{Using Tilegrams in R}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
+The goal of `tilegramsR` package is to provide R spatial objects in `sf` [@sf] format representing various Tilegrams. The primary purpose of this data is to be used for data visualization. The objects provided can be plotted using base R plotting, ggplot2 [@ggplot2], or leaflet [@leaflet].
+
 To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
 
 ### Usage
@@ -128,3 +136,5 @@ As and when newer Tilegrams are made available they will be added to this packag
 - [Washington Post Tilegram](https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/)
 - [Wall Street Journal Tilegram](http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/)
 - [Datamap.io Tilegram](https://elections.datamap.io/us/2016/09/23/electoral_college_forecast)
+
+### Citations

@@ -28,7 +28,8 @@ version <- gsub(" ", "", gsub("Version:", "", grep("Version:", description, valu
 
 ----
 
-The goal of tilegramsR is to provide R spatial objects representing Tilegrams. The primary purpose of this data is for plotting either using base plotting, ggplot2 or leaflet.
+The goal of `tilegramsR` package is to provide R spatial objects in `sf` format representing various Tilegrams. The primary purpose of this data is to be used for data visualization. The objects provided can be plotted using base R plotting, ggplot2, or leaflet.
+
 To know more about Tilegrams see [this post](https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md) and a [this web app](https://pitchinteractiveinc.github.io/tilegrams/).
 
 ### Usage
@@ -147,3 +148,6 @@ As and when newer Tilegrams are made available they will be added to this packag
 - [Washington Post Tilegram](https://www.washingtonpost.com/graphics/politics/2016-election/50-state-poll/)
 - [Wall Street Journal Tilegram](http://graphics.wsj.com/elections/2016/2016-electoral-college-map-predictions/)
 - [Datamap.io Tilegram](https://elections.datamap.io/us/2016/09/23/electoral_college_forecast)
+
+### Code of Conduct
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.

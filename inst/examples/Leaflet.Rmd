@@ -1,17 +1,20 @@
-#' ---
-#' title: "Tilegrams in R"
-#' author: "Bhaskar V. Karambelkar"
-#' output:
-#'   html_document:
-#'     toc: true
-#'     toc_float: true
-#'     code_folding: show
-#' ---
+---
+title: "Tilegrams in R"
+author: "Bhaskar V. Karambelkar"
+output:
+  rmdformats::html_clean:
+    mathjax: null
+    toc_depth: 4
+    toc_float: true
+    code_folding: show
+    css: style.css
+---
+The aim of this document is to show how various `tilegram` objects can be
+plotted using the `leaflet` package.
 
-#' The aim of this document is to show how various `tilegram` objects can be used for visualization purposes.
+### Common Code
 
-#' ### Common Code
-
+```{r }
 suppressPackageStartupMessages(library(tilegramsR))
 library(leaflet)
 # devtools::install_github('bhaskarvk/leaflet.extras')
@@ -32,10 +35,11 @@ getFactorPal <- function(f) {
     nshades = length(f)), f)
 }
 
-# NPR ----
-#' ### NPR
+```
 
-#+ fig.width= 8, fig.height=4
+### NPR
+
+```{r fig.width= 8, fig.height=4}
 leaflet(
   sf_NPR1to1,
   options= getLeafletOptions(-1.5, -1.5)) %>%
@@ -51,10 +55,11 @@ leaflet(
     offset=c(-4,-10), textsize = '12px')) %>%
   setMapWidgetStyle()
 
-# Pitch ----
-#' ### Population
+```
 
-#+ fig.width= 9, fig.height=7
+### Population
+
+```{r fig.width= 9, fig.height=7}
 leaflet(
   options= getLeafletOptions(-1.5, -1.5)) %>%
   addPolygons(
@@ -75,10 +80,11 @@ leaflet(
   setMapWidgetStyle()
 
 
-# 538.com ----
-#' ### 538.com
+```
 
-#+ fig.width= 9, fig.height=7
+### 538.com
+
+```{r fig.width= 9, fig.height=7}
 leaflet(
   options= getLeafletOptions(-1.5, -1.5)) %>%
   addPolygons(
@@ -98,10 +104,11 @@ leaflet(
       offset=c(-8,-20), textsize = '15px')) %>%
   setMapWidgetStyle()
 
-# Daily KOS Dual Hexbin ----
-#' ### DKOS DualHex
+```
 
-#+ fig.width= 8, fig.height=5
+### DKOS DualHex
+
+```{r fig.width= 8, fig.height=5}
 leaflet(
   options= getLeafletOptions(7, 7)) %>%
   addPolygons(
@@ -124,10 +131,11 @@ leaflet(
   setMapWidgetStyle()
 
 
-# Daily KOS Congressional Districts Hexbin ----
-#' ### DKOS CD
+```
 
-#+ fig.width= 8, fig.height=5
+### DKOS CD
+
+```{r fig.width= 8, fig.height=5}
 leaflet(
   options= getLeafletOptions(4.0, 4.0)) %>%
   addPolygons(
@@ -148,10 +156,11 @@ leaflet(
   setMapWidgetStyle()
 
 
-# Daily KOS Electoral College Map ----
-#' ### DKOS Electoral
+```
 
-#+ fig.width= 9, fig.height=6
+### DKOS Electoral
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(4, 4)) %>%
   addPolygons(
@@ -171,10 +180,11 @@ leaflet(
       direction="auto")) %>%
   setMapWidgetStyle()
 
-# Daily KOS Distorted_Electoral College Map ----
-#' ### DKOS Distorted
+```
 
-#+ fig.width= 9, fig.height=6
+### DKOS Distorted
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(-12.5, -12.5)) %>%
   addPolygons(
@@ -190,10 +200,11 @@ leaflet(
       direction="auto")) %>%
   setMapWidgetStyle()
 
-# NPR Demers Cartogram ----
-#' ### NPR Demers
+```
 
-#+ fig.width= 9, fig.height=6
+### NPR Demers
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(0.1, 0.1)) %>%
   addPolygons(
@@ -209,10 +220,11 @@ leaflet(
       direction="auto")) %>%
   setMapWidgetStyle()
 
-# Washington Post Tilegram ----
-#' ### Washington Post
+```
 
-#+ fig.width= 9, fig.height=6
+### Washington Post
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(0.1, 0.1)) %>%
   addPolygons(
@@ -228,14 +240,15 @@ leaflet(
       direction="auto")) %>%
   setMapWidgetStyle()
 
-# Wall Street Journal ----
-#' ### Wall Street Journal
+```
 
-#+ fig.width= 9, fig.height=6
+### Wall Street Journal
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(0.1, 0.1)) %>%
   addPolygons(
-    data=sf_WSJ, group = 'states',
+    data=sf_WSJ,
     weight=1,color='#000000', fillOpacity = 0.5, opacity=0.7,
     fillColor= ~getFactorPal(id)(id),
     highlightOptions = highlightOptions(weight = 3)) %>%
@@ -243,14 +256,15 @@ leaflet(
     data=sf_WSJ.centers,
     label = ~as.character(id),
     labelOptions = labelOptions(
-      noHide = 'T', textOnly = T, offset=c(-15,-8), textsize = '15px',
-      direction="auto")) %>%
+      noHide = 'T', textOnly = T,
+      offset=c(0, -8), textsize = '15px')) %>%
   setMapWidgetStyle()
 
-# Datamap.io ----
-#' ### Datamap.io
+```
 
-#+ fig.width= 9, fig.height=6
+### Datamap.io
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(-1, -1)) %>%
   addPolygons(
@@ -266,10 +280,11 @@ leaflet(
       direction="auto")) %>%
   setMapWidgetStyle()
 
-# France ----
-#' ### French Regions
+```
 
-#+ fig.width= 9, fig.height=7
+### French Regions
+
+```{r fig.width= 9, fig.height=7}
 leaflet(
   options= getLeafletOptions(-0.75, -0.75)) %>%
   addPolygons(
@@ -288,11 +303,11 @@ leaflet(
     noHide = 'T', textOnly = T,
     offset=c(-50,0), textsize = '8px')) %>%
   setMapWidgetStyle()
+```
 
+### All French Regions
 
-#' ### All French Regions
-
-#+ fig.width= 9, fig.height=7
+```{r fig.width= 9, fig.height=7}
 leaflet(
   options= getLeafletOptions(-0.8, -0.8)) %>%
   addPolygons(
@@ -314,10 +329,11 @@ leaflet(
     offset=c(-30,0), textsize = '8px')) %>%
   setMapWidgetStyle()
 
-# Germany ----
-#' ### Germany
+```
 
-#+ fig.width= 9, fig.height=6
+### Germany
+
+```{r fig.width= 9, fig.height=6}
 leaflet(
   options= getLeafletOptions(-0.9, -0.9)) %>%
   addPolygons(
@@ -333,3 +349,5 @@ leaflet(
       noHide = 'T', textOnly = T, offset=c(0,-10),
       textsize = '8px' )) %>%
   setMapWidgetStyle()
+```
+

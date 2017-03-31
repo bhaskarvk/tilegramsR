@@ -1,0 +1,49 @@
+title: Tilegrams in R
+authors:
+  Bhaskar Karambelkar:
+    href: https://www.karambelkar.info/
+
+template:
+  package: pkgdown.bvk
+  params:
+    bootswatch: yeti
+
+articles:
+- title: Description
+  desc: ~
+  contents:
+  - UsingTilegramsInR
+- title: Plotting
+  desc: ~
+  contents:
+  - PlottingWithLeaflet
+
+reference:
+  - title: Package Description
+    desc: What Tilegrams are all about.
+    contents:
+    - tilegramsR
+  - title: PitchInteractive Tilegrams
+    desc: Tilegrams provided by PitchInteractive
+    contents:
+    - sf_Pitch_US_Population_2016_v1
+    - sf_france_regions_population
+    - sf_france_all_regions_population
+    - sf_france_departments
+    - sf_germany_constituencies
+    - sf_NPR1to1
+  - title: DailyKOS Tilegrams
+    desc: Tilegrams provided by DailyKOS
+    contents:
+    - sf_DKOS_50_State_OuterHex_Tilemap_v1
+    - sf_DKOS_CD_Hexmap_v1.1
+    - sf_DKOS_Distorted_Electoral_College_Map_v1
+    - sf_DKOS_Electoral_College_Map_v1
+  - title: Other Tilegrams
+    desc: Tilegrams provided by Other Media Providers
+    contents:
+    - sf_FiveThirtyEightElectoralCollege
+    - sf_NPR.DemersCartogram
+    - sf_WP
+    - sf_WSJ
+    - sf_Datamap.io.tilegram
