@@ -19,12 +19,12 @@ vignette: >
 The aim of this document is to show how various `tilegram` objects can be
 plotted using the `leaflet` package.
 
-### Common Code
+## Common Code
 
 ```{r }
 suppressPackageStartupMessages(library(tilegramsR))
 library(leaflet)
-# devtools::install_github('bhaskarvk/leaflet.extras')
+ devtools::install_github('bhaskarvk/leaflet.extras')
 library(leaflet.extras)
 
 getLeafletOptions <- function(minZoom, maxZoom, ...) {
@@ -45,7 +45,7 @@ getFactorPal <- function(f) {
 ```
 
 
-### NPR
+## NPR
 
 ```{r fig.width= 8, fig.height=4}
 leaflet(
@@ -65,7 +65,7 @@ leaflet(
 
 ```
 
-### Pitch Interactive
+## Pitch Interactive
 
 ```{r fig.width= 9, fig.height=7}
 leaflet(
@@ -90,7 +90,7 @@ leaflet(
 
 ```
 
-### 538.com
+## 538.com
 
 ```{r fig.width= 9, fig.height=7}
 leaflet(
@@ -114,7 +114,7 @@ leaflet(
 
 ```
 
-### DKOS DualHex
+## DKOS DualHex
 
 ```{r fig.width= 8, fig.height=5}
 leaflet(
@@ -141,7 +141,7 @@ leaflet(
 
 ```
 
-### DKOS CD
+## DKOS CD
 
 ```{r fig.width= 8, fig.height=5}
 leaflet(
@@ -166,7 +166,7 @@ leaflet(
 
 ```
 
-### DKOS Electoral
+## DKOS Electoral
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -190,7 +190,7 @@ leaflet(
 
 ```
 
-### DKOS Distorted
+## DKOS Distorted
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -210,7 +210,7 @@ leaflet(
 
 ```
 
-### NPR Demers
+## NPR Demers
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -230,7 +230,7 @@ leaflet(
 
 ```
 
-### Washington Post
+## Washington Post
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -250,7 +250,7 @@ leaflet(
 
 ```
 
-### Wall Street Journal
+## Wall Street Journal
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -270,7 +270,7 @@ leaflet(
 
 ```
 
-### Datamap.io
+## Datamap.io
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(
@@ -290,7 +290,7 @@ leaflet(
 
 ```
 
-### French Regions
+## French Regions
 
 ```{r fig.width= 9, fig.height=7}
 leaflet(
@@ -313,7 +313,7 @@ leaflet(
   setMapWidgetStyle()
 ```
 
-### All French Regions
+## All French Regions
 
 ```{r fig.width= 9, fig.height=7}
 leaflet(
@@ -339,7 +339,7 @@ leaflet(
 
 ```
 
-### Germany
+## Germany
 
 ```{r fig.width= 9, fig.height=6}
 leaflet(

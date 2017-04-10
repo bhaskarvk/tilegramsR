@@ -60,7 +60,7 @@
       <h1>Using Tilegrams in R</h1>
                         <h4 class="author">Bhaskar V. Karambelar</h4>
             
-            <h4 class="date">2017-03-31</h4>
+            <h4 class="date">2017-04-10</h4>
           </div>
 
     
@@ -68,34 +68,34 @@
 <div class="contents">
 <p>The goal of <code>tilegramsR</code> package is to provide R spatial objects in <code>sf</code> <span class="citation">(Pebesma 2016)</span> format representing various Tilegrams. The primary purpose of this data is to be used for data visualization. The objects provided can be plotted using base R plotting, ggplot2 <span class="citation">(Wickham 2016)</span>, or leaflet <span class="citation">(Cheng, Karambelkar, and Xie 2017)</span>.</p>
 <p>To know more about Tilegrams see <a href="https://github.com/PitchInteractiveInc/tilegrams/blob/master/MANUAL.md">this post</a> and a <a href="https://pitchinteractiveinc.github.io/tilegrams/">this web app</a>.</p>
-<div id="usage" class="section level3">
-<h3 class="hasAnchor">
-<a href="#usage" class="anchor"></a>Usage</h3>
-<div id="installation" class="section level4">
-<h4 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h4>
+<div id="usage" class="section level1">
+<h1 class="hasAnchor">
+<a href="#usage" class="anchor"></a>Usage</h1>
+<div id="installation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">'tilegramsR'</span>)
 
 <span class="co">#OR Latest Development version</span>
 
 devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">'bhaskarvk/tilegramsR'</span>)</code></pre></div>
 </div>
-<div id="example-code" class="section level4">
-<h4 class="hasAnchor">
-<a href="#example-code" class="anchor"></a>Example Code</h4>
+<div id="example-code" class="section level2">
+<h2 class="hasAnchor">
+<a href="#example-code" class="anchor"></a>Example Code</h2>
 <p>Check out <code>inst\examples</code> folder, or see it in action at <a href="http://rpubs.com/bhaskarvk/tilegramsR">Rpubs: tilegramsR</a> and <a href="http://rpubs.com/bhaskarvk/electoral-Map-2016">Rpubs: Election Map</a>.</p>
 </div>
 </div>
-<div id="data" class="section level3">
-<h3 class="hasAnchor">
-<a href="#data" class="anchor"></a>Data</h3>
+<div id="data" class="section level1">
+<h1 class="hasAnchor">
+<a href="#data" class="anchor"></a>Data</h1>
 <p>The package provides spatial objects in <a href="https://github.com/edzer/sfr">sf</a> format.</p>
-<div id="pitch-interactive-tilegrams" class="section level4">
-<h4 class="hasAnchor">
-<a href="#pitch-interactive-tilegrams" class="anchor"></a>Pitch Interactive Tilegrams</h4>
-<div id="u-s-a" class="section level5">
-<h5 class="hasAnchor">
-<a href="#u-s-a" class="anchor"></a>U.S.A</h5>
+<div id="pitch-interactive-tilegrams" class="section level2">
+<h2 class="hasAnchor">
+<a href="#pitch-interactive-tilegrams" class="anchor"></a>Pitch Interactive Tilegrams</h2>
+<div id="u-s-a" class="section level3">
+<h3 class="hasAnchor">
+<a href="#u-s-a" class="anchor"></a>U.S.A</h3>
 <ul>
 <li>
 <strong>sf_Pitch_US_Population_2016_v1</strong>: A <code>sf</code> object where each feature = 500K people</li>
@@ -105,9 +105,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_Pitch_US_Population_2016_v1.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="germany" class="section level5">
-<h5 class="hasAnchor">
-<a href="#germany" class="anchor"></a>Germany</h5>
+<div id="germany" class="section level3">
+<h3 class="hasAnchor">
+<a href="#germany" class="anchor"></a>Germany</h3>
 <ul>
 <li>
 <strong>sf_germany_constituencies</strong>: A <code>sf</code> object where each feature is a German Constituency</li>
@@ -115,9 +115,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_germany_constituencies.centers</strong>: A <code>sf</code> object of centroids of each German Constituency</li>
 </ul>
 </div>
-<div id="france" class="section level5">
-<h5 class="hasAnchor">
-<a href="#france" class="anchor"></a>France</h5>
+<div id="france" class="section level3">
+<h3 class="hasAnchor">
+<a href="#france" class="anchor"></a>France</h3>
 <ul>
 <li>
 <strong>sf_france_regions_population</strong>: A <code>sf</code> object of French regions</li>
@@ -138,9 +138,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 </ul>
 </div>
 </div>
-<div id="fivethirtyeights-electoral-college-tilegram" class="section level4">
-<h4 class="hasAnchor">
-<a href="#fivethirtyeights-electoral-college-tilegram" class="anchor"></a>fivethirtyeight’s Electoral College Tilegram</h4>
+<div id="fivethirtyeights-electoral-college-tilegram" class="section level2">
+<h2 class="hasAnchor">
+<a href="#fivethirtyeights-electoral-college-tilegram" class="anchor"></a>fivethirtyeight’s Electoral College Tilegram</h2>
 <ul>
 <li>
 <strong>sf_FiveThirtyEightElectoralCollege</strong>: A <code>sf</code> object where each feature = 1 electoral college</li>
@@ -150,12 +150,12 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_FiveThirtyEightElectoralCollege.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="npr" class="section level4">
-<h4 class="hasAnchor">
-<a href="#npr" class="anchor"></a>NPR</h4>
-<div id="hexagon-tilegram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#hexagon-tilegram" class="anchor"></a>Hexagon Tilegram</h5>
+<div id="npr" class="section level2">
+<h2 class="hasAnchor">
+<a href="#npr" class="anchor"></a>NPR</h2>
+<div id="hexagon-tilegram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#hexagon-tilegram" class="anchor"></a>Hexagon Tilegram</h3>
 <ul>
 <li>
 <strong>sf_NPR1to1</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -163,9 +163,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_NPR1to1.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="npr-demerscartogram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#npr-demerscartogram" class="anchor"></a>NPR.DemersCartogram</h5>
+<div id="npr-demerscartogram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#npr-demerscartogram" class="anchor"></a>NPR.DemersCartogram</h3>
 <ul>
 <li>
 <strong>sf_NPR.DemersCartogram</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -174,12 +174,12 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 </ul>
 </div>
 </div>
-<div id="daily-kos" class="section level4">
-<h4 class="hasAnchor">
-<a href="#daily-kos" class="anchor"></a>Daily KOS</h4>
-<div id="dual-hexagon-tilegram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#dual-hexagon-tilegram" class="anchor"></a>Dual Hexagon Tilegram</h5>
+<div id="daily-kos" class="section level2">
+<h2 class="hasAnchor">
+<a href="#daily-kos" class="anchor"></a>Daily KOS</h2>
+<div id="dual-hexagon-tilegram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#dual-hexagon-tilegram" class="anchor"></a>Dual Hexagon Tilegram</h3>
 <ul>
 <li>
 <strong>sf_DKOS_50_State_OuterHex_Tilemap_v1</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -189,9 +189,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_DKOS_50_State_Hex_Tilemap_v1.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="congressional-districts-tilegram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#congressional-districts-tilegram" class="anchor"></a>Congressional Districts Tilegram</h5>
+<div id="congressional-districts-tilegram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#congressional-districts-tilegram" class="anchor"></a>Congressional Districts Tilegram</h3>
 <ul>
 <li>
 <strong>sf_DKOS_CD_Hexmap_v1.1</strong>: A <code>sf</code> object where each feature = 1 congressional District</li>
@@ -201,9 +201,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_DKOS_CD_Hexmap_v1.1.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="electoral-college-tilegram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#electoral-college-tilegram" class="anchor"></a>Electoral College Tilegram</h5>
+<div id="electoral-college-tilegram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#electoral-college-tilegram" class="anchor"></a>Electoral College Tilegram</h3>
 <ul>
 <li>
 <strong>sf_DKOS_Electoral_College_Map_v1</strong>: A <code>sf</code> object where each feature = 1 electoral college</li>
@@ -213,9 +213,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_DKOS_Electoral_College_Map_v1.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="distorted-electoral-college-tilegram" class="section level5">
-<h5 class="hasAnchor">
-<a href="#distorted-electoral-college-tilegram" class="anchor"></a>Distorted Electoral College Tilegram</h5>
+<div id="distorted-electoral-college-tilegram" class="section level3">
+<h3 class="hasAnchor">
+<a href="#distorted-electoral-college-tilegram" class="anchor"></a>Distorted Electoral College Tilegram</h3>
 <ul>
 <li>
 <strong>sf_DKOS_Distorted_Electoral_College_Map_v1</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -224,9 +224,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 </ul>
 </div>
 </div>
-<div id="washington-post-tilegram" class="section level4">
-<h4 class="hasAnchor">
-<a href="#washington-post-tilegram" class="anchor"></a>Washington Post Tilegram</h4>
+<div id="washington-post-tilegram" class="section level2">
+<h2 class="hasAnchor">
+<a href="#washington-post-tilegram" class="anchor"></a>Washington Post Tilegram</h2>
 <ul>
 <li>
 <strong>sf_WP</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -234,9 +234,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_WP.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="wall-street-journal-tilegram" class="section level4">
-<h4 class="hasAnchor">
-<a href="#wall-street-journal-tilegram" class="anchor"></a>Wall Street Journal Tilegram</h4>
+<div id="wall-street-journal-tilegram" class="section level2">
+<h2 class="hasAnchor">
+<a href="#wall-street-journal-tilegram" class="anchor"></a>Wall Street Journal Tilegram</h2>
 <ul>
 <li>
 <strong>sf_WSJ</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -244,9 +244,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <strong>sf_WSJ.centers</strong>: A <code>sf</code> object of centroids of each state of the U.S.A.</li>
 </ul>
 </div>
-<div id="datamap-io-tilegram" class="section level4">
-<h4 class="hasAnchor">
-<a href="#datamap-io-tilegram" class="anchor"></a>Datamap.io.tilegram</h4>
+<div id="datamap-io-tilegram" class="section level2">
+<h2 class="hasAnchor">
+<a href="#datamap-io-tilegram" class="anchor"></a>Datamap.io.tilegram</h2>
 <ul>
 <li>
 <strong>sf_Datamap.io.tilegram</strong>: A <code>sf</code> object where each feature = 1 state of the U.S.A</li>
@@ -256,9 +256,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <p>As and when newer Tilegrams are made available they will be added to this package.</p>
 </div>
 </div>
-<div id="credits" class="section level3">
-<h3 class="hasAnchor">
-<a href="#credits" class="anchor"></a>Credits</h3>
+<div id="credits" class="section level1">
+<h1 class="hasAnchor">
+<a href="#credits" class="anchor"></a>Credits</h1>
 <ul>
 <li>
 <a href="https://twitter.com/pitchinc">Pitch Interactive</a> for the excellent <a href="https://pitchinteractiveinc.github.io/tilegrams/">Tilegrams</a> webapp and population tilegram.</li>
@@ -274,9 +274,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <li><a href="https://elections.datamap.io/us/2016/09/23/electoral_college_forecast">Datamap.io Tilegram</a></li>
 </ul>
 </div>
-<div id="citations" class="section level3 unnumbered">
-<h3 class="hasAnchor">
-<a href="#citations" class="anchor"></a>Citations</h3>
+<div id="references" class="section level1 unnumbered">
+<h1 class="hasAnchor">
+<a href="#references" class="anchor"></a>References</h1>
 <div id="refs" class="references">
 <div id="ref-leaflet">
 <p>Cheng, Joe, Bhaskar Karambelkar, and Yihui Xie. 2017. <em>Leaflet: Create Interactive Web Maps with the Javascript ’Leaflet’ Library</em>. <a href="http://rstudio.github.io/leaflet/" class="uri">http://rstudio.github.io/leaflet/</a>.</p>
@@ -314,7 +314,7 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
       </ul>
 </li>
       <li><a href="#credits">Credits</a></li>
-      <li><a href="#citations">Citations</a></li>
+      <li><a href="#references">References</a></li>
       </ul>
 </div>
       </div>
@@ -328,6 +328,9 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 
 <div class="pkgdown">
   <p>Site built with <a href="http://hadley.github.io/pkgdown/">pkgdown</a>.</p>
+</div>
+
+      </footer>
 </div>
 
 <!-- Piwik -->
@@ -345,8 +348,6 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
   })();
 </script><noscript><p><img src="//apps.karambelkar.info/pk/piwik.php?idsite=4&amp;rec=1" style="border:0;" alt=""></p></noscript>
 <!-- End Piwik Code -->
-      </footer>
-</div>
 
   </body>
 </html>
