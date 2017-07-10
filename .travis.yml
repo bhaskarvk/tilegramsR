@@ -6,12 +6,11 @@ sudo: required
 dist: trusty
 
 r_binary_packages:
-  - sp
-  - rgdal
   - roxygen2
   - rmarkdown
-  - rmarkdown
   - tidyr
+  - dplyr
+  - knitr
 
 before_install:
   - sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable --yes
