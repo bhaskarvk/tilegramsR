@@ -7,7 +7,6 @@ dist: trusty
 
 r_binary_packages:
   - sp
-  - sf
   - rgdal
   - roxygen2
   - rmarkdown
