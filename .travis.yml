@@ -5,11 +5,14 @@ cache: packages
 sudo: required
 dist: trusty
 
-r_packages:
+r_binary_packages:
   - sp
+  - sf
   - rgdal
   - roxygen2
   - rmarkdown
+  - rmarkdown
+  - tidyr
 
 before_install:
   - sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable --yes
