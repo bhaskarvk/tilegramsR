@@ -21,12 +21,19 @@ plotted using the `leaflet` package.
 
 ## Common Code
 
-```{r }
-suppressPackageStartupMessages(library(tilegramsR))
-library(leaflet)
- devtools::install_github('bhaskarvk/leaflet.extras')
-library(leaflet.extras)
+```{r packages, eval=FALSE}
+install.packages('leaflet')
+install.packages('leaflet.extras') # for setMapStyles
+install.packages('tilegramsR')
+```
 
+```{r commonCode}
+suppressPackageStartupMessages(library(tilegramsR))
+suppressPackageStartupMessages(library(leaflet))
+suppressPackageStartupMessages(library(leaflet.extras))
+
+# tilegrams are not geo-rerefenced so we need to use
+# L.CRS.Simple projecion.
 getLeafletOptions <- function(minZoom, maxZoom, ...) {
   leafletOptions(
     crs = leafletCRS("L.CRS.Simple"),
@@ -36,6 +43,7 @@ getLeafletOptions <- function(minZoom, maxZoom, ...) {
     attributionControl = FALSE , ...)
 }
 
+# helper function to get colors based on a factor variable
 getFactorPal <- function(f) {
   colorFactor(colormap::colormap(
     colormap = colormap::colormaps$hsv,
