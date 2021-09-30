@@ -1,3 +1,8 @@
+# Project Development Halted
+
+There won't be any more development on this project. It is feature complete from my perspective. Thank you all who have used and contributed to this project.
+
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 tilegramsR
